@@ -43,7 +43,7 @@
     <span class="close">&times;</span>
     <div class="mc">
   		<div class="mc-left"><p>A PROPOS D’HEXAGONE CAPITAL</p>
-<p style="font-family:PNR !important;font-size: 13.32pt !important;text-transform:uppercase !important;" >Hexagone Capital accompagne ses 
+<p style="font-family:PNR !important;font-size:!important;text-transform:uppercase !important;" >Hexagone Capital accompagne ses 
 clients privés, dans la mise en place de solutions sur-mesure et innovantes afin de répondre à vos attentes en matière de gestion de fortune et de patrimoine.</p>
 
 
