@@ -168,9 +168,8 @@ width: 330px;
 height: 80px;
 border-radius: 2px !important;
 text-align:center !important;
-border-color:#5d5d5d;}
-
-.textarea { resize: none !important; }
+border-color:#5d5d5d;
+resize: none !important;}
 
 
 .flex-submit{
