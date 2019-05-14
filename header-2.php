@@ -42,9 +42,9 @@
   <div class="modal-content">
     <div class="close">×</div>
     <div class="mc">
-  	<div class="mc-left"><a>A PROPOS D’HEXAGONE CAPITAL</a>
+  	<div class="mc-left">
+      <a>A PROPOS D’HEXAGONE CAPITAL</a>
       <a style="font-family:PNR !important;font-size:!important;text-transform:uppercase !important;width:70%;">Hexagone Capital accompagne ses clients privés, dans la mise en place de solutions sur-mesure et innovantes afin de répondre à vos attentes en matière de gestion de fortune et de patrimoine.</a>
-
       </div>
   		<div class="mc-center">
   		  <a href="https://www.hexagone-capital.com/action/ingenierie-patrimoniale">Ingenerie patrimoniale</a>
