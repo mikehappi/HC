@@ -1,5 +1,5 @@
 /*!
-Theme Name: Hexagone-Capital
+Theme Name: Hexagone-Capital V1
 Theme URI: http://underscores.me/
 Author: Keyidev
 Author URI: http://sales@keyidev.com
@@ -989,14 +989,11 @@ object {
     font-family:PNR;
      src:url("<?php echo get_template_directory_uri(); ?>/fonts/ProximaNova-Regular.otf");
 }
-  @font-face{ 
+  @font-face{
     font-family:LFR;
      src:url("<?php echo get_template_directory_uri(); ?>/fonts/LucidaFax-Regular.ttf");
 }
- @font-face{ 
+ @font-face{
     font-family:LFD;
     src:url("<?php echo get_template_directory_uri(); ?>/fonts/LucidaFax-Demibold.ttf");
 }
-
-
-

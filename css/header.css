@@ -31,7 +31,7 @@
     .navbar-defaultB {
       background:none;
      box-shadow: none !important;
-     
+
     /*Display:inline-block;*/
     }
 
@@ -67,7 +67,7 @@ nav:after {
     font-weight: 400;
     letter-spacing: 2px;
     line-height: 1em;
-   
+
 
 }
 
@@ -81,7 +81,7 @@ nav:after {
   background-image: none !important;
   border-bottom: 2px solid black;
   box-shadow: none !important;
- 
+
 }
 /*styling navbar menu item  active hover */
 .navbar-nav li a:hover, .navbar-nav > .active > a {
@@ -92,7 +92,7 @@ nav:after {
 .dropdown:hover .dropdown-menu > .active > a {
   background-color: transparent !important;
   background-image: none !important;
-}                                                                                
+}
 
 
 /*styling dropdown menu hover opacity and border*/
@@ -105,14 +105,14 @@ opacity: 0.6;
 float:left;
 margin:0;
 font-family:PNR;
- font-size: 10px !important;   
+ font-size: 10px !important;
 }
 
 .navbar-brand {
 
   padding:0.5em 0em 0em 1.5em;
 
-} 
+}
 
 
  #nav {
@@ -123,7 +123,7 @@ font-family:PNR;
         margin:0;
       }
       #imenu {
-        float: right !important; 
+        float: right !important;
         margin:0;
       padding-left:0px !important;
       }
@@ -131,7 +131,7 @@ font-family:PNR;
 #primary-menu{
     padding-left: 0px !importatn;}
 
-        
+
 
 
         li {
@@ -140,9 +140,9 @@ font-family:PNR;
           padding-right: 10px;
           padding-top: 20px;
           vertical-align: middle;}
-   
-   
-          
+
+
+
 /*--------------------------------------------------------------
 # Modal Windows menu
 -----------------------------------------------------------*/
@@ -173,7 +173,24 @@ color:white !important;
   border: 1px solid #888;
   width: 100%;
 }
+.mc-left {
+  font-family:LFR !important;
+  font-weight: 600;
+  font-size:241.75% !important;
+float: left;
+width: 33.333%;
+}
 
+.mc-right {
+float: right;
+width: 33.333%;
+}
+
+.mc-center {
+
+  display: inline-block;
+  width: 33.333%;
+}
 
 
 /* The Close Button */
@@ -189,8 +206,8 @@ color:white !important;
   color: #7a7c84;
   text-decoration: none;
   cursor: pointer;
-  
-} 
+
+}
 /* Menu on navbar bar over */
  .myBtn:hover,
 .myBtn:focus {
@@ -198,32 +215,32 @@ color:white !important;
 text-decoration: none;
   cursor: pointer;}
 
-   
+
 /*--------------------------------------------------------------
-# Media Qeries  Mobile CSSS adapation  
+# Media Qeries  Mobile CSSS adapation
 -----------------------------------------------------------*/
 @media only screen and (max-width: 500px) {
    .navbar-brand {
 
     padding:0.5em 0em 0em 1.5em;
- 
-} 
+
+}
 #imenu{
   padding-left: 0px !important;
   }
-   
+
 }
 
 @media screen and (max-width: 769px) {
   .navbar-brand {
 
     padding:0.5em 0em 0em 1.5em;
- 
+
 }
 .navitem {
     list-style: none;
     padding-top: 0.3em;
-    margin-right: 0em;} 
+    margin-right: 0em;}
 }
 
 
