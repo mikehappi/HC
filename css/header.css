@@ -150,7 +150,6 @@ font-family:PNR;
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 40em; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -172,7 +171,8 @@ color:white !important;
   padding: 20px;
   border: 1px solid #888;
   width: 100%;
-  height:50%;
+  height:50vh;
+  top: 50%;
 }
 .mc-left {
 float: left;
