@@ -2,11 +2,11 @@
   font-family:PNR;
    src:url("/wp-content/uploads/fonts/ProximaNova-Regular.otf");
 }
-@font-face{ 
+@font-face{
   font-family:LFR;
    src:url("/wp-content/uploads/fonts/LucidaFax-Regular.ttf");
 }
-@font-face{ 
+@font-face{
   font-family:LFD;
   src:url("/wp-content/uploads/fonts/LucidaFax-Demibold.ttf");
 }
@@ -18,11 +18,11 @@
   font-family:PNR;
    src:url("/wp-content/uploads/fonts/ProximaNova-Regular.otf");
 }
-@font-face{ 
+@font-face{
   font-family:LFR;
    src:url("/wp-content/uploads/fonts/LucidaFax-Regular.ttf");
 }
-@font-face{ 
+@font-face{
   font-family:LFD;
   src:url("/wp-content/uploads/fonts/LucidaFax-Demibold.ttf");
 }
@@ -161,8 +161,15 @@ border-color:#5d5d5d;
 
 }
 
+.flex-itemS {background: white;
+width: 330px;
+height: 80px;
+border-radius: 2px !important;
+text-align:center !important;
+border-color:#5d5d5d;}
 
-.flex-submit{ 
+
+.flex-submit{
 
 margin-bottom: 0px !important;
 margin-top: 7em !important;
@@ -196,7 +203,7 @@ border-color:#b91338 !important;
 
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
-#menucontent{ 
+#menucontent{
 width:260px !important;}
 
 .entry-content{
