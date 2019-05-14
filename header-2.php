@@ -47,7 +47,7 @@
 
       </div>
   		<div class="mc-center">
-  		  <p href="https://www.hexagone-capital.com/action/ingenierie-patrimoniale">Ingenerie patrimoniale</p>
+  		  <p <a href="https://www.hexagone-capital.com/action/ingenierie-patrimoniale">Ingenerie patrimoniale</a></p>
        	<p href="https://www.hexagone-capital.com/action/gestion-de-portefeuille">Gestion de portefeuille</p>
         <p href="https://www.hexagone-capital.com/action/investissement-immobilier">Investissement immobilier</p>
 
