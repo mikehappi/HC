@@ -52,16 +52,16 @@
 
       </div>
   		<div class="mc-center">
-  		  <p><a href="https://www.hexagone-capital.com/action/ingenierie-patrimoniale">Ingenerie patrimoniale</a></p>
-       	<p><a href="https://www.hexagone-capital.com/action/gestion-de-portefeuille">Gestion de portefeuille</a></p>
-      <p><a href="https://www.hexagone-capital.com/action/investissement-immobilier">Investissement immobilier</a></p>
+  		  <p><a href="https://www.hexagone-capital.com/action/ingenierie-patrimoniale"><img src="https://www.hexagone-capital.com/wp-content/uploads/2019/04/Menu-Bar-White.png">Ingenerie patrimoniale</a></p>
+       	<p><a href="https://www.hexagone-capital.com/action/gestion-de-portefeuille"><img src="https://www.hexagone-capital.com/wp-content/uploads/2019/04/Menu-Bar-White.png">Gestion de portefeuille</a></p>
+      <p><a href="https://www.hexagone-capital.com/action/investissement-immobilier"><img src="https://www.hexagone-capital.com/wp-content/uploads/2019/04/Menu-Bar-White.png">Investissement immobilier</a></p>
 
       </div>
   		<div class="mc-right">
-  		   <p><a href="https://www.hexagone-capital.com/action/outils-de-placement-alternatifs">Outil de placment altermnatif</a></p>
-        <p><a href="https://www.hexagone-capital.com/action/conseil-juridique-et-fiscale">Conseil juridique et fiscale</a></p>
-       	<p><a href<p><a href="https://www.hexagone-capital.com/carriere/">Carrieres</a></p>
-      <p><a href="https://www.hexagone-capital.com/contact/">Contact</a></p>
+  		   <p><a href="https://www.hexagone-capital.com/action/outils-de-placement-alternatifs"><img src="https://www.hexagone-capital.com/wp-content/uploads/2019/04/Menu-Bar-White.png">Outil de placment altermnatif</a></p>
+        <p><a href="https://www.hexagone-capital.com/action/conseil-juridique-et-fiscale"><img src="https://www.hexagone-capital.com/wp-content/uploads/2019/04/Menu-Bar-White.png">Conseil juridique et fiscale</a></p>
+       	<p><a href<p><a href="https://www.hexagone-capital.com/carriere/"><img src="https://www.hexagone-capital.com/wp-content/uploads/2019/04/Menu-Bar-White.png">Carrieres</a></p>
+      <p><a href="https://www.hexagone-capital.com/contact/"><img src="https://www.hexagone-capital.com/wp-content/uploads/2019/04/Menu-Bar-White.png">Contact</a></p>
         </div>
   </div>
 
