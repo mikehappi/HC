@@ -161,12 +161,16 @@ border-color:#5d5d5d;
 
 }
 
+
+/* text area Sujet */
 .flex-itemS {background: white;
 width: 330px;
 height: 80px;
 border-radius: 2px !important;
 text-align:center !important;
 border-color:#5d5d5d;}
+
+.flex-itemS textarea { resize: none; }
 
 
 .flex-submit{
