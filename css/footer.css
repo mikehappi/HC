@@ -1,0 +1,93 @@
+ @font-face {
+  font-family:PNR;
+  src:url('/wp-content/uploads/fonts/ProximaNova-Regular.otf');
+  font-weight: regular;
+  }
+
+  @font-face {
+      font-family:LFR;
+      src: url('/wp-content/uploads/fonts/LucidaFax-Regular.ttf');
+      font-weight: Regular;
+  }
+
+  @font-face {
+      font-family:LFR;
+      src: url('/wp-content/uploads/fonts/LucidaFax-DemiBold.ttf');
+      font-weight: Demibold;
+  }
+  
+  /*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#colophon{
+font-family:PNR !important;
+color: #383838;
+text-decoration: none;
+font-size:80%;
+font-weight: 400;
+letter-spacing: 2px;
+line-height: 0.5em;
+background:#f2f0ed;
+}
+
+.container {
+width:80%;
+padding: 4% 0% 0 5%;
+}
+
+.container2{
+text-align:center!important;
+}
+.container2 img{
+height: auto;
+max-width: 90%;}
+
+.container2 p{
+padding: 1% 0% 1% 0%;
+}
+
+.container2 {
+padding: 2% 0% 2% 0%;
+}
+
+
+.column-left {
+float: left;
+width: 33.333%;
+}
+
+.column-right {
+float: right;
+width: 33.333%;
+}
+
+.column-center {
+
+  display: inline-block;
+  width: 33.333%;
+}
+
+/* unvisited link */
+a:link {
+    color: #383838;
+ text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color:#383838;
+ text-decoration: none;
+}
+
+
+/* mouse over link */
+a:hover {
+    color:#383838;
+ text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color:#383838;
+ text-decoration: none;
+}

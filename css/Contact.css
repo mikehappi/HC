@@ -1,0 +1,225 @@
+@font-face{
+  font-family:PNR;
+   src:url("/wp-content/uploads/fonts/ProximaNova-Regular.otf");
+}
+@font-face{ 
+  font-family:LFR;
+   src:url("/wp-content/uploads/fonts/LucidaFax-Regular.ttf");
+}
+@font-face{ 
+  font-family:LFD;
+  src:url("/wp-content/uploads/fonts/LucidaFax-Demibold.ttf");
+}
+/*--------------------------------------------------------------
+##Contact Background
+--------------------------------------------------------------*/
+
+@font-face{
+  font-family:PNR;
+   src:url("/wp-content/uploads/fonts/ProximaNova-Regular.otf");
+}
+@font-face{ 
+  font-family:LFR;
+   src:url("/wp-content/uploads/fonts/LucidaFax-Regular.ttf");
+}
+@font-face{ 
+  font-family:LFD;
+  src:url("/wp-content/uploads/fonts/LucidaFax-Demibold.ttf");
+}
+body {
+  height: 100%;
+  margin: 0;
+
+}
+
+/* All link will be red HX */
+a {
+  color: #b91338 !important;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+color: #5d5d5d!IMPORTANT;
+
+}
+
+
+/* carriere page apply font and other*/
+.contact{
+width:38%;
+text-transform:uppercase !important;
+font-size:18px !important;
+font-family:LFD !important;
+display:inline-block;
+}
+
+
+/* space top page content header */
+.pcontent{
+text-align: center;
+padding-top:4em;
+}
+
+.nouscontact{
+text-transform:uppercase !important;
+font-size:30px !important;
+font-family:LFD !important;
+color:#b91338 !important;}
+.cocontact{
+text-transform:uppercase !important;
+font-size:12px !important;
+font-family:PNR !important;
+color:#5d5d5d !important;
+}
+.transcontact{
+text-transform:uppercase !important;
+font-size:18px !important;
+font-family:PNR !important;
+}
+/* transfer link red HX */
+.transcontact a {
+  color: #b91338 !important;
+}
+
+
+/*--------------------------------------------------------------
+# Media Qeries  Mobile CSSS adapation
+--------------------------------------------------------------*/
+@media only screen and (max-width: 500px) {
+
+}
+/*--------------------------------------------------------------
+##Contact
+--------------------------------------------------------------*/
+
+.parallaxWrapper {
+font-family:PNR !important;
+font-size: 18px;}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: #5d5d5d;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #5d5d5d;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #5d5d5d;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #5d5d5d;
+  opacity: 1;
+}
+
+
+.flex {
+    display: -webkit-flex;
+    display:flex;
+
+     -webkit-flex-wrap: wrap;
+    flex-wrap:wrap;
+
+    -webkit-flex-direction:row;
+    flex-direction:row;
+
+    -webkit-justify-content: space-around;
+   justify-content: space-around;
+}
+
+
+
+@media screen and (min-width:600px) {
+   .flex {
+       flex-wrap:nowrap;
+   }
+
+    .group1 {
+        flex-basis:1;
+        order:1;
+    }
+
+    .group2{
+        flex-basis:1;
+        order:2;
+    }
+}
+
+
+
+
+/* Styling Flex-item */
+
+.flex-item {
+background: white;
+
+width: 330px;
+height: 40px;
+border-radius: 2px !important;
+text-align:center !important;
+border-color:#5d5d5d;
+
+}
+
+
+.flex-submit{ 
+
+margin-bottom: 0px !important;
+margin-top: 7em !important;
+
+text-align: center !important;
+
+padding-bottom: 0.0px !important;
+
+margin-right: 0px !important;
+
+padding-right: 0px !important;
+
+padding-left: 0px !important;
+
+padding-top: 0px !important;
+
+background: white !important;
+width: 155px;
+height: 40px;
+font-size: 12px !important;
+font-family:PNR !important;
+color: #b91338!important;
+text-transform: uppercase;
+border-radius:5px!important;
+border-color:#b91338 !important;
+}
+
+*:focus {outline-color:#b91338}
+
+
+
+/*--------------------------------------------------------------
+# Media Qeries  Mobile CSSS adapation
+#menucontent{ 
+width:260px !important;}
+
+.entry-content{
+margin: 3em 0 10em 0 !important;}
+--------------------------------------------------------------*/
+@media only screen and (max-width: 500px) {
+
+.flex-send{
+margin-right: 4.7em !important;
+}
+
+
+.parallaxWrapper{
+margin-bottom:10em;
+}
+
+.texcontact1{
+margin-left: 25%;}
+.texcontact1{
+margin-left: 25%;}
+.flex-item {
+ width: 300px;}
+
+.flex-message{
+ width: 300px;}
+}

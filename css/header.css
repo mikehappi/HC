@@ -1,0 +1,233 @@
+ @font-face {
+  font-family:PNR;
+  src:url('/wp-content/uploads/fonts/ProximaNova-Regular.otf');
+  font-weight: regular;
+  }
+
+  @font-face {
+      font-family:LFR;
+      src: url('/wp-content/uploads/fonts/LucidaFax-Regular.ttf');
+      font-weight: Regular;
+  }
+
+  @font-face {
+      font-family:LFR;
+      src: url('/wp-content/uploads/fonts/LucidaFax-DemiBold.ttf');
+      font-weight: Demibold;
+  }
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+
+
+.row-header-1 { text-align:right}
+.navbar-default {
+      background:none;
+     box-shadow: none !important;
+
+    /*Display:inline-block;*/
+    }
+
+    .navbar-defaultB {
+      background:none;
+     box-shadow: none !important;
+     
+    /*Display:inline-block;*/
+    }
+
+nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.navbar-defaultB{
+  background: none; !important;
+  background-image: none;
+  text-transform: uppercase;
+  font-family:PNR !important;
+  font-size: 12px !important;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 1em;
+ color:black !important;
+
+}
+
+.navbar-defaultB a{
+  color:black !important;
+  text-decoration: none !important;
+  }
+
+.navbar-default{
+    background: none; !important;
+    background-image: none;
+    text-transform: uppercase;
+    font-family:PNR !important;
+    font-size: 12px !important;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 1em;
+   
+
+}
+
+.navbar-default a{
+    color:white !important;
+    text-decoration: none !important;
+    }
+/*styling navbar active menu item   */
+ .navbar-nav > .active > a{
+  background-color: transparent !important;
+  background-image: none !important;
+  border-bottom: 2px solid black;
+  box-shadow: none !important;
+ 
+}
+/*styling navbar menu item  active hover */
+.navbar-nav li a:hover, .navbar-nav > .active > a {
+  background-color: none!important;
+  background-image: none !important;
+    }
+/*styling dropdown menu  active hover */
+.dropdown:hover .dropdown-menu > .active > a {
+  background-color: transparent !important;
+  background-image: none !important;
+}                                                                                
+
+
+/*styling dropdown menu hover opacity and border*/
+
+.dropdown:hover .dropdown-menu{
+display:block;
+background-color:none
+border: none;
+opacity: 0.6;
+float:left;
+margin:0;
+font-family:PNR;
+ font-size: 10px !important;   
+}
+
+.navbar-brand {
+
+  padding:0.5em 0em 0em 1.5em;
+
+} 
+
+
+ #nav {
+    display: block;
+    }
+      #logo {
+        float:left;
+        margin:0;
+      }
+      #imenu {
+        float: right !important; 
+        margin:0;
+      padding-left:0px !important;
+      }
+
+#primary-menu{
+    padding-left: 0px !importatn;}
+
+        
+
+
+        li {
+          display: table-cell;
+          list-style-type: none;
+          padding-right: 10px;
+          padding-top: 20px;
+          vertical-align: middle;}
+   
+   
+          
+/*--------------------------------------------------------------
+# Modal Windows menu
+-----------------------------------------------------------*/
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 40em; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+ background-color: rgb(1,8,35); /* Fallback color */
+  background-color: rgba(1,8,35,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+ text-transform: uppercase;
+  font-family:LFR !important;
+  font-size: 12px !important;
+  font-weight: 600;
+color:white !important;
+  background-color: rgb(1,8,35);
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 100%;
+}
+
+
+
+/* The Close Button */
+.close {
+  color: #7a7c84;
+  text-align: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #7a7c84;
+  text-decoration: none;
+  cursor: pointer;
+  
+} 
+/* Menu on navbar bar over */
+ .myBtn:hover,
+.myBtn:focus {
+
+text-decoration: none;
+  cursor: pointer;}
+
+   
+/*--------------------------------------------------------------
+# Media Qeries  Mobile CSSS adapation  
+-----------------------------------------------------------*/
+@media only screen and (max-width: 500px) {
+   .navbar-brand {
+
+    padding:0.5em 0em 0em 1.5em;
+ 
+} 
+#imenu{
+  padding-left: 0px !important;
+  }
+   
+}
+
+@media screen and (max-width: 769px) {
+  .navbar-brand {
+
+    padding:0.5em 0em 0em 1.5em;
+ 
+}
+.navitem {
+    list-style: none;
+    padding-top: 0.3em;
+    margin-right: 0em;} 
+}
+
+
+#imenu{
+padding-left: 0px !important;
+}
+}
