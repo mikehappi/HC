@@ -21,35 +21,40 @@
     top: auto;
     left:0;
     width: 100%;">
-    
-                   
-            
+
+
+
                     <a id=logo class="navbar-brand" href="<?php echo home_url(); ?>">
-                    <img src="<?php echo $upload_dir['baseurl'] . '/HX_logo_RW.png'; ?>"  style="width:124px;height:44px;" /></a>    
-                        <ul id="imenu">        
+                    <img src="<?php echo $upload_dir['baseurl'] . '/HX_logo_RW.png'; ?>"  style="width:124px;height:44px;" /></a>
+                        <ul id="imenu">
                             <?php
                                                 wp_nav_menu( array(
                                                     'theme_location' => 'menu-1',
                                                     'menu_id'        => '17',
                                                 ) );
-                             ?>    
-           
+                             ?>
+
                         </ul>
-         
+
   <!-- The Modal -->
 <div id="myModal" class="modal">
   <!-- Modal content -->
   <div class="modal-content">
     <span class="close">&times;</span>
     <div class="mc">
-  		<div class="mc-left"><p>A PROPOS D’HEXAGONE CAPITAL</p></div>
+  		<div class="mc-left"><p>A PROPOS D’HEXAGONE CAPITAL</p>
+<p style="font-family:PNR !important;font-size: 133.333% !important;text-transform:uppercase !important;" >Hexagone Capital accompagne ses 
+clients privés, dans la mise en place de solutions sur-mesure et innovantes afin de répondre à vos attentes en matière de gestion de fortune et de patrimoine.</p>
+
+
+      </div>
   		<div class="mc-center">
   		<p>LORE IPSUM</p>
        	<p>LORE IPSUM</p>
         <p>LORE IPSUM</p>
         <p>LORE IPSUM</p>
         </div>
-  		<div class="mc-right">  
+  		<div class="mc-right">
   		<p>LORE IPSUM</p>
         <p>LORE IPSUM</p>
         <p>LORE IPSUM</p>
@@ -63,8 +68,8 @@
         jQuery(document).ready(function($){
         $('li').find('ul').addClass('hidden-xs hidden-md hidden-sm')
         });
-        </script> 
-        
+        </script>
+
         <script>
 // Get the modal
 var modal = document.getElementById('myModal');
@@ -75,7 +80,7 @@ var btn = document.getElementById("menu-item-385");
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks the button, open the modal 
+// When the user clicks the button, open the modal
 btn.onclick = function() {
   modal.style.display = "block";
 }
@@ -93,6 +98,6 @@ window.onclick = function(event) {
 }
 </script>
         </nav>
-        
+
 
 </head>
