@@ -170,7 +170,7 @@ border-radius: 2px !important;
 text-align:center !important;
 border-color:#5d5d5d;}
 
-.flex-itemS textarea { resize: none; }
+.textarea { resize: none !important; }
 
 
 .flex-submit{
