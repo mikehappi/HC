@@ -213,7 +213,10 @@ width: 33.333%;
   font-size: 28px;
   font-weight: bold;
 }
-
+.close img{
+  height: 35px !important;
+  width: 30 !important;
+}
 .close:hover,
 .close:focus {
   color: #7a7c84;
