@@ -47,16 +47,16 @@
 
       </div>
   		<div class="mc-center">
-  		  <p <a href="https://www.hexagone-capital.com/action/ingenierie-patrimoniale">Ingenerie patrimoniale</a></p>
-       	<p href="https://www.hexagone-capital.com/action/gestion-de-portefeuille">Gestion de portefeuille</p>
-        <p href="https://www.hexagone-capital.com/action/investissement-immobilier">Investissement immobilier</p>
+  		  <p><a href="https://www.hexagone-capital.com/action/ingenierie-patrimoniale">Ingenerie patrimoniale</a></p>
+       	<p><a href="https://www.hexagone-capital.com/action/gestion-de-portefeuille">Gestion de portefeuille</a></p>
+      <p><a href="https://www.hexagone-capital.com/action/investissement-immobilier">Investissement immobilier</a></p>
 
       </div>
   		<div class="mc-right">
-  		   <p href="https://www.hexagone-capital.com/action/outils-de-placement-alternatifs">Outil de placment altermnatif</p>
-        <p href="https://www.hexagone-capital.com/action/conseil-juridique-et-fiscale">Conseil juridique et fiscale</p>
-       	<p href="https://www.hexagone-capital.com/carriere/">Carrieres</p>
-        <p href="https://www.hexagone-capital.com/contact/">Contact</p>
+  		   <p><a href="https://www.hexagone-capital.com/action/outils-de-placement-alternatifs">Outil de placment altermnatif</a></p>
+        <p><a href="https://www.hexagone-capital.com/action/conseil-juridique-et-fiscale">Conseil juridique et fiscale</a></p>
+       	<p><a href<p><a href="https://www.hexagone-capital.com/carriere/">Carrieres</a></p>
+      <p><a href="https://www.hexagone-capital.com/contact/">Contact</a></p>
         </div>
   </div>
 
