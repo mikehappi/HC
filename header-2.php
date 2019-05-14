@@ -40,11 +40,12 @@
 <div id="myModal" class="modal">
   <!-- Modal content -->
   <div class="modal-content">
-    <div class="close">×
 
-    <img src="https://www.hexagone-capital.com/wp-content/uploads/logomodal.png">
+    <!-- style pour display inline block and logo float left -->
+    <div class="close" style="white-space: nowrap; overflow-x: auto;">×
+      <img src="https://www.hexagone-capital.com/wp-content/uploads/logomodal.png" style="display: inline-block;float:left;">
 
-  </div>
+    </div>
     <div class="mc">
   	<div class="mc-left"><p>A PROPOS D’HEXAGONE CAPITAL</p>
       <p style="font-family:PNR !important;font-size:!important;text-transform:uppercase !important;width:70%;">Hexagone Capital accompagne ses clients privés, dans la mise en place de solutions sur-mesure et innovantes afin de répondre à vos attentes en matière de gestion de fortune et de patrimoine.</p>
