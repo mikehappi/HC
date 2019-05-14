@@ -43,22 +43,23 @@
     <span class="close">&times;</span>
     <div class="mc">
   		<div class="mc-left"><p>A PROPOS D’HEXAGONE CAPITAL</p>
-<p style="font-family:PNR !important;font-size: 133.333% !important;text-transform:uppercase !important;" >Hexagone Capital accompagne ses 
+<p style="font-family:PNR !important;font-size: 13.32pt !important;text-transform:uppercase !important;" >Hexagone Capital accompagne ses 
 clients privés, dans la mise en place de solutions sur-mesure et innovantes afin de répondre à vos attentes en matière de gestion de fortune et de patrimoine.</p>
 
 
       </div>
   		<div class="mc-center">
-  		<p>LORE IPSUM</p>
-       	<p>LORE IPSUM</p>
-        <p>LORE IPSUM</p>
-        <p>LORE IPSUM</p>
+  		<p>Ingenerie  patrimoniale</p>
+       	<p>Gestion de portefeuille</p>
+        <p>Investissement  immobilier</p>
+
         </div>
   		<div class="mc-right">
-  		<p>LORE IPSUM</p>
+  		<p>Outil de placment altermnatif</p>
+        <p>Conseil juridique et fiscale</p>
         <p>LORE IPSUM</p>
-        <p>LORE IPSUM</p>
-       	<p>LORE IPSUM</p>
+       	<p>Carrieres</p>
+          <p>Contact</p>
         </div>
   </div>
 
