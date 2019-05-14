@@ -40,23 +40,24 @@
 <div id="myModal" class="modal">
   <!-- Modal content -->
   <div class="modal-content">
-    <span class="close">&times;</span>
+    <div class="close">
+      <span style="float:right !important;">×</span></div>
     <div class="mc">
   	<div class="mc-left"><p>A PROPOS D’HEXAGONE CAPITAL</p>
       <p style="font-family:PNR !important;font-size:!important;text-transform:uppercase !important;width:70%;">Hexagone Capital accompagne ses clients privés, dans la mise en place de solutions sur-mesure et innovantes afin de répondre à vos attentes en matière de gestion de fortune et de patrimoine.</p>
 
       </div>
   		<div class="mc-center">
-  		  <p>Ingenerie patrimoniale</p>
-       	<p>Gestion de portefeuille</p>
-        <p>Investissement immobilier</p>
+  		  <phref="https://www.hexagone-capital.com/action/ingenierie-patrimoniale">Ingenerie patrimoniale</p>
+       	<p href="https://www.hexagone-capital.com/action/gestion-de-portefeuille">Gestion de portefeuille</p>
+        <p href="https://www.hexagone-capital.com/action/investissement-immobilier">Investissement immobilier</p>
 
       </div>
   		<div class="mc-right">
-  		   <p>Outil de placment altermnatif</p>
-        <p>Conseil juridique et fiscale</p>
-       	<p>Carrieres</p>
-        <p>Contact</p>
+  		   <p href="https://www.hexagone-capital.com/action/outils-de-placement-alternatifs">Outil de placment altermnatif</p>
+        <p href="https://www.hexagone-capital.com/action/conseil-juridique-et-fiscale">Conseil juridique et fiscale</p>
+       	<p href="https://www.hexagone-capital.com/carriere/">Carrieres</p>
+        <p href="https://www.hexagone-capital.com/contact/">Contact</p>
         </div>
   </div>
 
