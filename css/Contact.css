@@ -152,7 +152,6 @@ font-size: 18px;}
 
 .flex-item {
 background: white;
-
 width: 330px;
 height: 40px;
 border-radius: 2px !important;
@@ -168,7 +167,6 @@ width: 330px;
 height: 80px;
 border-radius: 2px !important;
 text-align:center !important;
-border-color:#5d5d5d;
 resize: none !important;}
 
 
