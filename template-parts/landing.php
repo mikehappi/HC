@@ -25,7 +25,7 @@
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
-    padding-top:2%;
+    padding-top:3em;
 }
 
 /* Auto for certain page */
