@@ -90,8 +90,7 @@ text-align:justify !important;
 }
 
 .gptitle{
-  float:left;
-  width: 40%;
+  width: 20%;
 }
 .gpbody{
   width:80%;
@@ -99,12 +98,11 @@ text-align:justify !important;
 }
 .gpbar{
   float: left;
-  width:40%;
 }
 
 .gpcontent {
   float: right;
-  width: 60%;
+    width: 90%;
 }
 
 .gpcontainer{
