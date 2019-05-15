@@ -147,3 +147,5 @@ text-align: justify;
 <!-- </body> -->
 
 <?php
+
+get_footer();

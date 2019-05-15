@@ -15,7 +15,7 @@
       src: url('/wp-content/uploads/fonts/LucidaFax-DemiBold.ttf');
       font-weight: Demibold;
   }
-  
+
   /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -28,6 +28,7 @@ font-weight: 400;
 letter-spacing: 2px;
 line-height: 0.5em;
 background:#f2f0ed;
+display: inline-block !important;
 }
 
 .container {
