@@ -45,7 +45,7 @@ padding-top:0 !important;}
 padding-top:0 !important;}
 .section.p81 .lcontainer {
   display: inline-block;
-  margin: 10% 0% 4% 0%;
+  margin: 10% 10% 4% 0%;
   width: 100%;
   text-align: left;
 }
