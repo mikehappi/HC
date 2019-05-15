@@ -90,7 +90,7 @@ text-align:justify !important;
 }
 
 .gptitle{
-  width: 20%;
+  width: 10%;
 }
 .gpbody{
   width:90%;
@@ -107,7 +107,7 @@ text-align:justify !important;
 
 .gpcontainer{
 display: inline-block;
-margin: 8em;
+margin: 10%;
 width: 100%;
 text-align: left;
 
