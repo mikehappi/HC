@@ -89,12 +89,14 @@ text-transform:uppercase !important;
 text-align:justify !important;
 }
 
-
 .gptitle{
   float:left;
   width: 40%;
 }
-
+.gpbody{
+  width:80%;
+  padding: 4% 0% 0 5%;
+}
 .gpbar{
   float: left;
   width:40%;
@@ -107,7 +109,8 @@ text-align:justify !important;
 
 .gpcontainer{
 padding-top:15%
-width: 85%;
+width: 100Vh;
+height: auto;
 text-align: left;
 
 }
