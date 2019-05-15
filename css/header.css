@@ -147,8 +147,7 @@ font-family:PNR;
 # Modal Windows menu
 -----------------------------------------------------------*/
 .modal {
-
-  display: block !important;
+  display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;
@@ -173,7 +172,6 @@ color:white !important;
   /* border: 1px solid #888;*/
   width: 100%;
   height:50vh;
-  top: 50%;
 }
 .mc-left {
 float: left;
