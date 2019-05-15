@@ -25,6 +25,7 @@
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
+    padding-top:4%;
 }
 
 /* Auto for certain page */
@@ -38,7 +39,10 @@ height: auto !important;}
 
 .landing .section.p81 {
 padding-top:0 !important;}
-
+.landing .section.p113 {
+padding-top:0 !important;}
+.landing .section.p97 {
+padding-top:0 !important;}
 .section.p81 .lcontainer {
   display: inline-block;
   margin: 10%;
