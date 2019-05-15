@@ -41,20 +41,16 @@ height: auto !important;}
 padding-top:0 !important;}
 
 .section.p81 .lcontainer {
-	padding-top: 5em;
-    width: 75%;
-    float: left;
-    position: relative;
-    right: -10em;
-    text-align: left;
+  display: inline-block;
+  margin: 10%;
+  width: 100%;
+  text-align: left;
 }
 .section.p97 .lcontainer {
-	padding-top: 5em;
-    width: 75%;
-    float: left;
-    position: relative;
-    right: -10em;
-    text-align: left;
+  display: inline-block;
+  margin: 10%;
+  width: 100%;
+  text-align: left;
 }
 .section.p113 .lcontainer {
   display: inline-block;
