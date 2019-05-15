@@ -29,6 +29,7 @@ letter-spacing: 2px;
 line-height: 0.5em;
 background:#f2f0ed;
 display: inline-block !important;
+width: 100%;
 }
 
 .container {
