@@ -38,11 +38,12 @@ height: auto !important;}
 
 
 .landing .section.p81 {
-padding-top:0 !important;}
+padding:10% 0% 0% 10%!important;}
 .landing .section.p113 {
-padding-top:0 !important;}
+padding:10% 0% 0% 10%!important;}
 .landing .section.p97 {
-padding-top:0 !important;}
+padding:10% 0% 0% 10% !important;}
+
 .section.p81 .lcontainer {
   display: inline-block;
   width: 100%;

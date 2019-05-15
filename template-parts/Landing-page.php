@@ -22,7 +22,7 @@
     /* Full height  width: 100% !important;*/
    	height: 100VH !important;
     /* Center and scale the image nicely */
-    background-position: center center !important; 
+    background-position: center center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
@@ -32,7 +32,7 @@
 /* Auto for certain page */
 .landing .section.p83{
 width: 100% !important;
-height: auto !important;}  
+height: auto !important;}
 .landing .section.p101{
 width: 100% !important;
 height: auto !important;}
@@ -83,5 +83,5 @@ padding-top:0 !important;}
           </div>
       <?php endif; ?>
   <?php endforeach; ?>
-</div> 
+</div>
 <?php get_footer(); ?>
