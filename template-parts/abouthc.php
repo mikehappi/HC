@@ -145,7 +145,4 @@ text-align: justify;
     <?php endif; ?>
 </div><!-- .site-content -->
 <!-- </body> -->
-
-<?php
-
-get_footer();
+<?php get_footer(); ?>
