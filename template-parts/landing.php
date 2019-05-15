@@ -45,19 +45,16 @@ padding-top:0 !important;}
 padding-top:0 !important;}
 .section.p81 .lcontainer {
   display: inline-block;
-  margin: 10% 10% 4% 0%;
   width: 100%;
   text-align: left;
 }
 .section.p97 .lcontainer {
   display: inline-block;
-  margin: 10% 0% 4% 0%;
   width: 100%;
   text-align: left;
 }
 .section.p113 .lcontainer {
   display: inline-block;
-  margin: 10% 0% 4% 0%;
   width: 100%;
   text-align: left;
 }
