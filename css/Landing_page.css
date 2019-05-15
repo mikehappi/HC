@@ -3,11 +3,11 @@
     font-family:PNR;
      src:url("<?php echo get_template_directory_uri(); ?>/fonts/ProximaNova-Regular.otf");
 }
-  @font-face{ 
+  @font-face{
     font-family:LFR;
      src:url("<?php echo get_template_directory_uri(); ?>/fonts/LucidaFax-Regular.ttf");
 }
- @font-face{ 
+ @font-face{
     font-family:LFD;
     src:url("<?php echo get_template_directory_uri(); ?>/fonts/LucidaFax-Demibold.ttf");
 }
@@ -40,7 +40,7 @@ width: 75%;
 float: left;
 position: relative;
 right: -8em; /* or left 30% */
-text-align: left; 
+text-align: left;
 
 }
 .acontent{
@@ -114,7 +114,7 @@ text-decoration: none;
 color: white !important;
 font-size:13px !important;
 text-decoration: none;
-} 
+}
 
 /* unvisited link */
 .acontent1 a:link {
@@ -142,7 +142,7 @@ text-decoration: none;
  color: white !important;
 font-size:11px !important;
 text-decoration: none;
-} 
+}
 
 
 /*--------------------------------------------------------------
@@ -212,7 +212,7 @@ font-weight: 600;
 
 padding-bottom: 5em;
 
-} 
+}
 /* titlebar space */
 .dhtitle img {margin: 2em;}
 /*--------------------------------------------------------------
@@ -225,33 +225,34 @@ font-size:42px !important;
 text-transform:uppercase !important;
 }
 .gpcontent{
-font-family:PNR !important;
+font-family:PNR3 !important;
 color: #383838 !important;
 font-size:13px !important;
 text-transform:uppercase !important;
 text-align:justify !important;
 }
+
 .gptitle{
-width:50px;
+  width: 10%;
 }
-.gpbody {
-display: flex;
+.gpbody{
+  width:90%;
+  padding: 2% 0% 0 0%;
 }
 .gpbar{
-width:180px !important;
-padding-right:4em;
+  float: left;
 }
+
 .gpcontent {
-align-self: flex-start;
+  float: right;
+  width: 90%;
 }
 
 .gpcontainer{
-padding-top: 5em;
-width: 75%;
-float: left;
-position: relative;
-right: -8em; /* or left 30% */
-text-align: left; 
+display: inline-block;
+margin: 10%;
+width: 100%;
+text-align: left;
 
 }
 
@@ -271,7 +272,7 @@ width: 75%;
 float: left;
 position: relative;
 right: -8em; /* or left 30% */
-text-align: left; 
+text-align: left;
 
 }
 .vccontent{
@@ -346,7 +347,7 @@ text-decoration: none;
  color: #383838 !important;
 font-size:11px !important;
 text-decoration: none;
-} 
+}
 .vcnumber{
 font-family:LFD!important;
 color: #b91338 !important;
@@ -378,8 +379,8 @@ line-height: 2em;
       margin-top: 2em;
     margin-bottom: 2em;
     text-align: center;}
-    
-    
+
+
 
 /*--------------------------------------------------------------
 # Couverture internationale
@@ -428,5 +429,3 @@ font-weight: 600;}
 
 /*--------------------------------------------------------------
 #Sticky Header
-
-
