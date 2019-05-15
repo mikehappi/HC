@@ -88,27 +88,28 @@ font-size:13px !important;
 text-transform:uppercase !important;
 text-align:justify !important;
 }
+
+
+
+
 .gptitle{
-width:50px;
+  float: left;
+  width: 30%;
 }
-.gpbody {
-display: flex;
-}
+
 .gpbar{
-width:180px !important;
-padding-right:4em;
+  float: left;
+  width:30%;
 }
 
 .gpcontent {
-align-self: flex-start;
+  float: right;
+  width: 60%;
 }
 
 .gpcontainer{
-padding-top: 5em;
+Top:15%
 width: 75%;
-float: left;
-position: relative;
-right: -8em; /* or left 30% */
 text-align: left;
 
 }
@@ -134,7 +135,6 @@ text-align: left;
 <div class="bg">
 <div class="hd"><?php get_header(); ?></div>
 <div class="gpcontainer">
-
 <?php
 if (have_posts()):
   while (have_posts()) : the_post();
