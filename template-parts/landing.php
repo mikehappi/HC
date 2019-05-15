@@ -25,7 +25,6 @@
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
-    padding-top:3em !important;
 }
 
 /* Auto for certain page */
@@ -67,7 +66,7 @@ padding-top:0 !important;}
 
   <?php foreach ($m_pages as $key => $page) :?>
       <?php if(!(empty($page))) :?>
-        <?php $class = 'section p' . $page->ID; ?>
+        <?php $class = 'section p' . $page->ID; $id = 'post-' . $page->ID; ?>
         <?php  $content = apply_filters('the_content', $page->post_content); ?>
           <div class="<?php print $class; ?>">
              <?php get_header(2); ?>
