@@ -16,10 +16,21 @@
     margin: 0;
 
 /* Pick a solid background color that will be displayed while the background image is loading */
-background-color:#f3efe4 !important;
+background-color:#white !important;
 
 }
 
+
+/* smooth scrolling bahavior */
+html {
+	scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
 
 /* Padding Header */
 .hd {padding-top:2%;}
