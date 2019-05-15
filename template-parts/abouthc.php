@@ -2,7 +2,7 @@
 /**
  * Template Name:About HC Page
  */
-
+$backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );
 $upload_dir = wp_upload_dir();
 ?>
 <style type="text/css">
