@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" href="/wp-content/themes/HX-V1/css/Landing_page.css" media="screen" />
 <?php
   /*
-    Template Name: Landing test
+    Template Name: Landing
   */
   global $wpdb;
   $ids = [ 81, 83, 113, 97, 99, 101 ];
@@ -21,7 +21,7 @@
     /* Full height  width: 100% !important;*/
    	height: 100VH !important;
     /* Center and scale the image nicely */
-    background-position: center center !important; 
+    background-position: center center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
@@ -31,7 +31,7 @@
 /* Auto for certain page */
 .landing .section.p83{
 width: 100% !important;
-height: auto !important;}  
+height: auto !important;}
 .landing .section.p101{
 width: 100% !important;
 height: auto !important;}
@@ -39,6 +39,7 @@ height: auto !important;}
 
 .landing .section.p81 {
 padding-top:0 !important;}
+
 .section.p81 .lcontainer {
 	padding-top: 5em;
     width: 75%;
@@ -56,12 +57,10 @@ padding-top:0 !important;}
     text-align: left;
 }
 .section.p113 .lcontainer {
-	padding-top: 5em;
-    width: 75%;
-    float: left;
-    position: relative;
-    right: -10em;
-    text-align: left;
+  display: inline-block;
+  margin: 10%;
+  width: 100%;
+  text-align: left;
 }
 
 </style>
@@ -82,5 +81,5 @@ padding-top:0 !important;}
           </div>
       <?php endif; ?>
   <?php endforeach; ?>
-</div> 
+</div>
 <?php get_footer(); ?>
