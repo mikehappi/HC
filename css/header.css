@@ -147,7 +147,9 @@ font-family:PNR;
 # Modal Windows menu
 -----------------------------------------------------------*/
 .modal {
-  display: none; /* Hidden by default */
+
+display: block;
+top: 50%;
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;
