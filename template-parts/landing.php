@@ -42,7 +42,7 @@ padding:10% 0% 0% 3%!important;}
 .landing .section.p113 {
 padding:10% 0% 0% 3%!important;}
 .landing .section.p97 {
-padding: 10% 0% 0% 3% !important;}
+padding:10% 0% 0% 3% !important;}
 
 .section.p81 .lcontainer {
   display: inline-block;
@@ -61,7 +61,7 @@ padding: 10% 0% 0% 3% !important;}
 }
 
 </style>
-
+<?php get_header(2); ?>
 <?php endforeach; ?>
 
 <div class="landing">
@@ -71,7 +71,7 @@ padding: 10% 0% 0% 3% !important;}
         <?php $class = 'section p' . $page->ID; $id = 'post-' . $page->ID; ?>
         <?php  $content = apply_filters('the_content', $page->post_content); ?>
           <div id="<?php print $id; ?>" class="<?php print $class; ?>">
-             <?php get_header(2); ?>
+
               <div class="lcontainer">
               <?php echo $content;  ?>
           </div>
