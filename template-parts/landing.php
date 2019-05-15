@@ -43,8 +43,6 @@ padding-top:0 !important;}
 padding-top:0 !important;}
 .landing .section.p97 {
 padding-top:0 !important;}
-
-
 .section.p81 .lcontainer {
   display: inline-block;
   margin: 10%;
