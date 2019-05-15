@@ -21,21 +21,21 @@
     top: auto;
     left:0;
     width: 100%;">
-    
-                   
-            
+
+
+
                     <a id=logo class="navbar-brand" href="<?php echo home_url(); ?>">
-                    <img src="<?php echo $upload_dir['baseurl'] . '/HX_logo_RW.png'; ?>"  style="width:124px;height:44px;" /></a>    
-                        <ul id="imenu">        
+                    <img src="<?php echo $upload_dir['baseurl'] . '/HX_logo_RW.png'; ?>"  style="width:124px;height:44px;" /></a>
+                        <ul id="imenu">
                             <?php
                                                 wp_nav_menu( array(
                                                     'theme_location' => 'menu-1',
                                                     'menu_id'        => '17',
                                                 ) );
-                             ?>    
-           
+                             ?>
+
                         </ul>
-         
+
   <!-- The Modal -->
 <div id="myModal" class="modal">
   <!-- Modal content -->
@@ -46,13 +46,13 @@
 
 </div>
   <!-- hide dropdown list -->
-        <script>
+<script>
         jQuery(document).ready(function($){
         $('li').find('ul').addClass('hidden-xs hidden-md hidden-sm')
         });
-        </script> 
-        
-        <script>
+</script>
+
+<script>
 // Get the modal
 var modal = document.getElementById('myModal');
 
@@ -62,7 +62,7 @@ var btn = document.getElementById("menu-item-385");
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks the button, open the modal 
+// When the user clicks the button, open the modal
 btn.onclick = function() {
   modal.style.display = "block";
 }
@@ -79,7 +79,7 @@ window.onclick = function(event) {
   }
 }
 </script>
-        </nav>
-        
+</nav>
+
 
 </head>
