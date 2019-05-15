@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name:Gestion privee Page 2
+ * Template Name:Gestion privee Page
  */
 
 ?>
@@ -152,5 +152,5 @@ else:
 endif;
 ?>
 </div>
-</body>
+
 <?php get_footer(); ?>
