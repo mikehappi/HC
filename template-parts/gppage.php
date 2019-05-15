@@ -90,16 +90,14 @@ text-align:justify !important;
 }
 
 
-
-
 .gptitle{
-  float: left;
-  width: 30%;
+  float:left;
+  width: 40%;
 }
 
 .gpbar{
   float: left;
-  width:30%;
+  width:40%;
 }
 
 .gpcontent {
@@ -108,8 +106,8 @@ text-align:justify !important;
 }
 
 .gpcontainer{
-Top:15%
-width: 75%;
+padding-top:15%
+width: 85%;
 text-align: left;
 
 }
