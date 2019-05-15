@@ -3,16 +3,7 @@
  * Template Name:About HC Page
  */
 
-?>
-<?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );?>
-<?php $upload_dir = wp_upload_dir(); ?>
- <!doctype html>
-    <html <?php language_attributes(); ?>>
-   <meta name="viewport" content="width=device-width,initial-scale=1">
-<?php
-/**
- * Move the styles below into your stylesheet
- */
+$upload_dir = wp_upload_dir();
 ?>
 <style type="text/css">
 
@@ -130,24 +121,31 @@ text-align: justify;
 @media only screen and (max-width: 500px) {
 
 }
-
 </style>
-<!--display  banner x Menu RED WHITE -->
-<div class="bg">
-<div class="hd"><?php get_header(2); ?></div>
-<header class="entry-header">
-		<h1 class="page-title"><?php the_title(); ?></h1>
-</header>
-</div>
-<div class="ficontent">
+<!-- <body class="single single-post postid-321 single-format-standard" style="color:#000 !important;margin:12em 0 0 0;"> -->
+<div id="primary" class="site-content page-container">
+
+    <?php
+    /**
+     * Show page title and content
+     */
+    ?>
+    <?php if ( have_posts() ) : ?>
+        <?php while ( have_posts() ) : the_post(); ?>
+          <div class="bg">
+          <div class="hd"><?php get_header(2); ?></div>
+          <header class="entry-header">
+          		<h1 class="page-title"><?php the_title(); ?></h1>
+          </header>
+            <div class="ficontent" id="menucontent">
+                <?php the_content(); ?>
+            </div>
+        <?php endwhile; ?>
+
+    <?php endif; ?>
+</div><!-- .site-content -->
+<!-- </body> -->
+
 <?php
-if (have_posts()):
-  while (have_posts()) : the_post();
-    the_content();
-  endwhile;
-else:
-  echo '<p>Sorry, no posts matched your criteria.</p>';
-endif;
-?>
-</div>
-<?php get_footer(); ?>
+
+get_footer();

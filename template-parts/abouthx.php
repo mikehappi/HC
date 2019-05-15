@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name:About HX template Page 
+ * Template Name:About HC Page
  */
 
 ?>
@@ -14,19 +14,17 @@
  * Move the styles below into your stylesheet
  */
 ?>
-<html>
-<head>
 <style type="text/css">
 
 @font-face{
     font-family:PNR;
      src:url("<?php echo get_template_directory_uri(); ?>/fonts/ProximaNova-Regular.otf");
 }
-  @font-face{ 
+  @font-face{
     font-family:LFR;
      src:url("<?php echo get_template_directory_uri(); ?>/fonts/LucidaFax-Regular.ttf");
 }
- @font-face{ 
+ @font-face{
     font-family:SAVOYELFD;
     src:url("<?php echo get_template_directory_uri(); ?>/fonts/LucidaFax-Demibold.ttf");
 }
@@ -64,7 +62,7 @@ olor: black !IMPORTANT;
 
 .bg {
     /* The image used  */
-    
+
     background: url('<?php echo $backgroundImg[0]; ?>') no-repeat;
     /* Full height */
     width: 100% !important;
@@ -110,7 +108,7 @@ text-transform:uppercase !important;
     float: left;
     position: relative;
   right: -5em; /* or left 30% */
-  text-align: left; 
+  text-align: left;
 }
 .fired img{
   width:380px !important;
@@ -134,13 +132,12 @@ text-align: justify;
 }
 
 </style>
-</head>
 <!--display  banner x Menu RED WHITE -->
 <div class="bg">
 <div class="hd"><?php get_header(2); ?></div>
 <header class="entry-header">
-				<h1 class="page-title"><?php the_title(); ?></h1>
-			</header>
+		<h1 class="page-title"><?php the_title(); ?></h1>
+</header>
 </div>
 <div class="ficontent">
 <?php
@@ -153,8 +150,4 @@ else:
 endif;
 ?>
 </div>
-</div>
-</div>
-</div>
-
 <?php get_footer(); ?>
