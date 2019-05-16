@@ -141,13 +141,22 @@ display:flex;
 #right {
   flex: 1 !important;
 }
-
+/* flex last two element*/
 .aflexx {
 width: 230px;
 display:flex;
 flex-direction: column;
 float: left;
 }
+/* flex last to column*/
+.aflexB {
+display:flex;
+}
+
+.aflexT {
+display:flex;
+}
+
 
 .acontent1 p{
   font-family:PNR!important;
@@ -160,56 +169,50 @@ float: left;
 /* unvisited link */
 .acontent a:link {
 color: white !important;
-font-size:13px !important;
 text-decoration: none;
 }
 
 /* visited link */
 .acontent a:visited {
 color: white !important;
-font-size:13px !important;
+
 text-decoration: none;
 }
 
 /* mouse over link */
 .acontent a:hover {
 color: white !important;
-font-size:13px !important;
 text-decoration: none;
 }
 
 /* selected link */
 .acontent a:active {
 color: white !important;
-font-size:13px !important;
 text-decoration: none;
 }
 
 /* unvisited link */
 .acontent1 a:link {
 color: white !important;
-font-size:11px !important;
+
 text-decoration: none;
 }
 
 /* visited link */
 .acontent1 a:visited {
   color: white !important;
-font-size:11px !important;
 text-decoration: none;
 }
 
 /* mouse over link */
 .acontent1 a:hover {
 color: white !important;
-font-size:11px !important;
 text-decoration: none;
 }
 
 /* selected link */
 .acontent1 a:active {
  color: white !important;
-font-size:11px !important;
 text-decoration: none;
 }
 
