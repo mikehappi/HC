@@ -58,9 +58,8 @@ text-align:justify !important;
 display: flex;
 }
 .acontent img{
-width: 70px;
-margin-right: 1em;
-vertical-align: baseline;
+  margin-right: 1em;
+      vertical-align: super;
 }
 
 .acontent {
