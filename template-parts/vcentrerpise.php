@@ -23,11 +23,11 @@
     font-family:PNR;
      src:url("<?php echo get_template_directory_uri(); ?>/fonts/ProximaNova-Regular.otf");
 }
-  @font-face{ 
+  @font-face{
     font-family:LFR;
      src:url("<?php echo get_template_directory_uri(); ?>/fonts/LucidaFax-Regular.ttf");
 }
- @font-face{ 
+ @font-face{
     font-family:LFD;
     src:url("<?php echo get_template_directory_uri(); ?>/fonts/LucidaFax-Demibold.ttf");
 }
@@ -62,16 +62,16 @@ body, html {
 
 .bg {
     /* The image used  background-image: url("<?php echo $upload_dir['baseurl'] . '/blog-banner.jpg'; ?>"); */
-    
+
     background: url('<?php echo $backgroundImg[0]; ?>') no-repeat;
     /* Full height */
    width: 100% !important;
     height: auto !important;
 
     /* Center and scale the image nicely */
- background-position: center center !important; 
-background-size: cover !important; 
-background-repeat: no-repeat !important; 
+ background-position: center center !important;
+background-size: cover !important;
+background-repeat: no-repeat !important;
 background-attachment: fixed !important;
 }
 
@@ -85,25 +85,26 @@ background-attachment: fixed !important;
 .vctitle{
 font-family:LFR !important;
 color: #b91338 !important;
-font-size:30px !important;
-text-transform:uppercase !important;
+font-size:29.01px !important;
 font-weight: 600;
+text-transform:uppercase !important;
 }
-.acontainer{
+/* .vccontainer{
 padding-top: 5em;
 width: 75%;
 float: left;
 position: relative;
-right: -8em; /* or left 30% */
-text-align: left; 
+right: -8em; or left 30%
+text-align: left;*/
 
 }
 .vccontent{
 font-family:PNR !important;
 color: #383838 !important;
-font-size:13px !important;
+font-size:12.81px !important;
 text-transform:uppercase !important;
 text-align:justify !important;
+}
 }
 .vctitle{
  width: 615px;;
@@ -119,13 +120,20 @@ margin-right: 1em;
 .vccontent {
 align-self: flex-start;
 }
+/* br title size and position */
+.vccontent img {
+    margin-right: 0.5em;
+    vertical-align: super;
+}
+
+
 
 
 
 .vccontent1{
 font-family:PNR!important;
 color: #383838 !important;
-font-size:11px !important;
+font-size:10px !important;
 text-transform:uppercase !important;
 text-align:left !important;
 margin-top: 10em;
@@ -134,13 +142,32 @@ flex-wrap: wrap;
 width:1100px;
 }
 .vccontent1 img{
-height:10px;
-width: 2px;
-margin-right: 0.5em;}
+  height: 0.5em;
+    width: 0.05em;
+    margin-right: 0.2em;
+    margin-left: 0.2em;
+    vertical-align: text-top;
+        }
 
 .vcflex {
 width: 320px;
 margin: 0px 0 2em 2em;
+}
+
+
+.vcflex {
+  display: flex;
+}
+
+#vccleft {
+  font-family:LFD!important;
+  color: #b91338 !important;
+  font-size:42px !important;
+  flex: 0 0 0%;
+}
+
+#vccright {
+  flex: 1;
 }
 
 
@@ -170,13 +197,14 @@ text-decoration: none;
  color: #383838 !important;
 font-size:11px !important;
 text-decoration: none;
-} 
+}
 .vcnumber{
 font-family:LFD!important;
 color: #b91338 !important;
 font-size:42px !important;
 
 }
+
 
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
