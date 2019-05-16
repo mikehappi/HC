@@ -78,22 +78,23 @@ background-attachment: fixed !important;
 .gptitle{
 font-family:LFD !important;
 color: #b91338 !important;
-font-size:42px !important;
+font-size:41.48px !important;
 text-transform:uppercase !important;
 }
 .gpcontent{
-font-family:PNR3 !important;
+font-family:PNR !important;
 color: #383838 !important;
-font-size:13px !important;
+font-size:17px !important;
 text-transform:uppercase !important;
-text-align:justify !important;
+text-align:left!important;
 }
 
 .gptitle{
   width: 10%;
+  margin-bottom: 1em;
 }
 .gpbody{
-  width:90%;
+  width:100%;
   padding: 2% 0% 0 0%;
 }
 .gpbar{
