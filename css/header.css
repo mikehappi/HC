@@ -212,9 +212,9 @@ width: 18%;
 .mc-left p{
       margin-top:0 !important;}
 
-.mc-center p{
+.mc-center {
   font-size: 18.22px;
-    font-family:LFR !important;
+  font-family:LFR !important;
   font-weight: 600;}
 
 .mc-right p{
@@ -226,20 +226,20 @@ width: 18%;
 
 
 /* modal wrapper for bar and title*/
-wrapper {
+.mc-center #wrapper {
   display: flex;
 }
 
-mleft {
+.mc-center #mleft {
   flex: 0 0 5%;
 }
 
-mright {
+.mc-center #mright {
   flex: 1;
 }
 
 
-mright a{
+.mc-center #mright a{
   line-height: 1.2em;
 
 }
@@ -247,7 +247,7 @@ mright a{
 
 
 /* size image and margin to make nice*/
-mleft a img{
+.mc-center #mleft a img{
   height: 1.3em;
 width: 0.1em;
 margin-right: 0.5em;}
