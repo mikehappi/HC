@@ -151,7 +151,7 @@ font-family:PNR;
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;
-  top: 50% !important;
+  top: 30% !important;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
@@ -192,7 +192,7 @@ text-decoration: none;
     padding: 20px;
     /* border: 1px solid #888;*/
     width: 100%;
-    height:50vh;
+    height:80vh;
   }
 
 .mc-left {
@@ -228,6 +228,7 @@ width: 18%;
 /* modal wrapper for bar and title*/
 .mc-center #wrapper {
   display: flex;
+  margin:0 0 1em 0;
 }
 
 .mc-center #mleft {
