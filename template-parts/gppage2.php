@@ -100,9 +100,7 @@ text-align:justify!important;
   width: 10%;
   margin-bottom: 1em;
 }
-.gpbody{
-  width:100%;
-}
+
 .gpbar{
   float: left;
 }
@@ -120,7 +118,7 @@ height: 0.2em; width: 4em;
 .gpcontainer{
 display: inline-block;
 margin: 9% 0 10% 10%;
-
+width:100%;
 text-align: left;
 
 }
