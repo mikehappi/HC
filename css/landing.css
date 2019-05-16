@@ -343,6 +343,9 @@ align-self: flex-start;
 }
 
 
+
+
+
 .vccontent1{
 font-family:PNR!important;
 color: #383838 !important;
@@ -362,6 +365,22 @@ margin-right: 0.5em;}
 .vcflex {
 width: 320px;
 margin: 0px 0 2em 2em;
+}
+
+
+.vcflex {
+font-family:LFD!important;
+color: #b91338 !important;
+font-size:42px !important;
+  display: flex;
+}
+
+#vccleft {
+  flex: 0 0 5%;
+}
+
+#vccright {
+  flex: 1;
 }
 
 
@@ -419,10 +438,10 @@ text-transform:uppercase !important;
 text-align:center !important;
 line-height: 2em;
 }
-    .apimg{
-    margin-top: 2em;
-    margin-bottom: 2em;
-    text-align: center;}
+.apimg{
+margin-top: 2em;
+margin-bottom: 2em;
+text-align: center;}
 
 
 
