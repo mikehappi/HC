@@ -89,15 +89,14 @@ font-size:29.01px !important;
 font-weight: 600;
 text-transform:uppercase !important;
 }
-/* .vccontainer{
+.vccontainer{
 padding-top: 5em;
 width: 75%;
 float: left;
 position: relative;
 right: -8em; or left 30%
-text-align: left;*/
+text-align: left;}
 
-}
 .vccontent{
 font-family:PNR !important;
 color: #383838 !important;

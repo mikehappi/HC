@@ -311,9 +311,9 @@ width: 75%;
 float: left;
 position: relative;
 right: -8em; or left 30%
-text-align: left;*/
+text-align: left;}*/
 
-}
+
 .vccontent{
 font-family:PNR !important;
 color: #383838 !important;
@@ -321,7 +321,7 @@ font-size:12.81px !important;
 text-transform:uppercase !important;
 text-align:justify !important;
 }
-}
+
 .vctitle{
  width: 615px;;
 }
@@ -334,6 +334,11 @@ margin-right: 1em;
 }
 
 .vccontent {
+  font-family:PNR !important;
+  color: #383838 !important;
+  font-size:12.81px !important;
+  text-transform:uppercase !important;
+  text-align:justify !important;
 align-self: flex-start;
 }
 /* br title size and position */
