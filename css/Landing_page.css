@@ -230,7 +230,7 @@ font-family:PNR !important;
 color: #383838 !important;
 font-size:17px !important;
 text-transform:uppercase !important;
-text-align:left!important;
+text-align:justify!important;
 }
 
 .gptitle{
@@ -239,10 +239,14 @@ text-align:left!important;
 }
 .gpbody{
   width:100%;
-  padding: 2% 0% 0 0%;
 }
 .gpbar{
   float: left;
+}
+
+}
+.gpbar img{
+height: 0.2em; width: 4em;
 }
 
 .gpcontent {
@@ -252,8 +256,8 @@ text-align:left!important;
 
 .gpcontainer{
 display: inline-block;
-margin: 10%;
-width: 100%;
+margin: 9% 0 10% 10%;
+
 text-align: left;
 
 }
