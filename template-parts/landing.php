@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="/wp-content/themes/HX-V1/css/Landing_page.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/wp-content/themes/HX-V1/css/landing.css" media="screen" />
 <?php
   /*
     Template Name: Landing
