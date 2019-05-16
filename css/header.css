@@ -165,7 +165,7 @@ margin-top: 5em;
     margin-right: 10em;}
 
 .mc{
-    width: 75% !important;}
+    width: 90% !important;}
 
 /* The Close Button */
 .close {
@@ -205,17 +205,17 @@ text-decoration: none;
 
 .mc-left {
 float: left;
-width: 33.333%;
+width: 40%;
 }
 
 .mc-right {
 float: right;
-width: 33.333%;
+width: 30%;
 }
 
 .mc-center {
   display: inline-block;
-  width: 33.333%;
+  width: 20%;
 }
 .mc-left p{
       margin-top:0 !important;}
