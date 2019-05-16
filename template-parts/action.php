@@ -151,6 +151,7 @@ float: left;
 /* flex last to column*/
 .aflexB {
 display:flex;
+margin-top: 1em;
 }
 
 .aflexT {
