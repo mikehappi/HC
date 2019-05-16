@@ -39,12 +39,13 @@
   <!-- The Modal -->
 <div id="myModal" class="modal">
   <!-- Modal content -->
-  <div class="modal-content">
+<div class="modal-content">
 
     <!-- style pour display inline block and logo float left -->
     <div class="close" style="white-space: nowrap; overflow-x: auto;">×
       <img src="https://www.hexagone-capital.com/wp-content/uploads/logomodal.png" style="display: inline-block;float:left;">
     </div>
+  <div class="modal-text">
     <p style="font-family: LFD !important;font-size:29px !important;">A PROPOS</p>
     <img style="margin-bottom:1.5em;"src="https://www.hexagone-capital.com/wp-content/uploads/barprop.png">
     <div class="mc">
@@ -85,6 +86,8 @@
     </div>
   </div>
 
+</div>
+</div>
 </div>
   <!-- hide dropdown list -->
         <script>
