@@ -102,7 +102,6 @@ text-align:left!important;
 }
 .gpbody{
   width:100%;
-  padding: 2% 0% 0 0%;
 }
 .gpbar{
   float: left;
@@ -115,8 +114,8 @@ text-align:left!important;
 
 .gpcontainer{
 display: inline-block;
-margin: 10%;
-width: 100%;
+margin: 10% 0 10% 10%;
+
 text-align: left;
 
 }
