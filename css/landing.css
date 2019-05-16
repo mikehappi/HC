@@ -335,6 +335,7 @@ margin-right: 1em;
 .vccontent {
 align-self: flex-start;
 }
+/* br title size and position */
 .vccontent img {
     margin-right: 1em;
     vertical-align: super;
