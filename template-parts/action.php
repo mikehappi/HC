@@ -142,6 +142,13 @@ display:flex;
   flex: 1 !important;
 }
 
+.aflexx {
+width: 230px;
+display:flex;
+flex-direction: column;
+float: left;
+}
+
 .acontent1 p{
   font-family:PNR!important;
   color: white !important;
