@@ -107,6 +107,11 @@ text-align:left!important;
   float: left;
 }
 
+}
+.gpbar img{
+height: 0.2em; width: 4em;
+}
+
 .gpcontent {
   float: right;
   width: 90%;
@@ -114,7 +119,7 @@ text-align:left!important;
 
 .gpcontainer{
 display: inline-block;
-margin: 10% 0 10% 10%;
+margin: 9% 0 10% 10%;
 
 text-align: left;
 
