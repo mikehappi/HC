@@ -57,6 +57,7 @@
 }
 
 .bg {
+    /* The image used  */
 
     background: url('<?php echo $backgroundImg[0]; ?>') no-repeat;
     /* Full height */

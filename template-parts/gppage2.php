@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name:Gestion privee Page
+ * Template Name:Gestion privee Page 2
  */
 
 ?>
@@ -27,7 +27,7 @@
     font-family:LFR;
      src:url("<?php echo get_template_directory_uri(); ?>/fonts/LucidaFax-Regular.ttf");
 }
- @font-face{ 
+ @font-face{
     font-family:LFD;
     src:url("<?php echo get_template_directory_uri(); ?>/fonts/LucidaFax-Demibold.ttf");
 }
@@ -62,16 +62,16 @@ body, html {
 
 .bg {
     /* The image used  background-image: url("<?php echo $upload_dir['baseurl'] . '/blog-banner.jpg'; ?>"); */
-    
+
     background: url('<?php echo $backgroundImg[0]; ?>') no-repeat;
     /* Full height */
    width: 100% !important;
     height: 150vh !important;
 
     /* Center and scale the image nicely */
- background-position: center center !important; 
-background-size: cover !important; 
-background-repeat: no-repeat !important; 
+ background-position: center center !important;
+background-size: cover !important;
+background-repeat: no-repeat !important;
 background-attachment: fixed !important;
 }
 
@@ -116,7 +116,7 @@ width: 75%;
 float: left;
 position: relative;
 right: -8em; /* or left 30% */
-text-align: left; 
+text-align: left;
 
 }
 
