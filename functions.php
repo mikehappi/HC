@@ -121,11 +121,12 @@ add_action( 'widgets_init', 'hx_v1_widgets_init' );
  */
 function hx_v1_scripts() {
 	wp_enqueue_style( 'hx-v1-style', get_stylesheet_uri() );
-	wp_register_style( 'header', get_template_directory_uri().'/css/header.css', '', null, 'all' );	
+	wp_register_style( 'header', get_template_directory_uri().'/css/header.css', '', null, 'all' );
     wp_enqueue_style('header');
-   wp_register_style( 'footer', get_template_directory_uri().'/css/footer.css', '', null, 'all' );	
+   wp_register_style( 'footer', get_template_directory_uri().'/css/footer.css', '', null, 'all' );
     wp_enqueue_style('footer');
-		
+		wp_register_style( 'landing', get_template_directory_uri().'/css/landing.css', '', null, 'all' );
+     wp_enqueue_style('landing');
 		wp_register_style( 'Contact', get_stylesheet_directory_uri().'/css/Contact.css', '', null, 'all' );
     wp_enqueue_style('Contact');
 	wp_enqueue_script( 'hx-v1-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
@@ -180,7 +181,7 @@ if (is_user_logged_in()) {
 
 
 function load_landing_page($ids) {
-	
+
 	if (!empty($ids)) {
 		return get_posts($ids);
 	}
