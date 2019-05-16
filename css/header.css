@@ -226,20 +226,20 @@ width: 18%;
 
 
 /* modal wrapper for bar and title*/
-#wrapper {
+wrapper {
   display: flex;
 }
 
-#mleft {
+mleft {
   flex: 0 0 5%;
 }
 
-#mright {
+mright {
   flex: 1;
 }
 
 
-#mright a{
+mright a{
   line-height: 1.2em;
 
 }
@@ -247,7 +247,7 @@ width: 18%;
 
 
 /* size image and margin to make nice*/
-#mleft a img{
+mleft a img{
   height: 1.3em;
 width: 0.1em;
 margin-right: 0.5em;}

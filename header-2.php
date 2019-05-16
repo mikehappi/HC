@@ -58,11 +58,11 @@
 </div>
 <div id="wrapper">
 <div id="mleft"><a href="https://www.hexagone-capital.com/action/gestion-de-portefeuille"><img src="https://www.hexagone-capital.com/wp-content/uploads/2019/04/Menu-Bar-White.png" ></a></div>
-<div id="mright"><a href="https://www.hexagone-capital.com/action/gestion-de-portefeuille">></a><a href="https://www.hexagone-capital.com/action/ingenierie-patrimoniale">Gestion de portefeuille</a></div>
+<div id="mright"><a href="https://www.hexagone-capital.com/action/gestion-de-portefeuille"></a><a href="https://www.hexagone-capital.com/action/ingenierie-patrimoniale">Gestion de portefeuille</a></div>
 </div>
 <div id="wrapper">
 <div id="mleft"><a href="https://www.hexagone-capital.com/action/investissement-immobilier"><img src="https://www.hexagone-capital.com/wp-content/uploads/2019/04/Menu-Bar-White.png" ></a></div>
-<div id="mright"><a href="https://www.hexagone-capital.com/action/investissement-immobilier">></a><a href="https://www.hexagone-capital.com/action/ingenierie-patrimoniale">Investissement immobilier</a></div>
+<div id="mright"><a href="https://www.hexagone-capital.com/action/investissement-immobilier"></a><a href="https://www.hexagone-capital.com/action/ingenierie-patrimoniale">Investissement immobilier</a></div>
 </div>
 
     </div>
