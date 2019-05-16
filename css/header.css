@@ -217,7 +217,7 @@ width: 18%;
   font-family:LFR !important;
   font-weight: 600;}
 
-.mc-right p{
+.mc-right {
   font-size: 18.22px;
     font-family:LFR !important;
   font-weight: 600;
@@ -277,18 +277,6 @@ margin-right: 0.5em;}
   height: 1.3em;
 width: 0.1em;
 margin-right: 0.5em;}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*--------------------------------------------------------------
