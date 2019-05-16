@@ -78,13 +78,18 @@ margin-top: 20em;
 display:flex;
 flex-wrap: wrap;
 width: 1100px;
-flex-direction: row-reverse;
+flex-direction:row;
 }
 .acontent1 img{
 height:10px;
 width: 2px;
 margin-right: 0.5em;}
+.acontent1 p{
+  font-family:PNR!important;
+  color: white !important;
+  font-size:9.49px !important;
 
+}
 .aflex {
 width: 230px;
 margin: 0px 0 0em 2em;
