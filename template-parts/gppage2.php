@@ -23,7 +23,7 @@
     font-family:PNR;
      src:url("<?php echo get_template_directory_uri(); ?>/fonts/ProximaNova-Regular.otf");
 }
-  @font-face{ 
+  @font-face{
     font-family:LFR;
      src:url("<?php echo get_template_directory_uri(); ?>/fonts/LucidaFax-Regular.ttf");
 }
@@ -85,37 +85,38 @@ background-attachment: fixed !important;
 .gptitle{
 font-family:LFD !important;
 color: #b91338 !important;
-font-size:42px !important;
+font-size:41.48px !important;
 text-transform:uppercase !important;
 }
 .gpcontent{
-font-family:PNR3 !important;
+font-family:PNR !important;
 color: #383838 !important;
-font-size:13px !important;
+font-size:17px !important;
 text-transform:uppercase !important;
-text-align:justify !important;
+text-align:left!important;
 }
+
 .gptitle{
-width:50px;
+  width: 10%;
+  margin-bottom: 1em;
 }
-.gpbody {
-display: flex;
+.gpbody{
+  width:100%;
+  padding: 2% 0% 0 0%;
 }
 .gpbar{
-width:180px !important;
-padding-right:4em;
+  float: left;
 }
 
 .gpcontent {
-align-self: flex-start;
+  float: right;
+  width: 90%;
 }
 
 .gpcontainer{
-padding-top: 5em;
-width: 75%;
-float: left;
-position: relative;
-right: -8em; /* or left 30% */
+display: inline-block;
+margin: 10%;
+width: 100%;
 text-align: left;
 
 }
