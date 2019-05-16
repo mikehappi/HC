@@ -159,6 +159,11 @@ font-family:PNR;
   background-color: rgba(1,8,35,0.4); /* Black w/ opacity */
 }
 
+.modal-text{
+margin-top: 5em;
+    margin-left: 5em;
+    margin-right: 10em;}
+
 /* The Close Button */
 .close {
   color: white;
@@ -277,6 +282,8 @@ margin-right: 0.5em;}
   height: 1.3em;
 width: 0.1em;
 margin-right: 0.5em;}
+
+
 
 
 /*--------------------------------------------------------------
