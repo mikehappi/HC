@@ -305,13 +305,13 @@ font-size:29.01px !important;
 font-weight: 600;
 text-transform:uppercase !important;
 }
-.acontainer{
+/* .vccontainer{
 padding-top: 5em;
 width: 75%;
 float: left;
 position: relative;
-right: -8em; /* or left 30% */
-text-align: left;
+right: -8em; or left 30%
+text-align: left;*/
 
 }
 .vccontent{
@@ -320,6 +320,7 @@ color: #383838 !important;
 font-size:12.81px !important;
 text-transform:uppercase !important;
 text-align:justify !important;
+}
 }
 .vctitle{
  width: 615px;;
@@ -354,8 +355,8 @@ flex-wrap: wrap;
 width:1100px;
 }
 .vccontent1 img{
-height:10px;
-width: 2px;
+  height: 1.3em;
+  width: 0.1em;
 margin-right: 0.5em;}
 
 .vcflex {
