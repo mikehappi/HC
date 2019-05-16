@@ -226,11 +226,11 @@ font-size:41.48px !important;
 text-transform:uppercase !important;
 }
 .gpcontent{
-font-family:PNR3 !important;
+font-family:PNR !important;
 color: #383838 !important;
 font-size:17px !important;
 text-transform:uppercase !important;
-text-align:justify !important;
+text-align:left!important;
 }
 
 .gptitle{
