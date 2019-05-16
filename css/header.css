@@ -225,7 +225,7 @@ width: 18%;
 }
 
 
-/* modal wrapper for bar and title*/
+/* modal wrapper center for bar and title*/
 .mc-center #wrapper {
   display: flex;
   margin:0 0 1em 0;
@@ -245,10 +245,35 @@ width: 18%;
 
 }
 
-
-
 /* size image and margin to make nice*/
 .mc-center #mleft a img{
+  height: 1.3em;
+width: 0.1em;
+margin-right: 0.5em;}
+
+
+/* modal wrapper right for bar and title*/
+.mc-right #wrapper {
+  display: flex;
+  margin:0 0 1em 0;
+}
+
+.mc-right #mleft {
+  flex: 0 0 5%;
+}
+
+.mc-right #mright {
+  flex: 1;
+}
+
+
+.mc-right #mright a{
+  line-height: 1.2em;
+
+}
+
+/* size image and margin to make nice*/
+.mc-right #mleft a img{
   height: 1.3em;
 width: 0.1em;
 margin-right: 0.5em;}
