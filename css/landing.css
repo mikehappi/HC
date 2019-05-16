@@ -369,13 +369,14 @@ margin: 0px 0 2em 2em;
 
 
 .vcflex {
-font-family:LFD!important;
-color: #b91338 !important;
-font-size:42px !important;
+
   display: flex;
 }
 
 #vccleft {
+  font-family:LFD!important;
+  color: #b91338 !important;
+  font-size:42px !important;
   flex: 0 0 5%;
 }
 
