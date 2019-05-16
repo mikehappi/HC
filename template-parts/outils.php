@@ -134,7 +134,7 @@ text-align: justify;
 </style>
 <!--display  banner x Menu RED WHITE -->
 <div class="bg">
-<div class="hd"><?php get_header(); ?></div>
+<div class="hd"><?php get_header(2); ?></div>
 <header class="entry-header">
 		<h1 class="page-title"><?php the_title(); ?></h1>
 </header>
