@@ -13,11 +13,11 @@
     font-family:PNR;
      src:url("<?php echo get_template_directory_uri(); ?>/fonts/ProximaNova-Regular.otf");
 }
-  @font-face{ 
+  @font-face{
     font-family:LFR;
      src:url("<?php echo get_template_directory_uri(); ?>/fonts/LucidaFax-Regular.ttf");
 }
- @font-face{ 
+ @font-face{
     font-family:LFD;
     src:url("<?php echo get_template_directory_uri(); ?>/fonts/LucidaFax-Demibold.ttf");
 }
@@ -52,16 +52,16 @@ body, html {
 
 .bg {
     /* The image used  background-image: url("<?php echo $upload_dir['baseurl'] . '/blog-banner.jpg'; ?>"); */
-    
+
     background: url('<?php echo $backgroundImg[0]; ?>') no-repeat;
     /* Full height */
    width: 100% !important;
     height: 100vh !important;
 
     /* Center and scale the image nicely */
- background-position: center center !important; 
-background-size: cover !important; 
-background-repeat: no-repeat !important; 
+ background-position: center center !important;
+background-size: cover !important;
+background-repeat: no-repeat !important;
 background-attachment: fixed !important;
 }
 
@@ -84,13 +84,13 @@ width: 75%;
 float: left;
 position: relative;
 right: -8em; /* or left 30% */
-text-align: left; 
+text-align: left;
 
 }
 .acontent{
 font-family:PNR !important;
 color: white !important;
-font-size:13px !important;
+font-size:10.94px !important;
 text-transform:uppercase !important;
 text-align:justify !important;
 }
@@ -100,9 +100,11 @@ text-align:justify !important;
 .abody {
 display: flex;
 }
-.abar{
-width: 70px;
-margin-right: 1em;
+
+/* align white bar with dc */
+.acontent img{
+  margin-right: 1em;
+  vertical-align: super;
 }
 
 .acontent {
@@ -121,17 +123,34 @@ margin-top: 20em;
 display:flex;
 flex-wrap: wrap;
 width: 1100px;
-flex-direction: row-reverse;
+flex-direction:row;
 }
 .acontent1 img{
-height:10px;
+height:20px;
 width: 2px;
 margin-right: 0.5em;}
 
 .aflex {
 width: 230px;
 margin: 0px 0 0em 2em;
+display:flex;
 }
+#left {
+  flex: 0 0 6% !important;
+}
+
+#right {
+  flex: 1 !important;
+}
+
+.acontent1 p{
+  font-family:PNR!important;
+  color: white !important;
+  font-size:9.49px !important;
+}
+
+
+
 /* unvisited link */
 .acontent a:link {
 color: white !important;
@@ -158,7 +177,7 @@ text-decoration: none;
 color: white !important;
 font-size:13px !important;
 text-decoration: none;
-} 
+}
 
 /* unvisited link */
 .acontent1 a:link {
@@ -186,8 +205,8 @@ text-decoration: none;
  color: white !important;
 font-size:11px !important;
 text-decoration: none;
-} 
- 
+}
+
 
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
