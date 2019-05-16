@@ -57,9 +57,10 @@ text-align:justify !important;
 .abody {
 display: flex;
 }
-.abar{
+.acontent img{
 width: 70px;
 margin-right: 1em;
+vertical-align: baseline;
 }
 
 .acontent {
@@ -88,7 +89,6 @@ margin-right: 0.5em;}
   font-family:PNR!important;
   color: white !important;
   font-size:9.49px !important;
-
 }
 .aflex {
 width: 230px;
