@@ -93,7 +93,7 @@ font-family:PNR !important;
 color: #383838 !important;
 font-size:17px !important;
 text-transform:uppercase !important;
-text-align:left!important;
+text-align:justify!important;
 }
 
 .gptitle{
