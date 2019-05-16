@@ -16,7 +16,7 @@
 <head>
 
         <?php wp_head(); ?>
-  <nav id="nav" class="navbar navbar-default navbar-fixed-top" role="navigation" style="
+  <nav id="nav" class="navbar navbar-defaultB navbar-fixed-top" role="navigation" style="
     position: fixed !important;
     top: auto;
     left:0;
