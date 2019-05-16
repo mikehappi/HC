@@ -159,52 +159,6 @@ font-family:PNR;
   background-color: rgba(1,8,35,0.4); /* Black w/ opacity */
 }
 
-/* Modal Content */
-.modal-content {
- text-transform: uppercase;
-  font-family:LFR !important;
-  font-size: 12px !important;
-  font-weight: 600;
-color:white !important;
-  background-color: rgb(1,8,35);
-  margin: auto;
-  padding: 20px;
-  /* border: 1px solid #888;*/
-  width: 100%;
-  height:50vh;
-}
-.mc-left {
-float: left;
-width: 33.333%;
-}
-
-.mc-right {
-float: right;
-width: 33.333%;
-}
-
-.mc-center {
-  display: inline-block;
-  width: 33.333%;
-}
-
-
-.mc-left p a img{
-    height: 10px;
-    width: 2px;
-    margin-right: 0.5em;}
-
-.mc-right p a img{
-    height: 10px;
-    width: 2px;
-    margin-right: 0.5em;}
-
-
-.mc-center p a img{
-    height: 10px;
-    width: 2px;
-    margin-right: 0.5em;}
-
 /* The Close Button */
 .close {
   color: white;
@@ -229,6 +183,86 @@ width: 33.333%;
 
 text-decoration: none;
   cursor: pointer;}
+  /* Modal Content */
+  .modal-content {
+   text-transform: uppercase;
+  color:white !important;
+    background-color: rgb(1,8,35);
+    margin: auto;
+    padding: 20px;
+    /* border: 1px solid #888;*/
+    width: 100%;
+    height:50vh;
+  }
+
+.mc-left {
+float: left;
+width: 33.333%;
+}
+
+.mc-right {
+float: right;
+width: 18%;
+}
+
+.mc-center {
+  display: inline-block;
+  width: 18%;
+}
+.mc-left p{
+      margin-top:0 !important;}
+
+.mc-center p{
+  font-size: 18.22px;
+    font-family:LFR !important;
+  font-weight: 600;}
+
+.mc-right p{
+  font-size: 18.22px;
+    font-family:LFR !important;
+  font-weight: 600;
+
+}
+
+
+/* modal wrapper for bar and title*/
+#wrapper {
+  display: flex;
+}
+
+#mleft {
+  flex: 0 0 5%;
+}
+
+#mright {
+  flex: 1;
+}
+
+
+#mright a{
+  line-height: 1.2em;
+
+}
+
+
+
+/* size image and margin to make nice*/
+#mleft a img{
+  height: 1.3em;
+width: 0.1em;
+margin-right: 0.5em;}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*--------------------------------------------------------------

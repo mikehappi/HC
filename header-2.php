@@ -46,15 +46,24 @@
       <img src="https://www.hexagone-capital.com/wp-content/uploads/logomodal.png" style="display: inline-block;float:left;">
     </div>
     <p style="font-size:29px !important;">A PROPOS</p>
-    <img src="https://www.hexagone-capital.com/wp-content/uploads/barprop.png">
+    <img style="margin-bottom:1.5em;"src="https://www.hexagone-capital.com/wp-content/uploads/barprop.png">
     <div class="mc">
   	<div class="mc-left">
-      <p style="font-family: PNR !important;font-size: 13.2px !important;text-transform: uppercase !important;width: 78%;text-align: left;">Hexagone Capital accompagne ses clients privés, dans la mise en place de solutions sur-mesure et innovantes afin de répondre à vos attentes en matière de gestion de fortune et de patrimoine.</p>
+      <p style="font-family: PNR !important;font-size: 13.2px !important;text-transform: uppercase !important;width: 78%;text-align: left;margin-top: 0;">Hexagone Capital accompagne ses clients privés, dans la mise en place de solutions sur-mesure et innovantes afin de répondre à vos attentes en matière de gestion de fortune et de patrimoine.</p>
     </div>
   	<div class="mc-center">
-  		  <p><a href="https://www.hexagone-capital.com/action/ingenierie-patrimoniale"><img src="https://www.hexagone-capital.com/wp-content/uploads/2019/04/Menu-Bar-White.png">Ingenerie patrimoniale</a></p>
-       	<p><a href="https://www.hexagone-capital.com/action/gestion-de-portefeuille"><img src="https://www.hexagone-capital.com/wp-content/uploads/2019/04/Menu-Bar-White.png">Gestion de portefeuille</a></p>
-      <p><a href="https://www.hexagone-capital.com/action/investissement-immobilier"><img src="https://www.hexagone-capital.com/wp-content/uploads/2019/04/Menu-Bar-White.png">Investissement immobilier</a></p>
+      <div id="wrapper">
+<div id="mleft"><a href="https://www.hexagone-capital.com/action/ingenierie-patrimoniale"><img src="https://www.hexagone-capital.com/wp-content/uploads/2019/04/Menu-Bar-White.png" ></a></div>
+<div id="mright"><a href="https://www.hexagone-capital.com/action/ingenierie-patrimoniale"></a><a href="https://www.hexagone-capital.com/action/ingenierie-patrimoniale">Ingenerie patrimoniale</a></div>
+</div>
+<div id="wrapper">
+<div id="mleft"><a href="https://www.hexagone-capital.com/action/gestion-de-portefeuille"><img src="https://www.hexagone-capital.com/wp-content/uploads/2019/04/Menu-Bar-White.png" ></a></div>
+<div id="mright"><a href="https://www.hexagone-capital.com/action/gestion-de-portefeuille">></a><a href="https://www.hexagone-capital.com/action/ingenierie-patrimoniale">Gestion de portefeuille</a></div>
+</div>
+<div id="wrapper">
+<div id="mleft"><a href="https://www.hexagone-capital.com/action/investissement-immobilier"><img src="https://www.hexagone-capital.com/wp-content/uploads/2019/04/Menu-Bar-White.png" ></a></div>
+<div id="mright"><a href="https://www.hexagone-capital.com/action/investissement-immobilier">></a><a href="https://www.hexagone-capital.com/action/ingenierie-patrimoniale">Investissement immobilier</a></div>
+</div>
 
     </div>
   	<div class="mc-right">
