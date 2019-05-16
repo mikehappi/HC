@@ -100,12 +100,22 @@ display:flex;
 }
 
 
+/* flex last two element*/
 .aflexx {
 width: 230px;
 display:flex;
 flex-direction: column;
 float: left;
 }
+/* flex last to column*/
+.aflexB {
+display:flex;
+}
+
+.aflexT {
+display:flex;
+}
+
 .acontent1 p{
   font-family:PNR!important;
   color: white !important;
