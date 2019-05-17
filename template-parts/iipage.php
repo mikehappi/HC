@@ -159,8 +159,11 @@ marin-top:2em;}
       text-align: left !important;
 }
 
+
+
+
 .iicontent1 img{
-  height: 1em;
+  height: 0.8em;
     width: 0.05em;
     margin-right: 0.2em;
     margin-left: 0.2em;
@@ -185,6 +188,7 @@ margin: 0px 0 7em 2em;
 
 #iiright {
   flex: 1;
+    padding-top: 0.5em;
 }
 
 
