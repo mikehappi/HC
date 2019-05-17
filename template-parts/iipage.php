@@ -139,16 +139,26 @@ marin-top:2em;}
 
 
 .iicontent1{
-font-family:PNR!important;
-color: #383838 !important;
-font-size:10px !important;
-text-transform:uppercase !important;
-text-align:left !important;
-margin-top: 10em;
-display:flex;
-flex-wrap: wrap;
-width:999px;
+  font-family: LFR!important;
+      color: #383838 !important;
+      font-size: 19.29px !important;
+      text-transform: uppercase !important;
+      text-align: left !important;
+      margin-top: 10em;
+      display: flex;
+      flex-wrap: wrap;
+      width: 999px;
+      font-weight: 600;
 }
+
+.iicontent1 p{
+  font-family: PNR!important;
+      color: #383838 !important;
+      font-size: 10px !important;
+      text-transform: uppercase !important;
+      text-align: left !important;
+}
+
 .iicontent1 img{
   height: 0.5em;
     width: 0.05em;
