@@ -147,7 +147,7 @@ text-align:left !important;
 margin-top: 10em;
 display:flex;
 flex-wrap: wrap;
-width:1100px;
+width:999px;
 }
 .iicontent1 img{
   height: 0.5em;
