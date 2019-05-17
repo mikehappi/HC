@@ -137,57 +137,81 @@ text-transform:uppercase !important;
 text-align: center;
 marin-top:2em;}
 
-.acontent1{
+
+.iicontent1{
 font-family:PNR!important;
 color: #383838 !important;
-font-size:11px !important;
-
+font-size:10px !important;
 text-transform:uppercase !important;
 text-align:left !important;
+margin-top: 10em;
 display:flex;
 flex-wrap: wrap;
-width:78%;
-position: relative;
-left: 20%;
+width:1100px;
 }
-.acontent1 img{
-height:30px;
-width: 1px;}
+.iicontent1 img{
+  height: 0.5em;
+    width: 0.05em;
+    margin-right: 0.2em;
+    margin-left: 0.2em;
+    vertical-align:top;
+        }
 
-.aflex {
-width: 245px;
-margin: 6em 0 0em 8 em;
+.iiflex {
+width: 320px;
+margin: 0px 0 7em 2em;
 }
 
-.aflex{
+
+.iiflex {
   display: flex;
-  flex-flow: row nowrap;
-  align-items: flex-start;
+}
+
+#iileft {
+  font-family:LFD!important;
+  color: #b91338 !important;
+  font-size:42px !important;
+  /*flex: 0 0 0%;*/
+}
+
+#iiright {
+  flex: 1;
 }
 
 
-.anumber{
+/* unvisited link */
+.iicontent1 a:link {
+color: #383838 !important;
+font-size:11px !important;
+text-decoration: none;
+}
+
+/* visited link */
+.iicontent1 a:visited {
+  color: #383838 !important;
+font-size:11px !important;
+text-decoration: none;
+}
+
+/* mouse over link */
+.iicontent1 a:hover {
+color: #383838 !important;
+font-size:11px !important;
+text-decoration: none;
+}
+
+/* selected link */
+.iicontent1 a:active {
+ color: #383838 !important;
+font-size:11px !important;
+text-decoration: none;
+}
+.iinumber{
 font-family:LFD!important;
 color: #b91338 !important;
 font-size:42px !important;
 
 }
-
-.ah{font-family:LFD !important;
-color: #383838!important;
-font-size:16px !important;
-text-transform:uppercase !important;}
-
-.atext{font-family:PNR!important;
-color: #383838 !important;
-font-size:11px !important;
-text-transform:uppercase !important;
-text-align:left !important;}
-
-
-
-.atext p {margin-top: 0.5em !important;}
-
 
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
