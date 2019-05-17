@@ -160,11 +160,10 @@ marin-top:2em;}
 }
 
 .iicontent1 img{
-  height: 0.5em;
+  height: 1em;
     width: 0.05em;
     margin-right: 0.2em;
     margin-left: 0.2em;
-    vertical-align:top;
         }
 
 .iiflex {
