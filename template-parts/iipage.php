@@ -150,6 +150,8 @@ margin-top:2em;}
       width: 100%;
       font-weight: 600;
       justify-content: center;
+align-items: center;
+      padding-left: 18%;
 }
 
 .iicontent1 p{
@@ -229,11 +231,15 @@ font-size:42px !important;
 
 }
 
-.underbar {
-  height: 0.2em;
-    width: 30em;
-}
 
+.iicontent2{
+display: inline-block;
+    margin-bottom: 3em;}
+
+    .iicontent2 img {
+      height: 0.2em;
+        width: 30em;
+    }
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
 --------------------------------------------------------------*/
