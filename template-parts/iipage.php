@@ -157,6 +157,7 @@ marin-top:2em;}
       font-size: 10px !important;
       text-transform: uppercase !important;
       text-align: left !important;
+      margin:0 !important;
 }
 
 
