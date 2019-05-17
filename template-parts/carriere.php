@@ -13,11 +13,11 @@
     font-family:PNR;
      src:url("<?php echo get_template_directory_uri(); ?>/fonts/ProximaNova-Regular.otf");
 }
-  @font-face{ 
+  @font-face{
     font-family:LFR;
      src:url("<?php echo get_template_directory_uri(); ?>/fonts/LucidaFax-Regular.ttf");
 }
- @font-face{ 
+ @font-face{
     font-family:LFD;
     src:url("<?php echo get_template_directory_uri(); ?>/fonts/LucidaFax-Demibold.ttf");
 }
@@ -48,7 +48,7 @@ body, html {
 }
 .bg {
     /* The image used  for Background */
-  
+
     background: url('<?php echo $backgroundImg[0]; ?>') no-repeat;
     /* Full height */
     width: 100% !important;
@@ -60,7 +60,7 @@ body, html {
 }
  /* carriere page apply font and other*/
 .carriere{
-width:38%;
+width:50%;
 text-transform:uppercase !important;
 font-size:18px !important;
 font-family:LFR !important;
@@ -68,8 +68,8 @@ font-weight: 600;
 display:inline-block;
 }
 
- 
- /* space top page content header 
+
+ /* space top page content header
 .pcontent{
   text-align: center;
   padding-top:4em;
