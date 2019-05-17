@@ -164,7 +164,7 @@ border-color:#5d5d5d;
 /* text area Sujet */
 .flex-itemS {background: white;
 width: 330px;
-height: 80px;
+height: 120px;
 border-radius: 2px !important;
 text-align:center !important;
 resize: none !important;}
