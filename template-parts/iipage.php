@@ -135,7 +135,7 @@ font-size:18.34 px !important;
 font-weight:600;
 text-transform:uppercase !important;
 text-align: center;
-marin-top:2em;}
+margin-top:2em;}
 
 
 .iicontent1{
@@ -171,7 +171,7 @@ marin-top:2em;}
         }
 
 .iiflex {
-width: 320px;
+width: 480px;
 margin: 0px 0 7em 2em;
 }
 
@@ -190,6 +190,7 @@ margin: 0px 0 7em 2em;
 #iiright {
   flex: 1;
     padding-top: 0.5em;
+    padding-right: 10em;
 }
 
 
