@@ -144,11 +144,12 @@ margin-top:2em;}
       font-size: 19.29px !important;
       text-transform: uppercase !important;
       text-align: left !important;
-      margin-top: 10em;
+      margin-top: 4em;
       display: flex;
       flex-wrap: wrap;
-      width: 999px;
+      width: 100%;
       font-weight: 600;
+      justify-content: center;
 }
 
 .iicontent1 p{
@@ -172,7 +173,7 @@ margin-top:2em;}
 
 .iiflex {
 width: 480px;
-margin: 0px 0 7em 2em;
+margin: 0px 0 5em 2em;
 }
 
 
@@ -226,6 +227,11 @@ font-family:LFD!important;
 color: #b91338 !important;
 font-size:42px !important;
 
+}
+
+.underbar {
+  height: 0.2em;
+    width: 30em;
 }
 
 /*--------------------------------------------------------------
