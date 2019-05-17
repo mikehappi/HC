@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name:I Immobilier  Page 
+ * Template Name:I Immobilier  Page
  */
 
 ?>
@@ -22,11 +22,11 @@
     font-family:PNR;
      src:url("<?php echo get_template_directory_uri(); ?>/fonts/ProximaNova-Regular.otf");
 }
-  @font-face{ 
+  @font-face{
     font-family:LFR;
      src:url("<?php echo get_template_directory_uri(); ?>/fonts/LucidaFax-Regular.ttf");
 }
- @font-face{ 
+ @font-face{
     font-family:SAVOYELFD;
     src:url("<?php echo get_template_directory_uri(); ?>/fonts/LucidaFax-Demibold.ttf");
 }
@@ -64,7 +64,7 @@ olor: black !IMPORTANT;
 
 .bg {
     /* The image used  */
-    
+
     background: url('<?php echo $backgroundImg[0]; ?>') no-repeat;
     /* Full height */
     width: 100% !important;
@@ -110,7 +110,7 @@ text-transform:uppercase !important;
     float: left;
     position: relative;
 left: 12em; /* or left 30% */
-  text-align: left; 
+  text-align: left;
 }
 .fired img{
   width:420px !important;
@@ -129,9 +129,9 @@ padding: 10em 0 0em 5em;
 /*--------------------------------------------------------------
 # Investissement immobilier
 --------------------------------------------------------------*/
-.iih1{font-family:LFD !important;
+.iih1{font-family:LFR !important;
 color: #383838!important;
-font-size:15px !important;
+font-size:18.34 px !important;
 text-transform:uppercase !important;
 text-align: center;}
 
@@ -140,11 +140,12 @@ text-align: center;}
 font-family:PNR!important;
 color: #383838 !important;
 font-size:11px !important;
+font-weight:600;
 text-transform:uppercase !important;
 text-align:left !important;
 display:flex;
 flex-wrap: wrap;
-width:78%;  
+width:78%;
 position: relative;
 left: 20%;
 }
