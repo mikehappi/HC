@@ -132,15 +132,16 @@ padding: 10em 0 0em 5em;
 .iih1{font-family:LFR !important;
 color: #383838!important;
 font-size:18.34 px !important;
+font-weight:600;
 text-transform:uppercase !important;
-text-align: center;}
-
+text-align: center;
+marin-top:2em;}
 
 .acontent1{
 font-family:PNR!important;
 color: #383838 !important;
 font-size:11px !important;
-font-weight:600;
+
 text-transform:uppercase !important;
 text-align:left !important;
 display:flex;
