@@ -108,7 +108,7 @@ text-transform:uppercase !important;
   padding-top: 5em;
 }
 .fired{
-  width: 50%;
+  width: 45%;
     float: left;
     position: relative;
   right: -5em; /* or left 30% */

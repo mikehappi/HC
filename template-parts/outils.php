@@ -45,7 +45,8 @@ font-size:15px !important;
 }
 
 /* Padding Header */
-.hd .navbar-default {position: sticky !important;
+.hd .navbar-default {
+  position: sticky !important;
 top: auto;
 left: 0;
 width: 100%;
