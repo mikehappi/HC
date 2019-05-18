@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name:Ingerie P Page 
+ * Template Name:Ingerie P Page
  */
 
 ?>
@@ -22,11 +22,11 @@
     font-family:PNR;
      src:url("<?php echo get_template_directory_uri(); ?>/fonts/ProximaNova-Regular.otf");
 }
-  @font-face{ 
+  @font-face{
     font-family:LFR;
      src:url("<?php echo get_template_directory_uri(); ?>/fonts/LucidaFax-Regular.ttf");
 }
- @font-face{ 
+ @font-face{
     font-family:LFD;
     src:url("<?php echo get_template_directory_uri(); ?>/fonts/LucidaFax-Demibold.ttf");
 }
@@ -65,7 +65,7 @@ olor: black !IMPORTANT;
 
 .bg {
     /* The image used  */
-    
+
     background: url('<?php echo $backgroundImg[0]; ?>') no-repeat;
     /* Full height */
     width: 100% !important;
@@ -104,14 +104,17 @@ text-transform:uppercase !important;
 .ipcontent {
   width: 100%;
   float: none;
-  padding-top: 8em;
+  padding-top: 4em;
+  display: inline-block;
+  z-index: -1;
+  position: relative;
 }
 .ipred{
   width: 50%;
     float: left;
     position: relative;
   right: -5em; /* or left 30% */
-  text-align: left; 
+  text-align: left;
 }
 .ipred img{
   width:600px;
