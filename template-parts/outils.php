@@ -104,6 +104,8 @@ text-transform:uppercase !important;
   width: 100%;
   float: none;
   padding-top: 5em;
+  position: relative;
+z-index: -1;
 }
 .fired{
   width: 45%;
