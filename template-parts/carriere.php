@@ -38,7 +38,11 @@ font-size:15px !important;
 }
  /* Put down hearder Nicely */
 .hd {
-  padding-top:4em;
+  position: sticky !important;
+  top: auto;
+  left: 0;
+  width: 100%;
+  padding-top:2%;
 }
 body, html {
     height: 100%;
