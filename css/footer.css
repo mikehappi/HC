@@ -70,6 +70,9 @@ width: 33.333%;
   width: 33.333%;
 }
 
+
+.container2 span{
+  color:#383838;}
 /* unvisited link */
 a:link {
     color: #383838;
