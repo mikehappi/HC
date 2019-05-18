@@ -43,6 +43,10 @@ body, html {
 color: #5d5d5d!IMPORTANT;
 
 }
+/* Padding Header */
+.hd .navbar-default {
+position: sticky !important;
+}
 
 
 /* carriere page apply font and other*/
@@ -59,6 +63,8 @@ display:inline-block;
 .pcontent{
 text-align: center;
 padding-top:4em;
+z-index: -1;
+position: relative;
 }
 
 .nouscontact{
