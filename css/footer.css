@@ -32,6 +32,16 @@ display: inline-block !important;
 width: 100%;
 }
 
+/* POPMAKER*/
+html.pum-open.pum-open-overlay, html.pum-open.pum-open-overlay.pum-open-fixed .pum-overlay {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+html.pum-open.pum-open-overlay.pum-open-scrollable .pum-overlay.pum-active {
+    overflow-y: hidden;
+}
+/* Content */
 .container {
 width:80%;
 padding: 4% 0% 0 5%;
