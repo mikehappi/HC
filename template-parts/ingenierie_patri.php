@@ -48,9 +48,9 @@ font-size:15px !important;
 /* Padding Header */
 .hd {
   position: sticky !important;
-      top: auto;
-      left: 0;
-      width: 100%;
+  top: auto;
+  left: 0;
+  width: 100%;
   padding-top:2%;
 
 }
