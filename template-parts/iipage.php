@@ -80,6 +80,10 @@ olor: black !IMPORTANT;
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
+
+
+
+
 .fired {
 font-family:LFD !important;
 color: #b91338!important;
@@ -109,13 +113,13 @@ text-transform:uppercase !important;
   width: 690px;
     float: left;
     position: relative;
-left: 12em; /* or left 30% */
+left: 10em; /* or left 30% */
   text-align: left;
 }
 .fired img{
-  width:420px !important;
-  height:3px !important;
-  float: left;
+  width: 21em !important;
+height: 0.15em !important;
+float: left;
 }
 .fitext {
   width:30%;
@@ -231,15 +235,17 @@ font-size:42px !important;
 
 }
 
-
+/* display relative and z -1 so it will appear behin the modal windows */
 .iicontent2{
 display: inline-block;
-    margin-bottom: 3em;}
+z-index: -1;
+position: relative;
 
-    .iicontent2 img {
-      height: 0.2em;
-        width: 30em;
-    }
+}
+
+.iicontent2 img {
+height: 0.2em;
+width: 30em;  }
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
 --------------------------------------------------------------*/
