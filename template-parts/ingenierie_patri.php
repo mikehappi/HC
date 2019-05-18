@@ -46,14 +46,12 @@ font-size:15px !important;
 
 }
 /* Padding Header */
-.hd {
+.hd .navbar-default {
   position: sticky !important;
-  top: auto;
-  left: 0;
-  width: 100%;
-  padding-top:2%;
-
-}
+top: auto;
+left: 0;
+width: 100%;
+padding-top:2%;}
 
 
  /* All link will be red HX */
