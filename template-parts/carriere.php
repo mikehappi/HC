@@ -60,7 +60,7 @@ body, html {
 }
  /* carriere page apply font and other*/
 .carriere{
-width:50%;
+width:75%%;
 text-transform:uppercase !important;
 font-size:18px !important;
 font-family:LFR !important;
