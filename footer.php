@@ -33,7 +33,8 @@
 </div>
 <div class="container2">
 <p> <img src="https://www.hexagone-capital.com/wp-content/uploads/footbar.png" class="footbar"></p>
-<p>A PROPOS D’HEXAGONE CAPITAL FACEBOOK LINKEDIN WECHAT </p>
+<p>Suivez-nous sur les réseaux sociaux pour connaître nos opportunités et évènements</p>
+<p>FACEBOOK &nbsp&nbsp LINKEDIN &nbsp&nbsp WECHAT</p>
 </div>
 
 </nav>
