@@ -45,7 +45,11 @@ font-size:15px !important;
 }
 
 /* Padding Header */
-.hd {padding-top:2%;}
+.hd {position: sticky !important;
+top: auto;
+left: 0;
+width: 100%;
+padding-top:2%;}
 
 
  /* All link will be red HX */
@@ -104,7 +108,7 @@ text-transform:uppercase !important;
   padding-top: 5em;
 }
 .fired{
-  width: 50%;
+  width: 45%;
     float: left;
     position: relative;
   right: -5em; /* or left 30% */
