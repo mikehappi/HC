@@ -18,7 +18,7 @@
 
 <div class="container2">
 <p>Suivez-nous sur les réseaux sociaux pour connaître nos opportunités et évènements</p>
-<p><a href="https://www.facebook.com/hexagonecapital/" target="_blank">FACEBOOK</a> &nbsp&nbsp <a href="https://www.linkedin.com/company/hexagone-capital" target="_blank">LINKEDIN</a> &nbsp&nbsp <span class=" popmake-172 popmake-phone-number">WECHAT</span></p>
+<p><a href="https://www.facebook.com/hexagonecapital/" target="_blank">FACEBOOK</a> &nbsp&nbsp <a href="https://www.linkedin.com/company/hexagone-capital" target="_blank">LINKEDIN</a> &nbsp&nbsp <span class=" popmake-539 popmake-qr-code">WECHAT</span></p>
 <p> <img src="https://www.hexagone-capital.com/wp-content/uploads/footbar.png" class="footbar"></p>
 </div>
 
