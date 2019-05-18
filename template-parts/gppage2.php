@@ -76,7 +76,9 @@ background-attachment: fixed !important;
 }
 
 /* Padding Header */
-.hd {padding-top:2%;}
+.hd .navbar-default {
+position: sticky !important;
+padding-top:2%;}
 
 
 /*--------------------------------------------------------------
