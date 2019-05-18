@@ -39,9 +39,9 @@ font-size:15px !important;
  /* Put down hearder Nicely */
  .hd .navbar-default {
  position: sticky !important;
- padding-top:2%;}
+ }
 
- 
+
 body, html {
     height: 100%;
     margin: 0;

@@ -75,10 +75,10 @@ background-repeat: no-repeat !important;
 background-attachment: fixed !important;
 }
 
-/* Padding Header */
+/* sticky header Header */
 .hd .navbar-default {
 position: sticky !important;
-padding-top:2%;}
+}
 
 
 /*--------------------------------------------------------------

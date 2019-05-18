@@ -108,9 +108,11 @@ font-family:PNR;
  font-size: 10px !important;
 }
 
+
+/*align logo with menu Nicely*/
 .navbar-brand {
 
-  padding:0.5em 0em 0em 1.5em;
+  padding:1.5em 0em 0em 1.5em;
 
 }
 

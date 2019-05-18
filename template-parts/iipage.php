@@ -49,7 +49,7 @@ font-size:15px !important;
 /* Padding Header */
 .hd .navbar-default {
 position: sticky !important;
-padding-top:2%;}
+}
 
 
  /* All link will be red HX */
