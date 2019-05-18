@@ -24,7 +24,7 @@
         <p>LORE IPSUM</p>
         <p>LORE IPSUM</p>
         </div>
-  		<div class="column-right">  
+  		<div class="column-right">
   		<p>LORE IPSUM</p>
         <p>LORE IPSUM</p>
         <p>LORE IPSUM</p>
@@ -33,20 +33,14 @@
 </div>
 <div class="container2">
 <p> <img src="https://www.hexagone-capital.com/wp-content/uploads/footbar.png" class="footbar"></p>
-<p>A PROPOS D’HEXAGONE CAPITAL LORE IPSUM LORE IPSUM LORE IPSUM </p>
+<p>A PROPOS D’HEXAGONE CAPITAL FACEBOOK LINKEDIN WECHAT </p>
 </div>
-	
+
 </nav>
 </footer><!-- #colophon -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
 
-</body> 
+</body>
 </html
-
-
-
-
-
-
