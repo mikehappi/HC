@@ -300,6 +300,24 @@ margin-right: 0.5em;}
     padding: 1.5em 0em 0em 1.5em;
 
 }
+
+.modal-text {
+    margin-top: 5em;
+    margin-left: 0em;
+    margin-right: 0em
+}
+
+.modal-text p {
+font-size:19px !important;
+}
+
+.mc-left {
+    display: none !important;
+}
+.mc-center {
+    font-size: 12px !important;
+}
+
 #imenu{
   padding-left: 0px !important;
   }
@@ -308,12 +326,28 @@ margin-right: 0.5em;}
 
 @media screen and (max-width: 769px) {
   .navbar-brand {
-
   padding: 1.5em 0em 0em 1.5em;
-
+}
+.modal-text {
+    margin-top: 5em;
+    margin-left: 0em;
+    margin-right: 0em
+}
+.modal-text p {
+font-size:19px !important;
+}
+.mc-left {
+    display: none !important;
+}
+.mc-center {
+    font-size: 12px !important;
 }
 
-
+.mc-right {
+    font-size: 12px !important;
+    float: right;
+    width: 50%;
+}
 #imenu{
 padding-left: 0px !important;
 }
