@@ -59,6 +59,22 @@ padding:10% 0% 0% 12% !important;}
   text-align: left;
 }
 
+
+/*--------------------------------------------------------------
+# Media Qeries  Mobile CSSS adapation
+--------------------------------------------------------------*/
+@media only screen and (max-width: 500px) {
+
+.columns { left: -30% !important;}
+
+#n2-ss-2-align { margin-top: 3em !important;}
+.entry-content {
+
+   margin:0 !important;
+
+}
+
+
 </style>
 <?php get_header(2); ?>
 <?php endforeach; ?>
