@@ -74,6 +74,7 @@ padding:10% 0% 0% 12% !important;}
 
 }
 
+}
 
 </style>
 <?php get_header(2); ?>
