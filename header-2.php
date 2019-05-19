@@ -50,35 +50,35 @@
     </div>
   	<div class="mc-center">
 <div id="wrapper">
-<div id="mleft"><a href="https://www.hexagone-capital.com/action/ingenierie-patrimoniale" target="_blank"><img src="https://www.hexagone-capital.com/wp-content/uploads/2019/04/Menu-Bar-White.png" ></a></div>
-<div id="mright"><a href="https://www.hexagone-capital.com/action/ingenierie-patrimoniale" target="_blank">Ingenerie patrimoniale</a></div>
+<div id="mleft"><a href="https://www.hexagone-capital.com/action/ingenierie-patrimoniale" ><img src="https://www.hexagone-capital.com/wp-content/uploads/2019/04/Menu-Bar-White.png" ></a></div>
+<div id="mright"><a href="https://www.hexagone-capital.com/action/ingenierie-patrimoniale">Ingenerie patrimoniale</a></div>
 </div>
 <div id="wrapper">
-<div id="mleft"><a href="https://www.hexagone-capital.com/action/gestion-de-portefeuille" target="_blank"><img src="https://www.hexagone-capital.com/wp-content/uploads/2019/04/Menu-Bar-White.png" ></a></div>
-<div id="mright"><a href="https://www.hexagone-capital.com/action/gestion-de-portefeuille" target="_blank">Gestion de portefeuille</a></div>
+<div id="mleft"><a href="https://www.hexagone-capital.com/action/gestion-de-portefeuille"><img src="https://www.hexagone-capital.com/wp-content/uploads/2019/04/Menu-Bar-White.png" ></a></div>
+<div id="mright"><a href="https://www.hexagone-capital.com/action/gestion-de-portefeuille">Gestion de portefeuille</a></div>
 </div>
 <div id="wrapper">
-<div id="mleft"><a href="https://www.hexagone-capital.com/action/investissement-immobilier" target="_blank"><img src="https://www.hexagone-capital.com/wp-content/uploads/2019/04/Menu-Bar-White.png" ></a></div>
-<div id="mright"><a href="https://www.hexagone-capital.com/action/investissement-immobilier" target="_blank">Investissement immobilier</a></div>
+<div id="mleft"><a href="https://www.hexagone-capital.com/action/investissement-immobilier"><img src="https://www.hexagone-capital.com/wp-content/uploads/2019/04/Menu-Bar-White.png" ></a></div>
+<div id="mright"><a href="https://www.hexagone-capital.com/action/investissement-immobilier">Investissement immobilier</a></div>
 </div>
 
     </div>
   	<div class="mc-right">
 <div id="wrapper">
-<div id="mleft"><a href="https://www.hexagone-capital.com/action/outils-de-placement-alternatifs" target="_blank"><img src="https://www.hexagone-capital.com/wp-content/uploads/2019/04/Menu-Bar-White.png" ></a></div>
-<div id="mright"><a href="https://www.hexagone-capital.com/action/outils-de-placement-alternatifs" target="_blank">Outil de placement alternatif</a></div>
+<div id="mleft"><a href="https://www.hexagone-capital.com/action/outils-de-placement-alternatifs"><img src="https://www.hexagone-capital.com/wp-content/uploads/2019/04/Menu-Bar-White.png" ></a></div>
+<div id="mright"><a href="https://www.hexagone-capital.com/action/outils-de-placement-alternatifs">Outil de placement alternatif</a></div>
 </div>
 <div id="wrapper">
-<div id="mleft"><a href="https://www.hexagone-capital.com/action/conseil-juridique-et-fiscale" target="_blank"><img src="https://www.hexagone-capital.com/wp-content/uploads/2019/04/Menu-Bar-White.png" ></a></div>
-<div id="mright"><a href="https://www.hexagone-capital.com/action/conseil-juridique-et-fiscale" target="_blank">Conseil juridique et fiscale</a></div>
+<div id="mleft"><a href="https://www.hexagone-capital.com/action/conseil-juridique-et-fiscale"><img src="https://www.hexagone-capital.com/wp-content/uploads/2019/04/Menu-Bar-White.png" ></a></div>
+<div id="mright"><a href="https://www.hexagone-capital.com/action/conseil-juridique-et-fiscale">Conseil juridique et fiscale</a></div>
 </div>
 <div id="wrapper">
-<div id="mleft"><a href="https://www.hexagone-capital.com/carriere/" target="_blank"><img src="https://www.hexagone-capital.com/wp-content/uploads/2019/04/Menu-Bar-White.png" ></a></div>
-<div id="mright"><a href="https://www.hexagone-capital.com/carriere/" target="_blank">Carrieres</a></div>
+<div id="mleft"><a href="https://www.hexagone-capital.com/carriere/"><img src="https://www.hexagone-capital.com/wp-content/uploads/2019/04/Menu-Bar-White.png" ></a></div>
+<div id="mright"><a href="https://www.hexagone-capital.com/carriere/">Carrieres</a></div>
 </div>
 <div id="wrapper">
-<div id="mleft"><a href="https://www.hexagone-capital.com/contact/" target="_blank"><img src="https://www.hexagone-capital.com/wp-content/uploads/2019/04/Menu-Bar-White.png" ></a></div>
-<div id="mright"><a href="https://www.hexagone-capital.com/contact/" target="_blank">Contact</a></div>
+<div id="mleft"><a href="https://www.hexagone-capital.com/contact/"><img src="https://www.hexagone-capital.com/wp-content/uploads/2019/04/Menu-Bar-White.png" ></a></div>
+<div id="mright"><a href="https://www.hexagone-capital.com/contact/">Contact</a></div>
     </div>
   </div>
 
