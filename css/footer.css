@@ -107,3 +107,17 @@ a:active {
     color:#383838;
  text-decoration: none;
 }
+
+/*--------------------------------------------------------------
+# Media Qeries  Mobile CSSS adapation
+-----------------------------------------------------------*/
+@media only screen and (max-width: 500px) {
+  .container2 p {
+      line-height: 1.5em;
+  }
+
+}
+
+@media screen and (max-width: 769px) {
+
+}
