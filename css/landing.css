@@ -218,8 +218,8 @@ text-align:center !important;
 line-height: 4em;
 padding-bottom:13em;
 }
-
-
+.dhcontent2 a {
+margin: 2.5em !important; }
 
 /* unvisited link */
 .dhcontent2 a:link {
@@ -473,17 +473,30 @@ font-size:19.49px !important;
 font-weight: 600;}
 
 /*--------------------------------------------------------------
-# Media Qeries  Mobile CSSS adapation
+# Media Queries  Mobile CSSS adapation
 --------------------------------------------------------------*/
 @media only screen and (max-width: 500px) {
-   .bpic {
-    width: 100% !important;
-    height: auto !important;
+   .navbar-default{
+  width: 100vw !important;
 }
-.post-list{
-    margin: 0 auto;
-     width : auto !important;
+
+.lcontainer{
+    margin-top: 4em!important;
 }
+.atitle {
+width: 100vw !important;
+}
+
+.acontent1 {
+margin-top: 10em;
+width: 100vw !important;
+}
+
+img {
+    height: auto;
+    max-width: 50vw;
+}
+
 }
 
 
