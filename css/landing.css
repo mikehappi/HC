@@ -218,10 +218,10 @@ text-align:center !important;
 line-height: 4em;
 padding-bottom:13em;
 }
-.dhcontent2 a {
-margin: 2.5em !important; }
+/*.dhcontent2 a {
+margin: 2.5em !important; }*/
 
-/* unvisited link */
+ /*unvisited link */
 .dhcontent2 a:link {
 color: #383838 !important;
 font-size:23px !important;
