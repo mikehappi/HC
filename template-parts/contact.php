@@ -4,7 +4,7 @@
  */
 
 
- 
+
 ?>
 <?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );?>
 <?php $upload_dir = wp_upload_dir(); ?>
@@ -28,11 +28,11 @@
     font-family:PNR;
      src:url("<?php echo get_template_directory_uri(); ?>/fonts/ProximaNova-Regular.otf");
 }
-  @font-face{ 
+  @font-face{
     font-family:LFR;
      src:url("<?php echo get_template_directory_uri(); ?>/fonts/LucidaFax-Regular.ttf");
 }
- @font-face{ 
+ @font-face{
     font-family:LFD;
     src:url("<?php echo get_template_directory_uri(); ?>/fonts/LucidaFax-Demibold.ttf");
 }
@@ -41,6 +41,8 @@
     margin: 0;
 
 }
+
+.scroll{position: fixed !important;}
 
 .entry-header{
   text-transform:uppercase !important;
@@ -72,7 +74,7 @@ body, html {
 
 .bg {
     /* The image used  background-image: url("<?php echo $upload_dir['baseurl'] . '/blog-banner.jpg'; ?>"); */
-    
+
     background: url('<?php echo $backgroundImg[0]; ?>') no-repeat;
     /* Full height */
     width: 100% !important;
@@ -83,7 +85,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
- 
+
 
 
 
