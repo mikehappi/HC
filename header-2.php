@@ -206,7 +206,7 @@ window.onscroll = function (event)
 {
     if(this.scrollY > 1000)
     {
-        alert('1000');
+        alert('1400');
     }
 }
 </script>
