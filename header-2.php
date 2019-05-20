@@ -120,21 +120,6 @@ window.onclick = function(event) {
 }
 </script>
 <script>
-$(function() {
-    var header = $(".navbar-default");
-
-    $(window).scroll(function() {
-        var scroll = $(window).scrollTop();
-        if (scroll >= 50) {
-            header.addClass("scrolled");
-        } else {
-            header.removeClass("scrolled");
-        }
-    });
-
-});
-</script>
-<script>
   window.onscroll = () => {
   const nav = document.querySelector('#nav');
   if(this.scrollY >= 220) nav.className = 'scroll'; else nav.className = 'navbar-default';

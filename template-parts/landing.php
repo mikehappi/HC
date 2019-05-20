@@ -33,7 +33,11 @@
   text-decoration: none !important;
   }
 
-  
+.scroll .modal-text a{
+    color:White !important;
+    text-decoration: none !important;
+    }
+
     <?php echo ".landing .section.p$id {" ?>
     background:url("/wp-content/uploads/bg/<?php echo $id; ?>.png");
     /* Full height  width: 100% !important;*/
