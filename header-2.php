@@ -118,7 +118,7 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-<script>
+</script>
 <script>
 $(function() {
     var header = $(".navbar-default");
