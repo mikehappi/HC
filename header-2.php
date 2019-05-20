@@ -138,7 +138,7 @@ $(function() {
   window.onscroll = () => {
   const nav = document.querySelector('#nav');
 
-  if (scroll >= 50) {
+  if (this.scrollY>= 50) {
        nav.addClass("scroll");
   } else {
       nav.removeClass("scroll");
