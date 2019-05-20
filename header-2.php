@@ -21,7 +21,7 @@
 
 
                     <a id=logo class="navbar-brand" href="<?php echo home_url(); ?>">
-                    <img src="<?php echo $upload_dir['baseurl'] . '/HX_logo_RW.png'; ?>"  style="width:124px;height:44px;" /></a>
+                    <img src="<?php echo $upload_dir['baseurl'] . '/HC_LOGO.svg'; ?>"  style="width:124px;height:44px;" /></a>
                         <ul id="imenu">
                             <?php
                                                 wp_nav_menu( array(
