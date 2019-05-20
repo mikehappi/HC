@@ -122,4 +122,27 @@ padding:10% 0% 0% 12% !important;}
       <?php endif; ?>
   <?php endforeach; ?>
 </div>
+<script>
+        $(function() {
+          $.scrollify({
+    section : ".section.p81",
+    sectionName : ".section.p83",
+    interstitialSection : "",
+    easing: "easeOutExpo",
+    scrollSpeed: 1100,
+    offset : 0,
+    scrollbars: true,
+    standardScrollElements: "",
+    setHeights: true,
+    overflowScroll: true,
+    updateHash: true,
+    touchScroll:true,
+    before:function() {},
+    after:function() {},
+    afterResize:function() {},
+    afterRender:function() {}
+  });
+
+        });
+</script>
 <?php get_footer(); ?>
