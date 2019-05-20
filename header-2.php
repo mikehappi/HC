@@ -121,7 +121,7 @@ window.onclick = function(event) {
 </script>
 <script>
 $(function() {
-    var header = $(".navbar-default");
+    var header = $('#nav');
 
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
