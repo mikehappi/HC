@@ -197,8 +197,8 @@ window.onclick = function(event) {
 <script>
   window.onscroll = () => {
   const nav = document.querySelector('#nav');
-  if(this.scrollY >=735) nav.className = 'scroll';
-    else if(this.scrollY >=1400) nav.className = 'scroll2';
+  if(this.scrollY >735) nav.className = 'scroll';
+    else if(this.scrollY =1400) nav.className = 'scroll2';
   else nav.className = 'navbar-default';
 };
 </script>
