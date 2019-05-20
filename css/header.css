@@ -144,7 +144,7 @@ font-family:PNR;
           padding-top: 20px;
           vertical-align: middle;}
 /*Color When scroll*/
-nav.scroll {
+.scroll {
             background: none; !important;
             background-image: none;
             text-transform: uppercase;
@@ -157,16 +157,6 @@ nav.scroll {
             transition: 0.3s;
           }
 
-.scrolled{
-  font-family:PNR !important;
-  font-size: 12px !important;
-  font-weight: 400;
-  letter-spacing: 2px;
-  line-height: 1em;
-  color:red !important;
-  transition: 0.3s;
-  transition: 0.3s;
-}
 
 /*--------------------------------------------------------------
 # Modal Windows menu
