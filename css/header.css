@@ -288,7 +288,10 @@ margin-right: 0.5em;}
 width: 0.1em;
 margin-right: 0.5em;}
 
-
+.scrolled{
+  color: black !important;
+  transition: 0.3s;
+}
 
 
 /*--------------------------------------------------------------
