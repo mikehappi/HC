@@ -201,7 +201,7 @@ var go = true;
   const nav = document.querySelector('#nav');
   const remove_class_on_scroll = () => nav.className.remove('scroll')
 
-if(this.scrollY >=700  && go) {nav.className = 'scroll';go = false;
+if(this.scrollY >=700  && go) {nav.className = 'scroll';go =true;
 
 else {nav.className = 'navbar-default';  }
 };
