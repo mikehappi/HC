@@ -206,6 +206,7 @@ window.onclick = function(event) {
   const nav = document.querySelector('#nav');
   const remove_class_on_scroll = () => nav.classList.remove("scroll")
   if(this.scrollY >3518) {remove_class_on_scroll() }
+  else {nav.className = 'navbar-default';}
 }
 };
 </script>
