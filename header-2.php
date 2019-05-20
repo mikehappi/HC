@@ -204,7 +204,7 @@ window.onclick = function(event) {
 <script>
   window.onscroll = () => {
   const nav = document.querySelector('#nav');
-  const remove_class_on_scroll = () => header.classList.remove("scroll")
+  const remove_class_on_scroll = () => nav.classList.remove("scroll")
   if(this.scrollY >3518) {remove_class_on_scroll() }
 }
 };
