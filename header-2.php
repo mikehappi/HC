@@ -121,7 +121,7 @@ window.onclick = function(event) {
 </script>
 <script>
 $(function() {
-    var header = $('#nav');
+    var header = $(".navbar-default");
 
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
@@ -137,12 +137,7 @@ $(function() {
 <script>
   window.onscroll = () => {
   const nav = document.querySelector('#nav');
-
-  if (this.scrollY>= 50) {
-       nav.addClass("scroll");
-  } else {
-      nav.removeClass("scroll");
-  }
+  if(this.scrollY >= 50) nav.className = 'scroll'; else nav.className = '';
 };
 </script>
 
