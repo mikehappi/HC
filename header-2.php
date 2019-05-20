@@ -137,7 +137,7 @@ $(function() {
 <script>
   window.onscroll = () => {
   const nav = document.querySelector('#nav');
-  if(this.scrollY >= 50) nav.className = 'scroll'; else nav.className = '';
+  if(this.scrollY >= 50) nav.className = 'scroll'; else nav.className = 'navbar-default';
 };
 </script>
 
