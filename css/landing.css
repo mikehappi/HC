@@ -479,7 +479,12 @@ font-weight: 600;}
    .navbar-default{
   width: 100vw !important;
 }
-
+.hd .navbar-default {
+position: absolute!important;
+}
+/*--------------------------------------------------------------
+#Action
+--------------------------------------------------------------*/
 .lcontainer{
     margin-top: 4em!important;
 }
@@ -497,8 +502,37 @@ img {
     max-width: 50vw;
 }
 
+/*--------------------------------------------------------------
+Decouvrir HC
+--------------------------------------------------------------*/
+.dhcontent2 {
+line-height: 2.5em !important;
+    padding-bottom: 8em!important;
 }
 
+/*--------------------------------------------------------------
+GP
+--------------------------------------------------------------*/
+.gpcontent {
+    float: right!important;
+    width: 87vw!important;
+    text-align: left!important;
+  }
+.landing .section.p113 {
+  width: 100% !important;}
+
+  /*--------------------------------------------------------------
+Valeurs
+  --------------------------------------------------------------*/
+
+  .vctitle {
+    width: auto!important;
+}
+
+.vccontent1 {    width: auto!important;
+}
+  .landing .section.p113 {
+    width: 100% !important;}
 
 /*--------------------------------------------------------------
 #Sticky Header

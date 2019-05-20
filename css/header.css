@@ -295,6 +295,10 @@ margin-right: 0.5em;}
 # Media Qeries  Mobile CSSS adapation
 -----------------------------------------------------------*/
 @media only screen and (max-width: 500px) {
+
+  .hd .navbar-default {
+  position: absolute!important;
+  }
    .navbar-brand {
 
     padding: 1.5em 0em 0em 1.5em;

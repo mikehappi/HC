@@ -79,7 +79,6 @@ padding:10% 0% 0% 12% !important;}
 </style>
 <?php get_header(2); ?>
 <?php endforeach; ?>
-
 <div class="landing">
 
   <?php foreach ($m_pages as $key => $page) :?>
