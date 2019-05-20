@@ -40,7 +40,23 @@
 
   .scroll .st0{fill:#BC1636;}
   .scroll	.st1{fill:black !important;}
-
+  
+  .scroll2 {
+              background: none; !important;
+              background-image: none;
+              text-transform: uppercase;
+              font-family:PNR !important;
+              font-size: 12px !important;
+              font-weight: 400;
+              letter-spacing: 2px;
+              line-height: 1em;
+             color:white !important;
+              transition: 0.3s;
+            }
+  .scroll2 a{
+    color:white !important;
+    text-decoration: none !important;
+    }
 
 /*Default Section BG style*/
     <?php echo ".landing .section.p$id {" ?>
