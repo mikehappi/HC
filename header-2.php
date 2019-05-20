@@ -202,7 +202,7 @@ var go = true;
 
 
 if(this.scrollY >=700  && go) {nav.className = 'scroll';go = false;
-}else if {nav.className = 'navbar-default';  go = true;}
+}else if (this.scrollY >=3520 && go){nav.className = 'navbar-default';  go = true;}
 
 };
 </script>
