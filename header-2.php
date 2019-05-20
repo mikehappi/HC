@@ -201,6 +201,15 @@ window.onclick = function(event) {
   else nav.className = 'navbar-default';
 };
 </script>
+<script>
+window.onscroll = function (event)
+{
+    if(this.scrollY > 1000)
+    {
+        alert('1000');
+    }
+}
+</script>
         </nav>
 
 
