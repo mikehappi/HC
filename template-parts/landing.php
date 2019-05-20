@@ -94,4 +94,11 @@ padding:10% 0% 0% 12% !important;}
       <?php endif; ?>
   <?php endforeach; ?>
 </div>
+
+<script>
+  window.onscroll = () => {
+  const nav = document.querySelector('#nav');
+  if(this.scrollY <= 50) nav.className = ''; else nav.className = 'scroll';
+};
+</script>
 <?php get_footer(); ?>
