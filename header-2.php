@@ -204,9 +204,9 @@ window.onclick = function(event) {
 <script>
 window.onscroll = function (event)
 {
-    if(this.scrollY > 3800)
+    if(this.scrollY > 3300)
     {
-        alert('3800');
+        alert('3300');
     }
 }
 </script>
