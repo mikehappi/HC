@@ -15,20 +15,6 @@
 
 <?php foreach ($ids as $id) :?>
 <style type="text/css">
-/*Color When scroll*/
-.scroll {
-            background: none; !important;
-            background-image: none;
-            text-transform: uppercase;
-            font-family:PNR !important;
-            font-size: 12px !important;
-            font-weight: 400;
-            letter-spacing: 2px;
-            line-height: 1em;
-           color:black !important;
-            transition: 0.3s;
-          }
-
 
     <?php echo ".landing .section.p$id {" ?>
     background:url("/wp-content/uploads/bg/<?php echo $id; ?>.png");

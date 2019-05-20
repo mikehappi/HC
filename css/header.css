@@ -40,23 +40,7 @@ nav:after {
   display: table;
   clear: both;
 }
-.navbar-defaultB{
-  background: none; !important;
-  background-image: none;
-  text-transform: uppercase;
-  font-family:PNR !important;
-  font-size: 12px !important;
-  font-weight: 400;
-  letter-spacing: 2px;
-  line-height: 1em;
- color:black !important;
 
-}
-
-.navbar-defaultB a{
-  color:black !important;
-  text-decoration: none !important;
-  }
 
 .navbar-default{
     background: none; !important;
@@ -75,6 +59,27 @@ nav:after {
     color:white !important;
     text-decoration: none !important;
     }
+
+
+    /*Color When scroll*/
+.scroll {
+                background: none; !important;
+                background-image: none;
+                text-transform: uppercase;
+                font-family:PNR !important;
+                font-size: 12px !important;
+                font-weight: 400;
+                letter-spacing: 2px;
+                line-height: 1em;
+               color:black !important;
+                transition: 0.3s;
+              }
+.scroll a{
+      color:black !important;
+      text-decoration: none !important;
+      }
+
+
 /*styling navbar active menu item   */
  .navbar-nav > .active > a{
   background-color: transparent !important;
