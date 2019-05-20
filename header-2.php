@@ -194,6 +194,14 @@ window.onclick = function(event) {
   }
 }
 </script>
+
+<script>
+  window.onscroll = () => {
+  const nav = document.querySelector('#nav');
+  const remove_class_on_scroll = () => nav.className.remove('scroll')
+ if(this.scrollY >= 3510) {remove_class_on_scroll()}
+};
+</script>
 <script>
   window.onscroll = () => {
   const nav = document.querySelector('#nav');
@@ -202,14 +210,7 @@ window.onclick = function(event) {
 };
 </script>
 
-<script>
-  window.onscroll = () => {
-  const nav = document.querySelector('#nav');
-  const remove_class_on_scroll = () => nav.className.remove('scroll')
- if(this.scrollY >= 3510) {remove_class_on_scroll()}
-  else {nav.className = 'navbar-default';}
-};
-</script>
+
         </nav>
 
 
