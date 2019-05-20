@@ -20,16 +20,8 @@ background-color:#white !important;
 
 }
 
-.scrolled{
-  color: black !important;
-  transition: 0.3s;
-}
 
-nav.scroll {
-  background-color: #A1572F;
-  color: red!important;
-  transition: 0.3s;
-}
+
 
 /* Padding Header
 .hd {
