@@ -38,6 +38,11 @@
     text-decoration: none !important;
     }
 
+  .scroll .st0{fill:#BC1636;}
+  .scroll	.st1{fill:black !important;}
+
+
+/*Default Section BG style*/
     <?php echo ".landing .section.p$id {" ?>
     background:url("/wp-content/uploads/bg/<?php echo $id; ?>.png");
     /* Full height  width: 100% !important;*/

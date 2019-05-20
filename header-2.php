@@ -23,12 +23,7 @@
                     <a id=logo class="navbar-brand" href="<?php echo home_url(); ?>">
                       <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 2211 1870.9" style="enable-background:new 0 0 2211 1870.9;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#BC1636;}
-	.st1{fill:#FFFFFF;}
-  width: 155px;
-height: auto;
-</style>
+
 <polygon class="st0" points="485.8,606.1 485.8,928.6 558.2,969 558.2,646.5 485.8,606.1 "/>
 <polygon class="st0" points="181.4,925.6 477.2,1090.6 558.2,1045.3 181.4,835.1 "/>
 <polygon class="st0" points="600.2,984.6 600.2,1071.1 747.9,988.7 747.9,902.2 "/>
