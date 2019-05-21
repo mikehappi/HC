@@ -187,11 +187,11 @@ text-decoration: none;
   cursor: pointer;}
 
 /* Sperated | before Menu*/
-.myBtn a::after  {
+.myBtn a::before {
     content: '';
     position: absolute;
     top: 0;
-    left: 0;
+    left:0;
     width: 2px;
     height: 52px!important;
     background-color: #fcfcfc;
