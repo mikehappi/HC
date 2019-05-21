@@ -13,11 +13,11 @@
     font-family:PNR;
      src:url("<?php echo get_template_directory_uri(); ?>/fonts/ProximaNova-Regular.otf");
 }
-  @font-face{ 
+  @font-face{
     font-family:LFR;
      src:url("<?php echo get_template_directory_uri(); ?>/fonts/LucidaFax-Regular.ttf");
 }
- @font-face{ 
+ @font-face{
     font-family:LFD;
     src:url("<?php echo get_template_directory_uri(); ?>/fonts/LucidaFax-Demibold.ttf");
 }
@@ -46,9 +46,21 @@ body, html {
  color: black !IMPORTANT;
 
 }
+.navbar-default .myBtn a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left:12.3em;
+    width: 2px;
+    height: 52px!important;
+    background-color: white!important;
+    -webkit-transition: background-color .2s linear;
+    -o-transition: background-color .2s linear;
+    transition: background-color .2s linear;
+}
 .bg {
     /* The image used  for Background */
-  
+
     background: url('<?php echo $backgroundImg[0]; ?>') no-repeat;
     /* Full height */
     width: 100% !important;
@@ -67,7 +79,7 @@ font-family:LFD !important;
 display:inline-block;
 }
 
- 
+
  /* space top page content header */
 .pcontent{
   text-align: center;

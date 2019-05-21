@@ -43,6 +43,18 @@ color:White !important;
 font-size:15px !important;
 
 }
+.navbar-default .myBtn a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left:12.3em;
+    width: 2px;
+    height: 52px!important;
+    background-color: white!important;
+    -webkit-transition: background-color .2s linear;
+    -o-transition: background-color .2s linear;
+    transition: background-color .2s linear;
+}
 
 /* Padding Header */
 .hd .navbar-default {

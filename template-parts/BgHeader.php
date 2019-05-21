@@ -22,11 +22,11 @@
     font-family:PNR;
      src:url("<?php echo get_template_directory_uri(); ?>/fonts/ProximaNova-Regular.otf");
 }
-  @font-face{ 
+  @font-face{
     font-family:LFR;
      src:url("<?php echo get_template_directory_uri(); ?>/fonts/LucidaFax-Regular.ttf");
 }
- @font-face{ 
+ @font-face{
     font-family:LFD;
     src:url("<?php echo get_template_directory_uri(); ?>/fonts/LucidaFax-Demibold.ttf");
 }
@@ -44,6 +44,18 @@ padding-top: 5em;
 color:White !important;
 font-size:15px !important;
 
+}
+.navbar-default .myBtn a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left:12.3em;
+    width: 2px;
+    height: 52px!important;
+    background-color: white!important;
+    -webkit-transition: background-color .2s linear;
+    -o-transition: background-color .2s linear;
+    transition: background-color .2s linear;
 }
 
 .hd {
@@ -66,7 +78,7 @@ body, html {
 
 .bg {
     /* The image used  background-image: url("<?php echo $upload_dir['baseurl'] . '/blog-banner.jpg'; ?>"); */
-    
+
     background: url('<?php echo $backgroundImg[0]; ?>') no-repeat;
     /* Full height */
     width: 100% !important;
