@@ -186,12 +186,18 @@ margin-top: 5em;
 text-decoration: none;
   cursor: pointer;}
 
-/* Sperated | before Menu*/
+/* Menu container poistion based on Sperated | before Menu*/
+.menu-menu-white-container {
+position: absolute;
+top: 1.35em;
+right: 0;
+}
+}
 .myBtn a::before {
     content: '';
     position: absolute;
     top: 0;
-    left:0;
+    left:12.3em;
     width: 2px;
     height: 52px!important;
     background-color: #fcfcfc;
