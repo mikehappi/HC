@@ -53,6 +53,7 @@ color:White !important;
 font-size:15px !important;
 
 }
+
 .navbar-default .myBtn a::before {
     content: '';
     position: absolute;
@@ -64,16 +65,6 @@ font-size:15px !important;
     -webkit-transition: background-color .2s linear;
     -o-transition: background-color .2s linear;
     transition: background-color .2s linear;
-}
-.hd {
-padding-top: 2%;
-
-}
-
-
- /* All link will be red HX */
- a {
-    color: #b91338 !important;
 }
 
 body, html {

@@ -32,10 +32,6 @@ body {
 
 }
 
-/* All link will be red HX */
-a {
-  color: #b91338 !important;
-}
 
 body, html {
   height: 100%;
