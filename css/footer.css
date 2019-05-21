@@ -83,29 +83,32 @@ width: 33.333%;
 
 .container2 span{
   color: #b91338!important;}
+
+  .container2 p a {color: #b91338 !important;}
+
 /* unvisited link */
-a:link {
-    color: #383838;
+.container2 p a:link {
+    color: #b91338 ;
  text-decoration: none;
 }
 
 /* visited link */
-a:visited {
-    color:#383838;
- text-decoration: none;
+.container2 p a:visited {
+  color: #b91338 ;
+text-decoration: none;
 }
 
 
 /* mouse over link */
-a:hover {
-    color:#383838;
- text-decoration: none;
+.container2 p a:hover {
+  color: #b91338 ;
+text-decoration: none;
 }
 
 /* selected link */
-a:active {
-    color:#383838;
- text-decoration: none;
+.container2 p a:active {
+  color: #b91338 ;
+text-decoration: none;
 }
 
 /*--------------------------------------------------------------
