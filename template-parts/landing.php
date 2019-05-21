@@ -141,7 +141,7 @@ padding:10% 0% 0% 12% !important;}
 
   <?php foreach ($m_pages as $key => $page) :?>
       <?php if(!(empty($page))) :?>
-        <?php $class = 'sectscroll'; $class = 'section p' . $page->ID; $id = 'post-' . $page->ID; ?>
+        <?php  $class = 'scrollect section p' . $page->ID; $id = 'post-' . $page->ID; ?>
         <?php  $content = apply_filters('the_content', $page->post_content); ?>
           <div id="<?php print $id; ?>" class="<?php print $class; ?>">
 
