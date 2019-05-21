@@ -41,6 +41,19 @@
   .scroll .st0{fill:#BC1636;}
   .scroll	.st1{fill:black !important;}
 
+  .scroll .myBtn a::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left:12.3em;
+      width: 2px;
+      height: 52px!important;
+      background-color: black !important;
+      -webkit-transition: background-color .3s linear;
+      -o-transition: background-color .3s linear;
+      transition: background-color .3s linear;
+  }
+
 /*Default Section BG style*/
     <?php echo ".landing .section.p$id {" ?>
     background:url("/wp-content/uploads/bg/<?php echo $id; ?>.png");
