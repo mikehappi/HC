@@ -16,6 +16,11 @@
 <?php foreach ($ids as $id) :?>
 <style type="text/css">
 /*Color When scroll*/
+
+.navbar-default a {
+    color: white !important;
+}
+
 .scroll {
             background: none; !important;
             background-image: none;
