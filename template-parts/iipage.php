@@ -47,6 +47,10 @@
     -o-transition: background-color .2s linear;
     transition: background-color .2s linear;
 }
+
+.navbar-default a {
+    color: white !important;
+}
 .entry-header{
 text-transform:uppercase !important;
 text-align: center;

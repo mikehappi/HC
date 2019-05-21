@@ -60,6 +60,9 @@ body, html {
     -o-transition: background-color .2s linear;
     transition: background-color .2s linear;
 }
+.navbar-default a {
+    color: white !important;
+}
 .bg {
     /* The image used  for Background */
 

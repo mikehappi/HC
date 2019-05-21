@@ -48,6 +48,9 @@
     -o-transition: background-color .2s linear;
     transition: background-color .2s linear;
 }
+.navbar-default a {
+    color: white !important;
+}
 
  .post-list {
         padding-bottom: 20px;
