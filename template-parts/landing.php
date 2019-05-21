@@ -49,9 +49,9 @@
       width: 2px;
       height: 52px!important;
       background-color: black !important;
-      -webkit-transition: background-color .3s linear;
-      -o-transition: background-color .3s linear;
-      transition: background-color .3s linear;
+      -webkit-transition: background-color .2s linear;
+      -o-transition: background-color .2s linear;
+      transition: background-color .2s linear;
   }
 
   .navbar-default .myBtn a::before {
@@ -62,9 +62,9 @@
       width: 2px;
       height: 52px!important;
       background-color: white!important;
-      -webkit-transition: background-color .3s linear;
-      -o-transition: background-color .3s linear;
-      transition: background-color .3s linear;
+      -webkit-transition: background-color .2s linear;
+      -o-transition: background-color .2s linear;
+      transition: background-color .2s linear;
   }
 
 /*Default Section BG style*/
