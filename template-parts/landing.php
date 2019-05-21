@@ -144,4 +144,12 @@ padding:10% 0% 0% 12% !important;}
 
         });
 </script>
+
+<script>
+var sc = $(window).scrollTop(),
+        dh = $(document).height(),
+        ch = $(window).height();
+        scrollPercent = (sc / (dh-ch)) * 100;
+
+        </script>
 <?php get_footer(); ?>
