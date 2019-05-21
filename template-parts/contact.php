@@ -66,7 +66,9 @@ font-size:15px !important;
     -o-transition: background-color .2s linear;
     transition: background-color .2s linear;
 }
-
+.navbar-default a {
+    color: white !important;
+}
 body, html {
     height: 100%;
     margin: 0;

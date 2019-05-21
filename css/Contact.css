@@ -56,7 +56,9 @@ position: sticky !important;
     -o-transition: background-color .2s linear;
     transition: background-color .2s linear;
 }
-
+.navbar-default a {
+    color: white !important;
+}
 
 /* carriere page apply font and other*/
 .contact{
