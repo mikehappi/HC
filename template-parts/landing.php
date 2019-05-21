@@ -141,7 +141,7 @@ padding:10% 0% 0% 12% !important;}
 
   <?php foreach ($m_pages as $key => $page) :?>
       <?php if(!(empty($page))) :?>
-        <?php $class = 'section p' . $page->ID; $id = 'post-' . $page->ID; ?>
+        <?php $class = 'sectscroll'; $class = 'section p' . $page->ID; $id = 'post-' . $page->ID; ?>
         <?php  $content = apply_filters('the_content', $page->post_content); ?>
           <div id="<?php print $id; ?>" class="<?php print $class; ?>">
 
@@ -152,35 +152,4 @@ padding:10% 0% 0% 12% !important;}
       <?php endif; ?>
   <?php endforeach; ?>
 </div>
-<script>
-        $(function() {
-          $.scrollify({
-    section : ".section.p81",
-    sectionName : ".section.p83",
-    interstitialSection : "",
-    easing: "easeOutExpo",
-    scrollSpeed: 1100,
-    offset : 0,
-    scrollbars: true,
-    standardScrollElements: "",
-    setHeights: true,
-    overflowScroll: true,
-    updateHash: true,
-    touchScroll:true,
-    before:function() {},
-    after:function() {},
-    afterResize:function() {},
-    afterRender:function() {}
-  });
-
-        });
-</script>
-
-<script>
-var sc = $(window).scrollTop(),
-        dh = $(document).height(),
-        ch = $(window).height();
-        scrollPercent = (sc / (dh-ch)) * 100;
-
-        </script>
 <?php get_footer(); ?>
