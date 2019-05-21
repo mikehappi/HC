@@ -185,6 +185,23 @@ margin-top: 5em;
 
 text-decoration: none;
   cursor: pointer;}
+
+.myBtn{
+
+&::after  {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 52px!important;
+    background-color: #fcfcfc;
+    -webkit-transition: background-color .3s linear;
+    -o-transition: background-color .3s linear;
+    transition: background-color .3s linear;
+}
+
+}
   /* Modal Content */
   .modal-content {
    text-transform: uppercase;
