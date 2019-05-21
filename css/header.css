@@ -186,9 +186,8 @@ margin-top: 5em;
 text-decoration: none;
   cursor: pointer;}
 
-.myBtn{
-
-&::after  {
+/* Sperated | before Menu*/
+.myBtn a::after  {
     content: '';
     position: absolute;
     top: 0;
@@ -201,7 +200,6 @@ text-decoration: none;
     transition: background-color .3s linear;
 }
 
-}
   /* Modal Content */
   .modal-content {
    text-transform: uppercase;
