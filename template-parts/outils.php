@@ -60,7 +60,7 @@ font-size:15px !important;
     left:12.3em;
     width: 2px;
     height: 52px!important;
-    background-color: white!important;
+    background-color: black!important;
     -webkit-transition: background-color .2s linear;
     -o-transition: background-color .2s linear;
     transition: background-color .2s linear;
