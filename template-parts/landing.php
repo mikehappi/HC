@@ -154,7 +154,7 @@ padding:10% 0% 0% 12% !important;}
 </div>
 
 
- <script>
+ <script >
  /*!
   * jQuery Scrollify
   * Version 1.0.20

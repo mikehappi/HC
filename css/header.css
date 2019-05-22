@@ -139,10 +139,10 @@ font-family:PNR;
 -----------------------------------------------------------*/
 .modal {
   display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
+  position: relative; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;
-  top: 40% !important;
+  top: 15em !important;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */

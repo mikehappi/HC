@@ -162,28 +162,28 @@ text-decoration: none;
 /* unvisited link */
 .acontent1 a:link {
 color: white !important;
-font-size:11px !important;
+font-size:15px !important;
 text-decoration: none;
 }
 
 /* visited link */
 .acontent1 a:visited {
   color: white !important;
-font-size:16px !important;
+font-size:15px !important;
 text-decoration: none;
 }
 
 /* mouse over link */
 .acontent1 a:hover {
 color: white !important;
-font-size:16px !important;
+font-size:15px !important;
 text-decoration: none;
 }
 
 /* selected link */
 .acontent1 a:active {
  color: white !important;
-font-size:16px !important;
+font-size:15px !important;
 text-decoration: none;
 }
 
