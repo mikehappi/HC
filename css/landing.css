@@ -79,7 +79,7 @@ align-self: flex-start;
 .acontent1{
 font-family:LFD!important;
 color: white !important;
-    font-size: 16px !important;
+    font-size: 15px !important;
 text-transform:uppercase !important;
 text-align:left !important;
 margin-top: 20em;
@@ -94,11 +94,11 @@ width: 2px;
 margin-right: 0.5em;}
 
 .aflex {
-width: 25%;
+width: 23%;
 display:flex;
 }
 #left {
-  flex: 0 0 6% !important;
+  flex: 0 0 2% !important;
 }
 
 #right {
@@ -108,7 +108,7 @@ display:flex;
 
 /* flex last two element*/
 .aflexx {
-width: 25%px;
+width: 30%;
 display:flex;
 flex-direction: column;
 float: left;
@@ -169,21 +169,21 @@ text-decoration: none;
 /* visited link */
 .acontent1 a:visited {
   color: white !important;
-font-size:11px !important;
+font-size:16px !important;
 text-decoration: none;
 }
 
 /* mouse over link */
 .acontent1 a:hover {
 color: white !important;
-font-size:11px !important;
+font-size:16px !important;
 text-decoration: none;
 }
 
 /* selected link */
 .acontent1 a:active {
  color: white !important;
-font-size:11px !important;
+font-size:16px !important;
 text-decoration: none;
 }
 
