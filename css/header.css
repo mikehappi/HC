@@ -18,10 +18,13 @@
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
-/*SVG Logo NAV-brand*/
+/*SVG Logo NAV-brand   padding-left: 0px;*/
   .navbar-brand{
   width: 155px;
-  height: auto;}
+  height: auto;
+
+  position: relative;
+  left: 3em;}
 
 
 .row-header-1 { text-align:right}
@@ -101,13 +104,6 @@ font-family:PNR;
 
 
 /*align logo with menu Nicely*/
-.navbar-brand {
-
-  padding:1.5em 0em 0em 1.5em;
-
-}
-
-
 
  #nav {
     display: block;
