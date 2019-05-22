@@ -79,7 +79,7 @@ align-self: flex-start;
 .acontent1{
 font-family:LFD!important;
 color: white !important;
-font-size:11px !important;
+    font-size: 16px !important;
 text-transform:uppercase !important;
 text-align:left !important;
 margin-top: 20em;
@@ -94,7 +94,7 @@ width: 2px;
 margin-right: 0.5em;}
 
 .aflex {
-width: 230px;
+width: 25%;
 display:flex;
 }
 #left {
@@ -108,7 +108,7 @@ display:flex;
 
 /* flex last two element*/
 .aflexx {
-width: 230px;
+width: 25%px;
 display:flex;
 flex-direction: column;
 float: left;
