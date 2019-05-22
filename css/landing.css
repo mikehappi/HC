@@ -74,8 +74,6 @@ display: flex;
 align-self: flex-start;
 }
 
-
-
 .acontent1{
 font-family:LFD!important;
 color: white !important;
@@ -152,7 +150,14 @@ text-decoration: none;
 .acontent a:hover {
 color: white !important;
 font-size:13px !important;
-text-decoration: none;
+animation: wiggle 1s;
+animation-timing-function: linear;
+}
+
+  @keyframes wiggle {
+  0% { transform: translate(40px, 0); }
+  50% { transform: translate(-2px, 0); }
+
 }
 
 /* selected link */
