@@ -77,12 +77,12 @@
     background:url("/wp-content/uploads/bg/<?php echo $id; ?>.png");
     /* Full height  width: 100% !important;*/
    	height: 100VH !important;
-    /* Center and scale the image nicely */
+    /* Center and scale the image nicely   padding-top:3em; */
     background-position: center center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
-    padding-top:3em;
+
 }
 
 /* Auto for certain page */
@@ -93,13 +93,13 @@ height: auto !important;}
 width: 100% !important;
 height: auto !important;}
 
-
+/*
 .landing .section.p81 {
 padding:10% 0% 0% 12%!important;}
 .landing .section.p113 {
 padding:10% 0% 0% 12%!important;}
 .landing .section.p97 {
-padding:10% 0% 0% 12% !important;}
+padding:10% 0% 0% 12% !important;}*/
 
 .section.p81 .lcontainer {
   display: inline-block;
