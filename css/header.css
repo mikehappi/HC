@@ -22,9 +22,8 @@
   .navbar-brand{
   width: 155px;
   height: auto;
-
   position: relative;
-  left: 3em;}
+  left: 2em;}
 
 
 .row-header-1 { text-align:right}
@@ -184,16 +183,16 @@ text-decoration: none;
 
 /* Menu container poistion based on Sperated | before Menu*/
 .menu-menu-white-container {
-position: absolute;
-top: 1.35em;
-right: 0;
+  position: absolute;
+  top: 1.35em;
+  right: 2em;
 }
 }
 .myBtn a::before {
     content: '';
     position: absolute;
     top: 0;
-    left:12.3em;
+    left:11.6em;
     width: 2px;
     height: 52px!important;
     background-color: #fcfcfc;
