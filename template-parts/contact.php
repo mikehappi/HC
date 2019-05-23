@@ -48,10 +48,10 @@
   text-transform:uppercase !important;
     text-align: center;
     font-family:LFR !important;
-padding-top:0em;
 color:White !important;
 font-size:15px !important;
-
+position: relative;
+  top: 10%
 }
 
 .navbar-default .myBtn a::before {

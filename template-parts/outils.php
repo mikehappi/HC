@@ -41,7 +41,8 @@ font-family:LFR !important;
 /*padding-top: 5em;*/
 color:black !important;
 font-size:15px !important;
-
+position: relative;
+    top: 10%
 }
 
 .navbar-default a {
