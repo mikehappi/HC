@@ -195,7 +195,7 @@ var go = true;
   // When the user scrolls down 695px from the top of the document, show the button
   if(this.scrollY <695){nav.className = 'navbar-default';document.getElementById("topBtn").style.display = "none";}
   else if(this.scrollY>3495){nav.className = 'navbar-default';}
-  else {nav.className = 'scroll';document.getElementById("topBtn").style.display = "none";}
+  else {nav.className = 'scroll';document.getElementById("topBtnB").style.display = "none";}
 };
 
 // When the user clicks on the button, scroll to the top of the document
