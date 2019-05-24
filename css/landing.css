@@ -37,9 +37,9 @@ background-color:#white !important;
 .atitle{
 font-family:LFD !important;
 color: white !important;
-font-size:35px !important;
+font-size:30px !important;
 text-transform:uppercase !important;
-margin-bottom: 54px;
+margin-bottom: 30px;
 }
 .acontainer{
 padding-top: 5em;
@@ -94,10 +94,16 @@ height:20px;
 width: 2px;
 margin-right: 0.5em;}
 
+
+
 .aflex {
 width: 20%;
 display:flex;
 }
+
+.aflex:hover img {
+    height: 63px;}
+
 #left {
   flex: 0 0 2% !important;
 }
