@@ -58,7 +58,7 @@ text-transform:uppercase !important;
 text-align:justify !important;
 }
 .atitle{
- width: 730px;;
+ width: 660px;;
 }
 .abody {
 display: flex;
@@ -83,7 +83,7 @@ color: white !important;
 font-size: 13px !important;
 text-transform:uppercase !important;
 text-align:left !important;
-margin-top: 30%;
+margin-top: 20%;
 display:flex;
 flex-wrap: wrap;
 width: 95%;
