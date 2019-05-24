@@ -53,7 +53,7 @@ text-align: left;
 .acontent{
 font-family:PNR !important;
 color: white !important;
-font-size:13px !important;
+font-size:15px !important;
 text-transform:uppercase !important;
 text-align:justify !important;
 }
@@ -66,12 +66,12 @@ display: flex;
 
 /* align white bar with dc */
 .acontent img{
-  margin-right: 1em;
+  margin-right: 0.6em;
   vertical-align: super;
 }
 .acontent:hover img{
   vertical-align: super;
-  width: 136px !important;
+  width: 140px !important;
 }
 .acontent {
 align-self: flex-start;
