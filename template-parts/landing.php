@@ -127,6 +127,17 @@ padding:10% 0% 0% 15% !important;}
 
   border-radius: 10px;
      }
+     #topBtnB {
+      display: none;
+       position: fixed;
+       bottom: 35%;
+       right: 4.5%;
+       z-index: 99;
+       border: none;
+       outline: none;
+       cursor: pointer;
+       border-radius: 10px;
+          }
 
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
@@ -166,6 +177,8 @@ padding:10% 0% 0% 15% !important;}
 <!--go to the top bottom -->
 <div class="row text-right hidden-xs hidden-md hidden-sm">
 <button onclick="topFunction()" id="topBtn" title="Go to top" type="image" style="border: 0; background: transparent"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="18"><path d="M6.862 18h1.276V3.761c0-.5 0-.898-.049-1.682.503.58 1.13 1.17 1.633 1.637l4.37 4.056.908-.84L7.5 0 0 6.931l.908.841 4.37-4.056c.504-.466 1.13-1.057 1.633-1.637-.05.784-.05 1.182-.05 1.682V18z" fill="#e5e5e4"></path></svg>
+</button>
+<button onclick="topFunction()" id="topBtnB" title="Go to top" type="image" style="border: 0; background: transparent"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="18"><path d="M6.862 18h1.276V3.761c0-.5 0-.898-.049-1.682.503.58 1.13 1.17 1.633 1.637l4.37 4.056.908-.84L7.5 0 0 6.931l.908.841 4.37-4.056c.504-.466 1.13-1.057 1.633-1.637-.05.784-.05 1.182-.05 1.682V18z" fill="black"></path></svg>
 </button>
 </div>
 <?php get_footer(); ?>
