@@ -173,9 +173,10 @@ padding:10% 0% 0% 15% !important;}
 var go = true;
   window.onscroll = () => {
   const nav = document.querySelector('#nav');
-  if(this.scrollY <695 || this.scrollY>3495){nav.className = 'navbar-default';;}
+  if(this.scrollY <695){nav.className = 'navbar-default';document.getElementById("topBtn").style.display = "none"}
+  else if(this.scrollY>3495){nav.className = 'navbar-default';}
   else {nav.className = 'scroll';
-document.getElementById("topBtn").style.display = "block"}
+  document.getElementById("topBtn").style.display = "block"}
 };
 
 // When the user clicks on the button, scroll to the top of the document
