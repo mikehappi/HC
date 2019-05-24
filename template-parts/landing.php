@@ -169,9 +169,19 @@ padding:10% 0% 0% 15% !important;}
 </button>
  </div>
 <script>
-// When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
+</script>
+
+
+<script>
+var go = true;
+  window.onscroll = () => {
+  const nav = document.querySelector('#nav');
+  if(this.scrollY <695 || this.scrollY>3495){nav.className = 'navbar-default';}
+  else {nav.className = 'scroll';}
+};
+// When the user scrolls down 20px from the top of the document, show the button
 function scrollFunction() {
     if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
         document.getElementById("topBtn").style.display = "block";
@@ -185,15 +195,5 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
-</script>
-
-
-<script>
-var go = true;
-  window.onscroll = () => {
-  const nav = document.querySelector('#nav');
-  if(this.scrollY <695 || this.scrollY>3495){nav.className = 'navbar-default';}
-  else {nav.className = 'scroll';}
-};
 </script>
 <?php get_footer(); ?>

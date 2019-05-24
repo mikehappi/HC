@@ -160,12 +160,6 @@
 </div>
 </div>
 </div>
-  <!-- hide dropdown list -->
-        <script>
-        jQuery(document).ready(function($){
-        $('li').find('ul').addClass('hidden-xs hidden-md hidden-sm')
-        });
-        </script>
 
 <script>
 // Get the modal
