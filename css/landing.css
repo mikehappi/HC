@@ -149,7 +149,7 @@ color: white !important;
 text-decoration: none;
 }
 
-/* mouse over link */
+/* mouse over link
 .acontent :hover{
 color: white !important;
 animation: wiggle 1s;
@@ -160,7 +160,7 @@ animation-timing-function: linear;
   0% { transform: translate(40px, 0); }
   50% { transform: translate(-2px, 0); }
 
-}
+}*/
 
 /* selected link */
 .acontent a:active {
