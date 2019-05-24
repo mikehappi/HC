@@ -178,7 +178,7 @@ var go = true;
     else if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
         document.getElementById("topBtn").style.display = "block";
     }
-  else {nav.className = 'scroll';}
+  else {nav.className = 'scroll';document.getElementById("topBtn").style.display = "block";}
 };
 
 // When the user clicks on the button, scroll to the top of the document
