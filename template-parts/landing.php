@@ -186,4 +186,14 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 </script>
+
+
+<script>
+var go = true;
+  window.onscroll = () => {
+  const nav = document.querySelector('#nav');
+  if(this.scrollY <695 || this.scrollY>3495){nav.className = 'navbar-default';}
+  else {nav.className = 'scroll';}
+};
+</script>
 <?php get_footer(); ?>
