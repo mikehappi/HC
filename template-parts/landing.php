@@ -12,7 +12,6 @@
   $m_pages = $wpdb->get_results( "SELECT * FROM wordpress_posts where post_type='page' and ID IN($str_in) order by field(id,$str_in)", OBJECT );
 
 ?>
-
 <?php foreach ($ids as $id) :?>
 <style type="text/css">
 /*Color When scroll*/
@@ -147,7 +146,6 @@ padding:10% 0% 0% 15% !important;}
 
 </style>
 <?php get_header(2); ?>
- <h1 style="font-family:SAVOYE !important;font-weight: bold!important;"><?php the_title(); ?></h1>
 <?php endforeach; ?>
 <div class="landing">
 
@@ -164,6 +162,12 @@ padding:10% 0% 0% 15% !important;}
       <?php endif; ?>
   <?php endforeach; ?>
 </div>
+
+<!--go to the top bottom -->
+ <div class="row text-right hidden-xs hidden-md hidden-sm">
+<button onclick="topFunction()" id="myBtn" title="Go to top" type="image" style="border: 0; background: transparent"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="18"><path d="M6.862 18h1.276V3.761c0-.5 0-.898-.049-1.682.503.58 1.13 1.17 1.633 1.637l4.37 4.056.908-.84L7.5 0 0 6.931l.908.841 4.37-4.056c.504-.466 1.13-1.057 1.633-1.637-.05.784-.05 1.182-.05 1.682V18z" fill="#e5e5e4"></path></svg>
+</button>
+ </div>
 <script>
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
