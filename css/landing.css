@@ -69,7 +69,7 @@ display: flex;
   margin-right: 1em;
   vertical-align: super;
 }
-.acontent img:hover{
+.acontent:hover img{
   vertical-align: super;
   width: 136px !important;
 }
@@ -150,7 +150,7 @@ text-decoration: none;
 }
 
 /* mouse over link */
-.acontent a:hover {
+.acontent :hover{
 color: white !important;
 animation: wiggle 1s;
 animation-timing-function: linear;
