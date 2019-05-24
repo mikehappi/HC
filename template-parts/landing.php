@@ -118,13 +118,13 @@ padding:10% 0% 0% 15% !important;}
 #topBtn {
  display: none;
   position: fixed;
-  bottom: 8%;
-  right: 10%;
+  bottom: 15%;
+  right: 7%;
   z-index: 99;
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 15px;
+
   border-radius: 10px;
      }
 
