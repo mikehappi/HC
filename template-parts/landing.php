@@ -168,31 +168,16 @@ padding:10% 0% 0% 15% !important;}
 <button onclick="topFunction()" id="topBtn" title="Go to top" type="image" style="border: 0; background: transparent"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="18"><path d="M6.862 18h1.276V3.761c0-.5 0-.898-.049-1.682.503.58 1.13 1.17 1.633 1.637l4.37 4.056.908-.84L7.5 0 0 6.931l.908.841 4.37-4.056c.504-.466 1.13-1.057 1.633-1.637-.05.784-.05 1.182-.05 1.682V18z" fill="#e5e5e4"></path></svg>
 </button>
  </div>
-<script>
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
-        document.getElementById("topBtn").style.display = "block";
-    } else {
-        document.getElementById("topBtn").style.display = "none";
-    }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
-</script>
 
 <script>
 var go = true;
   window.onscroll = () => {
   const nav = document.querySelector('#nav');
-  if(this.scrollY <695 || this.scrollY>3495){nav.className = 'navbar-default';
-document.getElementById("topBtn").style.display = "block";}
+  if(this.scrollY <695 || this.scrollY>3495){nav.className = 'navbar-default';}
+  // When the user scrolls down 700px from the top of the document, show the button
+    else if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+        document.getElementById("topBtn").style.display = "block";
+    }
   else {nav.className = 'scroll';}
 };
 
