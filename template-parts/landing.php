@@ -116,7 +116,18 @@ padding:10% 0% 0% 15% !important;}
   width: 100%;
   text-align: left;
 }
-
+#topBtn {
+ display: none;
+  position: fixed;
+  bottom: 8%;
+  right: 10%;
+  z-index: 99;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+     }
 
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
@@ -136,6 +147,7 @@ padding:10% 0% 0% 15% !important;}
 
 </style>
 <?php get_header(2); ?>
+ <h1 style="font-family:SAVOYE !important;font-weight: bold!important;"><?php the_title(); ?></h1>
 <?php endforeach; ?>
 <div class="landing">
 
@@ -152,4 +164,22 @@ padding:10% 0% 0% 15% !important;}
       <?php endif; ?>
   <?php endforeach; ?>
 </div>
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("topBtn").style.display = "block";
+    } else {
+        document.getElementById("topBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
 <?php get_footer(); ?>
