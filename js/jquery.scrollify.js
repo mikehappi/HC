@@ -1,3 +1,4 @@
+<script >
 /*!
  * jQuery Scrollify
  * Version 1.0.20
@@ -851,3 +852,5 @@ if touchScroll is false - update index
   $.scrollify = scrollify;
   return scrollify;
 }));
+
+</script>
