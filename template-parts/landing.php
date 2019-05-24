@@ -173,7 +173,7 @@ padding:10% 0% 0% 15% !important;}
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-    if (document.body.scrollTop > -80 || document.documentElement.scrollTop > -80) {
+    if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
         document.getElementById("topBtn").style.display = "block";
     } else {
         document.getElementById("topBtn").style.display = "none";
