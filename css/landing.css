@@ -70,8 +70,8 @@ display: flex;
   vertical-align: super;
 }
 .acontent img:hover{
-  margin-right: 2.5em !important;
   vertical-align: super;
+  width: 136px !important;
 }
 .acontent {
 align-self: flex-start;
