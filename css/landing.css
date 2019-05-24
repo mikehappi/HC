@@ -37,9 +37,9 @@ background-color:#white !important;
 .atitle{
 font-family:LFD !important;
 color: white !important;
-font-size:30px !important;
+font-size:35px !important;
 text-transform:uppercase !important;
-margin-bottom: 24px;
+margin-bottom: 54px;
 }
 .acontainer{
 padding-top: 5em;
@@ -58,7 +58,7 @@ text-transform:uppercase !important;
 text-align:justify !important;
 }
 .atitle{
- width: 615px;;
+ width: 730px;;
 }
 .abody {
 display: flex;
@@ -69,7 +69,10 @@ display: flex;
   margin-right: 1em;
   vertical-align: super;
 }
-
+.acontent img:hover{
+  margin-right: 2.5em !important;
+  vertical-align: super;
+}
 .acontent {
 align-self: flex-start;
 }
