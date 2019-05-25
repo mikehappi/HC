@@ -148,8 +148,13 @@ margin: 15px;
 
 
 /*--------------------------------------------------------------
-# Investissement immobilier
+# II
 --------------------------------------------------------------*/
+.iicontainer{text-align: center;
+    padding: 15px;}
+
+
+
 .iih1{font-family:LFR !important;
 color: #383838!important;
 font-size:18.34 px !important;
@@ -161,18 +166,18 @@ margin-top:2em;}
 
 .iicontent1{
   font-family: LFR!important;
-      color: #383838 !important;
-      font-size: 19.29px !important;
-      text-transform: uppercase !important;
-      text-align: left !important;
-      margin-top: 4em;
-      display: flex;
-      flex-wrap: wrap;
-      width: 100%;
-      font-weight: 600;
-      justify-content: center;
-align-items: center;
-      padding-left: 18%;
+    color: #383838 !important;
+    font-size: 19.29px !important;
+    text-transform: uppercase !important;
+    text-align: left !important;
+    margin-top: 4em;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 710px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 18%; */
 }
 
 .iicontent1 p{
@@ -184,9 +189,6 @@ align-items: center;
       margin:0 !important;
 }
 
-
-
-
 .iicontent1 img{
   height: 0.8em;
     width: 0.05em;
@@ -195,8 +197,8 @@ align-items: center;
         }
 
 .iiflex {
-width: 480px;
-margin: 0px 0 5em 0em;
+  width: 300px;
+  margin: 0em 0 2.5em 2em;
 }
 
 
@@ -214,7 +216,7 @@ margin: 0px 0 5em 0em;
 #iiright {
   flex: 1;
     padding-top: 0.5em;
-    padding-right: 10em;
+      /* padding-right: 10em; */
 }
 
 
@@ -257,7 +259,9 @@ font-size:42px !important;
 display: inline-block;
 z-index: -1;
 position: relative;
-
+width: 100%;
+text-align: center;
+padding: 3em 0 3em 0;
 }
 
 .iicontent2 img {
