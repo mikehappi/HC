@@ -124,7 +124,7 @@ text-transform:uppercase !important;
 z-index: -1;
 }
 .fired{
-  width: 540px;
+  width: 565px;
   display: inline-block;
   text-align: left;
   padding: 30px;
