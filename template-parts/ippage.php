@@ -96,19 +96,6 @@ olor: black !IMPORTANT;
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
-.fired {
-font-family:LFD !important;
-color: #b91338!important;
-font-size:25px !important;
-text-transform:uppercase !important;
-}
-.fired p {
-
-  margin-top: 0px!important;
-  margin-bottom: 0px !important;
-
-}
-
 .iptext {
 font-family:PNR !important;
 color: #383838!important;
@@ -117,19 +104,24 @@ text-transform:uppercase !important;
 }
 
 .ipcontent {
-  width: 100%;
-  float: none;
-  padding-top: 4em;
-  display: inline-block;
-  z-index: -1;
-  position: relative;
+  .ipcontent {
+      width: 100%;
+      /* float: none; */
+      padding: 4em;
+      /* display: inline-block; */
+      z-index: -1;
+      position: relative;
+      text-align: center;
+      /* padding: 15px; */
+  }
 }
 .ipred{
-  width: 50%;
-    float: left;
-    position: relative;
-  right: -5em; /* or left 30% */
+  width: 620px;
+  display: inline-block;
   text-align: left;
+  padding: 30px;
+  margin: 15px;
+  vertical-align: top;
 }
 .ipred img{
   width:600px;
@@ -138,11 +130,10 @@ text-transform:uppercase !important;
 }
 .iptext {
   width:630px;
-  float: left;
-  position: relative;
-  left: 0%; /* or right 0% */
-      text-align: justify;
-  padding-left:5em;
+  text-align: justify;
+  display: inline-block;
+  padding: 30px;
+  margin: 15px;
 }
 
 

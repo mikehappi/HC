@@ -1,6 +1,6 @@
 <?php
   /*
-    Template Name: Landing
+    Template Name: Landing Page
   */
   global $wpdb;
   $ids = [ 81, 83, 113, 97, 99, 101 ];

@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name:VC d'entreprise page
+ * Template Name:VC d'entreprise Page
  */
 
 ?>
