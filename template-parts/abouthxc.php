@@ -6,11 +6,9 @@
 ?>
 <?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );?>
 <?php $upload_dir = wp_upload_dir(); ?>
- <!doctype html>
-    <html <?php language_attributes(); ?>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-   <meta name="viewport" content="width=device-width,initial-scale=1">
+<!doctype html>
+<html <?php language_attributes(); ?>
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <?php
 /**
  * Move the styles below into your stylesheet
@@ -120,17 +118,18 @@ text-transform:uppercase !important;
 
 .ficontent {
   width: 100%;
-  float: none;
-  padding-top: 5em;
+  text-align: center;
+  padding: 3em 0 3em 0;
   position: relative;
 z-index: -1;
 }
 .fired{
   width: 540px;
-    float: left;
-    position: relative;
-  right: -5em; /* or left 30% */
+  display: inline-block;
   text-align: left;
+  padding: 30px;
+  margin: 15px;
+  vertical-align: top;
 }
 .fired img{
   width:380px !important;
@@ -138,12 +137,11 @@ z-index: -1;
   float: left;
 }
 .fitext {
-  width:630px;
-  float: left;
-  position: relative;
-  left: 0%; /* or right 0% */
+width:630px;
 text-align: justify;
-  padding-left:5em;
+display: inline-block;
+padding: 30px;
+margin: 15px;
 }
 
 /*--------------------------------------------------------------
