@@ -104,7 +104,7 @@ text-transform:uppercase !important;
 }
 
 .ipcontent {
-  .ipcontent {
+
       width: 100%;
       /* float: none; */
       padding: 4em;
@@ -113,7 +113,6 @@ text-transform:uppercase !important;
       position: relative;
       text-align: center;
       /* padding: 15px; */
-  }
 }
 .ipred{
   width: 620px;
