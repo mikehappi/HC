@@ -125,17 +125,18 @@ text-transform:uppercase !important;
 
 .ficontent {
   width: 100%;
-  float: none;
-  padding-top: 5em;
+  text-align: center;
+  padding: 3em 0 3em 0;
   position: relative;
 z-index: -1;
 }
 .fired{
-  width: 45%;
-    float: left;
-    position: relative;
-  right: -5em; /* or left 30% */
+  width: 565px;
+  display: inline-block;
   text-align: left;
+  padding: 30px;
+  margin: 15px;
+  vertical-align: top;
 }
 .fired img{
   width:380px !important;
@@ -143,12 +144,11 @@ z-index: -1;
   float: left;
 }
 .fitext {
-  width:630px;
-  float: left;
-  position: relative;
-  left: 0%; /* or right 0% */
+width:630px;
 text-align: justify;
-  padding-left:5em;
+display: inline-block;
+padding: 30px;
+margin: 15px;
 }
 
 /*--------------------------------------------------------------
