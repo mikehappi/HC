@@ -360,7 +360,7 @@ text-align:left !important;
 margin-top: 10em;
 display:flex;
 flex-wrap: wrap;
-width: 100%;;
+max-width: 1300px;
 }
 .vccontent1 img{
   height: 0.8em;
