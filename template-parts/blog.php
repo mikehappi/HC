@@ -112,7 +112,7 @@ olor: black !IMPORTANT;
   max-width: 300px;
   text-align: left;
   padding: 30px;
-  background-color: #ddd;
+  background-color:#f3efe4;
   border-radius: 3px;
   margin: 15px;
   vertical-align: top;
@@ -121,10 +121,10 @@ olor: black !IMPORTANT;
 .bsection589
 {
   display: inline-block;
-  max-width: 150px;
+  max-width: 350px;
   text-align: left;
   padding: 30px;
-  background-color: #ddd;
+  background-color:#f3efe4;
   border-radius: 3px;
   margin: 15px;
 }
@@ -135,7 +135,7 @@ olor: black !IMPORTANT;
   max-width: 300px;
   text-align: left;
   padding: 30px;
-  background-color: #ddd;
+  background-color:#f3efe4;
   border-radius: 3px;
   margin: 15px;
   vertical-align: top;
@@ -147,7 +147,7 @@ olor: black !IMPORTANT;
   max-width: 300px;
   text-align: left;
   padding: 30px;
-  background-color: #ddd;
+  background-color:#f3efe4;
   border-radius: 3px;
   margin: 15px;
 }
