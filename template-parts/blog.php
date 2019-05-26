@@ -70,16 +70,9 @@ font-size:15px !important;
     -o-transition: background-color .2s linear;
     transition: background-color .2s linear;
 }
-
 /* Padding Header */
 .hd .navbar-default {
 position: sticky !important;
-}
-
-
- /* All link will be red HX */
- a {
-color: #b91338 !important;
 }
 
 body, html {
@@ -107,7 +100,11 @@ olor: black !IMPORTANT;
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
-
+.bcontainer
+{
+  text-align: center;
+  padding: 3em;
+}
 
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
@@ -120,7 +117,7 @@ olor: black !IMPORTANT;
 <!--display  banner x Menu RED WHITE -->
 <div class="bg">
 <div class="hd"><?php get_header(2); ?></div>
-<div class="bcontentainer">
+<div class="bcontainer">
 <?php
 $args = array( 'numberposts' => 4 );
 $lastposts = get_posts( $args );
