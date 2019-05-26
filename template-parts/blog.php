@@ -124,7 +124,9 @@ olor: black !IMPORTANT;
 $args = array( 'numberposts' => 4 );
 $lastposts = get_posts( $args );
 foreach($lastposts as $post) : setup_postdata($post); ?>
-	<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-	<?php the_content(); ?>
+<div class="bcontentainer">
+	<div class="btitle"><h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2></div>
+<div class="bexcerpt"><?php the_excerpt(); ?></div>
 <?php endforeach; ?>
+</div>
 <?php get_footer(); ?>
