@@ -106,7 +106,30 @@ olor: black !IMPORTANT;
   padding: 3em;
 }
 
-.bsection587, .bsection589, .bsection592
+.bsection587
+{
+  display: inline-block;
+  max-width: 300px;
+  text-align: left;
+  padding: 30px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 15px;
+  vertical-align: top;
+}
+
+.bsection589
+{
+  display: inline-block;
+  max-width: 150px;
+  text-align: left;
+  padding: 30px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 15px;
+}
+
+.bsection592
 {
   display: inline-block;
   max-width: 300px;
@@ -121,7 +144,7 @@ olor: black !IMPORTANT;
 .bsection596
 {
   display: inline-block;
-  max-width: 150px;
+  max-width: 300px;
   text-align: left;
   padding: 30px;
   background-color: #ddd;
