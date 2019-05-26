@@ -109,7 +109,8 @@ olor: black !IMPORTANT;
 .bsection587
 {
   display: inline-block;
-  max-width: 300px;
+  max-width: 365px;
+  height: 781px;
   text-align: left;
   padding: 30px;
   background-color:#f3efe4;
@@ -121,7 +122,8 @@ olor: black !IMPORTANT;
 .bsection589
 {
   display: inline-block;
-  max-width: 300px;
+  max-width: 581px;
+  height: 281px;
   text-align: left;
   padding: 30px;
   background-color:#f3efe4;
@@ -132,7 +134,8 @@ olor: black !IMPORTANT;
 .bsection592
 {
   display: inline-block;
-  max-width: 480px;
+  max-width: 270px;
+  height:473px ;
   text-align: left;
   padding: 30px;
   background-color:#f3efe4;
@@ -144,7 +147,8 @@ olor: black !IMPORTANT;
 .bsection596
 {
   display: inline-block;
-  max-width: 480px;
+  max-width: 270px;
+  height:473px ;
   text-align: left;
   padding: 30px;
   background-color:#f3efe4;
