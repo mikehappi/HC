@@ -106,7 +106,7 @@ olor: black !IMPORTANT;
   padding: 3em;
 }
 
-.bsection587, .bsection587, .bsection592
+.bsection587, .bsection589, .bsection592
 {
   display: inline-block;
   max-width: 300px;
