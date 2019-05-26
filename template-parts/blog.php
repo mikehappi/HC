@@ -120,17 +120,18 @@ olor: black !IMPORTANT;
 <!--display  banner x Menu RED WHITE -->
 <div class="bg">
 <div class="hd"><?php get_header(2); ?></div>
+<div class="bcontentainer">
 <?php
 $args = array( 'numberposts' => 4 );
 $lastposts = get_posts( $args );
 foreach($lastposts as $post) : setup_postdata($post); ?>
-<div class="bcontentainer">
+
  <?php  $class = 'bsection' . $post->ID; $id = 'bs' . $post->ID; ?>
  <div id="<?php print $id; ?>" class="<?php print $class; ?>">
 	<div class="btitle"><h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2></div>
 <div class="bexcerpt"><a href="<?php the_permalink(); ?>"><?php the_excerpt(); ?></a></div>
-</div>
+
 
 <?php endforeach; ?>
-
+</div>
 <?php get_footer(); ?>
