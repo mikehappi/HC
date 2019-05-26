@@ -160,8 +160,7 @@ olor: black !IMPORTANT;
 }
 
 </style>
-<!--display  banner x Menu RED WHITE -->
-<div class="bg">
+
 <div class="hd"><?php get_header(2); ?></div>
 <div class="bcontainer">
 <?php
