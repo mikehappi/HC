@@ -121,7 +121,7 @@ olor: black !IMPORTANT;
 .bsection589
 {
   display: inline-block;
-  max-width: 350px;
+  max-width: 300px;
   text-align: left;
   padding: 30px;
   background-color:#f3efe4;
@@ -132,7 +132,7 @@ olor: black !IMPORTANT;
 .bsection592
 {
   display: inline-block;
-  max-width: 300px;
+  max-width: 600px;
   text-align: left;
   padding: 30px;
   background-color:#f3efe4;
@@ -144,7 +144,7 @@ olor: black !IMPORTANT;
 .bsection596
 {
   display: inline-block;
-  max-width: 300px;
+  max-width: 600px;
   text-align: left;
   padding: 30px;
   background-color:#f3efe4;
