@@ -106,7 +106,7 @@ olor: black !IMPORTANT;
   padding: 3em;
 }
 
-.bsection587
+.bsection592
 {
   display: inline-block;
   max-width: 365px;
@@ -119,7 +119,7 @@ olor: black !IMPORTANT;
   vertical-align: top;
 }
 
-.bsection589
+.bsection596
 {
   display: inline-block;
   max-width: 581px;
@@ -131,7 +131,7 @@ olor: black !IMPORTANT;
   margin: 15px;
 }
 
-.bsection592
+.bsection587
 {
   display: inline-block;
   max-width: 270px;
@@ -144,7 +144,7 @@ olor: black !IMPORTANT;
   vertical-align: top;
 }
 
-.bsection596
+.bsection589
 {
   display: inline-block;
   max-width: 270px;
