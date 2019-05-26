@@ -44,6 +44,11 @@ font-size:15px !important;
 
 }
 
+/* logo color */
+.navbar-default .st0{fill:#BC1636;}
+.navbar-default	.st1{fill:black !important;}
+
+
 .navbar-default a {
     color: black !important;
     text-decoration: none !important;
