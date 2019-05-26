@@ -106,6 +106,29 @@ olor: black !IMPORTANT;
   padding: 3em;
 }
 
+.bsection587, .bsection587, .bsection592
+{
+  display: inline-block;
+  max-width: 300px;
+  text-align: left;
+  padding: 30px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 15px;
+  vertical-align: top;
+}
+
+.bsection596
+{
+  display: inline-block;
+  max-width: 150px;
+  text-align: left;
+  padding: 30px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 15px;
+}
+
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
 --------------------------------------------------------------*/
