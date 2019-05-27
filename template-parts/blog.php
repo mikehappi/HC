@@ -82,20 +82,6 @@ olor: black !IMPORTANT;
 
 }
 
-.bg {
-    /* The image used  */
-
-    background: url('<?php echo $backgroundImg[0]; ?>') no-repeat;
-    /* Full height */
-    width: 100% !important;
-    height: 40%!important;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
 
 /*--------------------------------------------------------------
 # Content
