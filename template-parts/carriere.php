@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name:About HC Page
+ * Template Name:carriere Page
  */
 
 ?>
