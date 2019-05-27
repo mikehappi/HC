@@ -81,11 +81,11 @@ font-size: 16px !important;
 text-transform:uppercase !important;
 text-align:left !important;
 margin-top: 277px;
+margin-bottom: 4em;
 display:flex;
 flex-wrap: wrap;
 width: 95%;
 flex-direction:row;
-margin-bottom: 4em;
 }
 .acontent1 img{
 height:20px;
