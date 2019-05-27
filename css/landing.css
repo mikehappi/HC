@@ -63,7 +63,7 @@ display: flex;
 
 /* align white bar with dc */
 .acontent img{
-  margin-right: 0.6em;
+  margin-right: 1.5em;
   vertical-align: super;
 }
 .acontent:hover img{
