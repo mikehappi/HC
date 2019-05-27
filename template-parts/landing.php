@@ -3,7 +3,7 @@
     Template Name: Landing Page
   */
   global $wpdb;
-  $ids = [ 81,608, 83, 113, 97, 99, 101 ];
+  $ids = [ 81,608 ];
   $str_order = '';
   $str_in = $ids[0];
   for ($i = 1; $i<count($ids); $i++) {
@@ -14,7 +14,7 @@
 ?>
 <?php foreach ($ids as $id) :?>
 <style type="text/css">
-/*Color When scroll*/
+/*Color When scroll   $ids = [ 81,608, 83, 113, 97, 99, 101 ];*/
 
 .navbar-default a {
     color: white !important;
