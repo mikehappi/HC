@@ -91,6 +91,15 @@ display:inline-block;
 color:#383838 !important;
 }
 
+.pcontent{
+width: 100%;
+/* float: none; */
+padding: 4em;
+/* display: inline-block; */
+z-index: -1;
+position: relative;
+text-align: center;
+/* padding: 15px; */}
 
  /* space top page content header
 .pcontent{
