@@ -260,8 +260,29 @@ text-decoration: none;
   margin: 15px;
 }
 
+/* unvisited link */
+.bcontainer a:link {
+color: #383838 !important;
+text-decoration: none;
+}
 
+/* visited link */
+.bcontainer a:visited {
+color: #383838 !important;
+text-decoration: none;
+}
 
+/* mouse over link */
+.bcontainer a:hover {
+color: #383838 !important;
+text-decoration: none;
+}
+
+/* selected link */
+.bcontainer a:active {
+ color: #383838 !important;
+text-decoration: none;
+}
 
 
 
