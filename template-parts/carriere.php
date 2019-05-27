@@ -32,8 +32,9 @@ text-transform:uppercase !important;
 text-align: center;
 font-family:LFR !important;
 padding-top: 5em;
-color:black !important;
+color:#383838!important;
 font-size:15px !important;
+line-height: 2em;
 
 }
  /* Put down hearder Nicely */
@@ -77,12 +78,13 @@ body, html {
 }
  /* carriere page apply font and other*/
 .carriere{
-width:75%%;
+width:45%;
 text-transform:uppercase !important;
 font-size:18px !important;
 font-family:LFR !important;
 font-weight: 600;
 display:inline-block;
+color:#383838 !important;
 }
 
 
