@@ -204,7 +204,8 @@ text-decoration: none;
 
 .bcontainer{
   text-align: center;
-  padding: 3em;
+  padding-top: 10em;
+    padding-bottom: 5em;
 }
 
 .bsub1
@@ -259,6 +260,19 @@ text-decoration: none;
   border-radius: 3px;
   margin: 15px;
 }
+
+.btitle{
+  font-family:LFD!important;
+  font-size:7px !important;
+  font-weight: 600;
+}
+
+.bexcerpt{
+  font-family:PNR!important;
+  font-size:12px !important;
+  font-weight: 600;
+}
+
 
 /* unvisited link */
 .bcontainer a:link {
