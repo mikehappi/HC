@@ -91,21 +91,11 @@ display:inline-block;
 color:#383838 !important;
 }
 
-.pcontent{
-width: 100%;
-/* float: none; */
-padding: 4em;
-/* display: inline-block; */
-z-index: -1;
-position: relative;
-text-align: center;
-/* padding: 15px; */}
-
- /* space top page content header
-.pcontent{
+.cacontent  {width: 100%;
   text-align: center;
-  padding-top:4em;
-}*/
+  padding: 3em 0 3em 0;
+  position: relative;
+z-index: -1;}
 
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
@@ -123,7 +113,7 @@ text-align: center;
 				<h1 class="page-title"><?php the_title(); ?></h1>
 			</header>
 </div>
-<div class="pcontent">
+<div class="cacontent">
 <?php
 if (have_posts()):
   while (have_posts()) : the_post();
