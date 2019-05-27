@@ -147,7 +147,7 @@ margin: 15px;
 # Content carriere
 --------------------------------------------------------------*/
  /* carriere page apply font and other*/
-.carriere{
+.ficontent .carriere{
 width:45%;
 text-transform:uppercase !important;
 font-size:18px !important;
