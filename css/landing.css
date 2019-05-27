@@ -20,9 +20,6 @@ background-color:#white !important;
 
 }
 
-
-
-
 /* Padding Header
 .hd {
   top: auto;
@@ -201,13 +198,16 @@ text-decoration: none;
 /*--------------------------------------------------------------
 #POST
 --------------------------------------------------------------*/
-.bcontainer
-{
+
+
+.landing .section.p608{ display: initial;}
+
+.bcontainer{
   text-align: center;
   padding: 3em;
 }
 
-.bs1
+.bsub1
 {display: inline-block;}
 
 .bsection592
