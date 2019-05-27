@@ -93,7 +93,9 @@ olor: black !IMPORTANT;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-
+.hd .scroll {
+    position: sticky !important;
+  display: none;}
 
 /*--------------------------------------------------------------
 # Content
