@@ -14,7 +14,9 @@
 ?>
 <?php foreach ($ids as $id) :?>
 <style type="text/css">
-/*Color When scroll   $ids = [ 81,608, 83, 113, 97, 99, 101 ];*/
+
+ /*$ids = [ 81,608, 83, 113, 97, 99, 101 ];*/
+/*Color When scroll  */
 
 .navbar-default a {
     color: white !important;
