@@ -9,7 +9,6 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
 <style type="text/css">
 
-
 @font-face{
     font-family:PNR;
      src:url("<?php echo get_template_directory_uri(); ?>/fonts/ProximaNova-Regular.otf");
@@ -19,7 +18,7 @@
      src:url("<?php echo get_template_directory_uri(); ?>/fonts/LucidaFax-Regular.ttf");
 }
  @font-face{
-    font-family:SAVOYELFD;
+    font-family:LFD;
     src:url("<?php echo get_template_directory_uri(); ?>/fonts/LucidaFax-Demibold.ttf");
 }
   body {
@@ -32,11 +31,23 @@
 text-transform:uppercase !important;
 text-align: center;
 font-family:LFR !important;
-/*padding-top: 5em;*/
-color:White !important;
+padding-top: 5em;
+color:#383838!important;
 font-size:15px !important;
-position: relative;
-top: 10%
+line-height: 2em;
+
+}
+ /* Put down hearder Nicely */
+ .hd .navbar-default {
+ position: sticky !important;
+ }
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+ color: black !IMPORTANT;
+
 }
 .navbar-default .myBtn a::before {
     content: '';
@@ -53,42 +64,20 @@ top: 10%
 .navbar-default a {
     color: white !important;
 }
-
-/* Padding Header */
-.hd .navbar-default {
-position: sticky !important;
-}
-
-
- /* All link will be red HX */
- a {
-color: #b91338 !important;
-}
-
-body, html {
-height: 100%;
-margin: 0;
-olor: black !IMPORTANT;
-
-}
-
 .bg {
-    /* The image used  */
+    /* The image used  for Background */
 
     background: url('<?php echo $backgroundImg[0]; ?>') no-repeat;
     /* Full height */
     width: 100% !important;
     height: 40%!important;
-
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
-/*--------------------------------------------------------------
-# Content
---------------------------------------------------------------*/
+
  /* carriere page apply font and other*/
 .carriere{
 width:45%;
