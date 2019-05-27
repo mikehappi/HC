@@ -75,13 +75,14 @@
     <?php echo ".landing .section.p$id {" ?>
     background:url("/wp-content/uploads/bg/<?php echo $id; ?>.png");
     /* Full height  width: 100% !important;*/
-   	height: 100VH !important;
+   	height: auto !important;
     /* Center and scale the image nicely   */
     background-position: center center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
 padding-top:3em;
+
 }
 
 /* Auto for certain page */
