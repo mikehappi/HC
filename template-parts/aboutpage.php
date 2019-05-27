@@ -74,7 +74,7 @@ color: #b91338 !important;
 body, html {
 height: 100%;
 margin: 0;
-olor: black !IMPORTANT;
+color: black !IMPORTANT;
 
 }
 
