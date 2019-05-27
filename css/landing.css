@@ -36,7 +36,7 @@ font-family:LFD !important;
 color: white !important;
 font-size:30px !important;
 text-transform:uppercase !important;
-margin-bottom: 30px;
+margin-bottom: 60px;
 }
 .acontainer{
 padding-top: 5em;
@@ -77,10 +77,10 @@ align-self: flex-start;
 .acontent1{
 font-family:LFD!important;
 color: white !important;
-font-size: 13px !important;
+font-size: 16px !important;
 text-transform:uppercase !important;
 text-align:left !important;
-margin-top: 20%;
+margin-top: 277px;
 display:flex;
 flex-wrap: wrap;
 width: 95%;
@@ -94,7 +94,7 @@ margin-right: 0.5em;}
 
 
 .aflex {
-width: 21%;
+width: 24%;
 display:flex;
 }
 
