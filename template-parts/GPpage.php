@@ -95,7 +95,7 @@ olor: black !IMPORTANT;
 }
 .hd .scroll {
     position: sticky !important;
-  display: none;}
+  display: none !important;}
 
 /*--------------------------------------------------------------
 # Content
