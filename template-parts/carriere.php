@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name:carriere Page
+ * Template Name:Carriere Page
  */
 
 ?>
