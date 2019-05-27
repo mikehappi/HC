@@ -76,9 +76,6 @@ body, html {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-
-.modal{
-    display: inline;}
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
@@ -93,11 +90,14 @@ display:inline-block;
 color:#383838 !important;
 }
 
-.cacontent  {width: 100%;
-  text-align: center;
-  padding: 3em 0 3em 0;
-  position: relative;
-z-index: -1;}
+.cacontent      {width: 100%;
+    /* float: none; */
+    padding: 4em;
+    /* display: inline-block; */
+    z-index: -1;
+    position: relative;
+    text-align: center;
+  /* padding: 15px; */}
 
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
