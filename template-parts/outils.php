@@ -25,7 +25,7 @@
      src:url("<?php echo get_template_directory_uri(); ?>/fonts/LucidaFax-Regular.ttf");
 }
  @font-face{
-    font-family:SAVOYELFD;
+    font-family:LFD;
     src:url("<?php echo get_template_directory_uri(); ?>/fonts/LucidaFax-Demibold.ttf");
 }
   body {
@@ -73,10 +73,10 @@ position: sticky !important;
 }
 
 
- /* All link will be red HX */
- a {
-color: #b91338 !important;
-}
+ /* All link will be red HX a {
+ color: #b91338 !important;
+ } */
+
 
 body, html {
 height: 100%;
