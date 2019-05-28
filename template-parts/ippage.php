@@ -143,13 +143,15 @@ text-transform:uppercase !important;
 # Media Qeries  Mobile CSSS adapation
 --------------------------------------------------------------*/
 
-@media (max-width: 2560px){
+/*W<2560px*/
+@media only screen and(max-width: 2600px)
   .bg {
       height: 720px !important;}
 
 }
 
-@media (max-width: 1440px){
+/* W<1440px*/
+@media only screen and(max-width: 1500px)
   .bg {
       height: 405px !important;}
 
@@ -161,27 +163,15 @@ text-transform:uppercase !important;
 
 }
 
+/* W<1280px*/
+@media only screen and(max-width: 1300px){
 
-@media (max-width: 1023px){
+/* W<=760px*/
+@media screen and (max-width: 769px) {}
 
 
-}
-
-@media (max-width: 767px){
-  .bg {
-      height: 216px !important;}}
-
+/* W<=360px*/
 @media only screen and (max-width: 500px){
-      h1 {
-          font-size: 1em !important;
-          display: none;
-      }
-
-
-@media (max-width: 360px){
-  .bg {
-    height: 101.25px!important;}
-
 
   .ipcontent{
     padding: 2em !important;
@@ -197,6 +187,7 @@ text-transform:uppercase !important;
 
 }
 }
+
 
 
 </style>
