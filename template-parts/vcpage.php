@@ -93,6 +93,9 @@ background-attachment: fixed !important;
 /* Padding Header */
 .hd {padding-top:2%;}
 
+.hd .scroll {
+    position: sticky !important;
+  display: none !important;}
 
 /*--------------------------------------------------------------
 #Action

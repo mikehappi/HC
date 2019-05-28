@@ -93,6 +93,10 @@ body, html {
 .modal{
     display: block;}
 
+    .hd .scroll {
+        position: sticky !important;
+      display: none !important;}
+
 
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
