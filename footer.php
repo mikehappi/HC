@@ -15,11 +15,7 @@
 <footer id="colophon" role="content info">
 
   <nav class="navbar navbar-fixed-bottom" style="
-      position: fixed;
-      left: 0;
-      bottom: 0;
       background: #f2f0ed;
-      position: fixed;
       left: 0;
       bottom: 0;
       width: 100%;">
