@@ -94,6 +94,8 @@
  .hd .scroll {
      position: sticky !important;
    display: none !important;}
+
+
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
@@ -140,11 +142,56 @@ text-transform:uppercase !important;
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
 --------------------------------------------------------------*/
-@media only screen and (max-width: 500px) {
-  h1 {
-      font-size: 1em !important;}
+
+@media (max-width: 2560px){
+  .bg {
+      height: 720px !important;}
 
 }
+
+@media (max-width: 1440px){
+  .bg {
+      height: 405px !important;}
+
+}
+
+@media (max-width: 1365px){
+  .bg {
+      height: 360px !important;}
+
+}
+
+
+@media (max-width: 1023px){
+
+
+}
+
+@media (max-width: 767px){
+  .bg {
+      height: 216px !important;}
+
+
+
+@media (max-width: 360px){
+  .bg {
+          height: 101.25px!important;}
+
+
+  .ipcontent{
+    padding: 2em !important;
+
+  }
+
+  iptext {
+    width:auto !important;
+    font-size: 9px !important;
+    padding: 0;
+    margin: 15px;
+
+
+}
+
 
 </style>
 </head>
