@@ -356,6 +356,11 @@ font-size:19px !important;
 
 
 @media screen and (max-width: 769px) {
+
+  h1 {
+      font-size: 1em !important;
+      display: none;
+  }
   .navbar-brand {
   padding: 1em 0em 0em 1.5em;
       width: 139px;
