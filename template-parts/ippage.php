@@ -156,22 +156,30 @@ text-transform:uppercase !important;
       height: 405px !important;}
 
 }
-
-@media (max-width: 1365px){
+/* W<1280px*/
+@media only screen and (max-width: 1300px){
   .bg {
       height: 360px !important;}
 
 }
 
-/* W<1280px*/
-@media only screen and(max-width: 1300px){
 
 /* W<=760px*/
-@media screen and (max-width: 769px) {}
+@media screen and (max-width: 769px) {
+        .bg {
+            height: 216px !important;}
+          }
 
 
 /* W<=360px*/
 @media only screen and (max-width: 500px){
+  h1 {
+      font-size: 1em !important;
+      display: none;
+  }
+  .bg {
+    height: 101.25px!important;}
+
 
   .ipcontent{
     padding: 2em !important;

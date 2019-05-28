@@ -123,8 +123,6 @@ font-family:PNR;
     padding-left: 0px !importatn;}
 
 
-
-
         li {
           display: table-cell;
           list-style-type: none;
@@ -325,7 +323,7 @@ margin-right: 0.5em;}
 
       }
 
-@media screen and (max-width: 769px) {
+@media only screen and  (max-width: 769px) {
         .bg {
             height: 216px !important;}
         h1 {
