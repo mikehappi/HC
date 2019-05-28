@@ -171,11 +171,16 @@ text-transform:uppercase !important;
   .bg {
       height: 216px !important;}
 
-
+@media only screen and (max-width: 500px){}
+      h1 {
+          font-size: 1em !important;
+          display: none;
+      }
+      }
 
 @media (max-width: 360px){
   .bg {
-          height: 101.25px!important;}
+    height: 101.25px!important;}
 
 
   .ipcontent{
@@ -190,6 +195,7 @@ text-transform:uppercase !important;
     margin: 15px;
 
 
+}
 }
 
 
