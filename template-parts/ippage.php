@@ -144,14 +144,14 @@ text-transform:uppercase !important;
 --------------------------------------------------------------*/
 
 /*W<2560px*/
-@media only screen and(max-width: 2600px)
+@media only screen and(max-width: 2600px){
   .bg {
       height: 720px !important;}
 
 }
 
 /* W<1440px*/
-@media only screen and(max-width: 1500px)
+@media only screen and(max-width: 1500px){
   .bg {
       height: 405px !important;}
 
