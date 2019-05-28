@@ -169,14 +169,14 @@ text-transform:uppercase !important;
 
 @media (max-width: 767px){
   .bg {
-      height: 216px !important;}
+      height: 216px !important;}}
 
-@media only screen and (max-width: 500px){}
+@media only screen and (max-width: 500px){
       h1 {
           font-size: 1em !important;
           display: none;
       }
-      }
+
 
 @media (max-width: 360px){
   .bg {
