@@ -356,7 +356,8 @@ font-size:19px !important;
 
 
 @media screen and (max-width: 769px) {
-
+  .bg {
+      height: 216px !important;}
   h1 {
       font-size: 1em !important;
       display: none;
@@ -369,7 +370,8 @@ font-size:19px !important;
 
 .navbar-default .myBtn a::before {left: 12.3em;;
     width: 1px;
-    height: 32px!important;}
+    height: 32px!important;
+  top: 8px;}
 
 .modal-text {
     margin-top: 5em;
@@ -420,9 +422,6 @@ padding-left: 0px !important;
 
 }
 
-@media (max-width: 767px){
-  .bg {
-      height: 216px !important;}}
 
 @media only screen and (max-width: 500px){
       h1 {
