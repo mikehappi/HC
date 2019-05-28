@@ -142,18 +142,16 @@ text-transform:uppercase !important;
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
 --------------------------------------------------------------*/
-
 /*W<2560px*/
-@media only screen and(max-width: 2600px){
+@media only screen and(max-width: 2562px){
   .bg {
-      height: 720px !important;}
+      height:720px !important;}
 
 }
-
 /* W<1440px*/
-@media only screen and(max-width: 1500px){
+@media only screen and(max-width:1442px){
   .bg {
-      height: 405px !important;}
+      height:405px !important;}
 
 }
 /* W<1280px*/
