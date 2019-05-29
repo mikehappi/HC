@@ -142,57 +142,7 @@ text-transform:uppercase !important;
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
 --------------------------------------------------------------*/
-/*W<2560px*/
-@media only screen and(max-width: 2562px){
-  .bg {
-      height:720px !important;}
 
-}
-/* W<1440px*/
-@media only screen and(max-width:1442px){
-  .bg {
-      height:405px !important;}
-
-}
-/* W<1280px*/
-@media only screen and (max-width: 1300px){
-  .bg {
-      height: 360px !important;}
-
-}
-
-
-/* W<=760px*/
-@media screen and (max-width: 769px) {
-        .bg {
-            height: 216px !important;}
-          }
-
-
-/* W<=360px*/
-@media only screen and (max-width: 500px){
-  h1 {
-      font-size: 1em !important;
-      display: none;
-  }
-  .bg {
-    height: 101.25px!important;}
-
-
-  .ipcontent{
-    padding: 2em !important;
-
-  }
-
-  iptext {
-    width:auto !important;
-    font-size: 9px !important;
-    padding: 0;
-    margin: 15px;
-
-
-}
-}
 
 
 
