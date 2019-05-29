@@ -1100,7 +1100,8 @@ object {
 @media (min-width: 1025px) and (max-width: 1280px) {
 
   .bg {
-      height:288px !important;}
+		height:360px !important;
+      }
 
       }
 }
@@ -1113,7 +1114,8 @@ object {
 @media (min-width: 768px) and (max-width: 1024px) {
 
   .bg {
-      height: 2135px !important;}
+		height:288px !important;
+    }
   h1 {
       font-size: 1em !important;
       display: none;
@@ -1166,8 +1168,8 @@ object {
       font-size: 1em !important;
       display: none;
   }
-  .bg {
-    height: 101.25px!important;}
+  .bg {  height: 213px !important;
+    }
 
 
   .ipcontent{
@@ -1236,7 +1238,8 @@ font-size:19px !important;
       display: none;
   }
   .bg {
-    height: 101.25px!important;}
+		height: 101.25px!important;
+  }
 
 
   .ipcontent{
