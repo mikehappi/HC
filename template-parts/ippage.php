@@ -84,7 +84,7 @@
      background: url('<?php echo $backgroundImg[0]; ?>') no-repeat;
      /* Full height */
      width: 100% !important;
-     height: 40%!important;
+     height: 50%!important;
 
      /* Center and scale the image nicely */
      background-position: center;
