@@ -184,4 +184,28 @@ padding:10% 0% 0% 15% !important;}
 <button onclick="topFunction()" id="topBtnB" title="Go to top" type="image" style="border: 0; background: transparent"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="18"><path d="M6.862 18h1.276V3.761c0-.5 0-.898-.049-1.682.503.58 1.13 1.17 1.633 1.637l4.37 4.056.908-.84L7.5 0 0 6.931l.908.841 4.37-4.056c.504-.466 1.13-1.057 1.633-1.637-.05.784-.05 1.182-.05 1.682V18z" fill="black"></path></svg>
 </button>
 </div>
+
+<script>
+$(function() {
+         $.scrollify({
+           section: ".scrollect",
+           sectionName: "section-name",
+           interstitialSection: "",
+           easing: "easeOutExpo",
+           scrollSpeed: 1100,
+           offset: 0,
+           scrollbars: true,
+           target:"html,body",
+           standardScrollElements: false,
+           setHeights: true,
+           overflowScroll:true,
+           updateHash: true,
+           touchScroll:true,
+           before:function() {},
+           after:function() {},
+           afterResize:function() {},
+           afterRender:function() {}
+         });
+       });
+</script>
 <?php get_footer(); ?>
