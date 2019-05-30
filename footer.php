@@ -33,10 +33,10 @@
 </footer><!-- #colophon -->
 </div><!-- #page -->
 <script>
-$(function() {
-         $.scrollify({
+jQuery(function() {
+         jQuery.scrollify({
            section: ".scrollect",
-           sectionName: "scrollect",
+           sectionName: "section-name",
            interstitialSection: "",
            easing: "easeOutExpo",
            scrollSpeed: 1100,

@@ -186,3 +186,10 @@ function load_landing_page($ids) {
 		return get_posts($ids);
 	}
 }
+
+function scrollify() {
+    wp_register_script( 'jquery-scrollify', get_template_directory_uri() . '/js/scrollify/jquery.scrollify.js', array('jquery'));
+    wp_enqueue_script( 'jquery-scrollify' );
+}
+
+add_action( 'wp_enqueue_scripts', 'scrollify' );

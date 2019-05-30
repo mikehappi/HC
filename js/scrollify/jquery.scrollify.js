@@ -1,4 +1,3 @@
-<script >
 /*!
  * jQuery Scrollify
  * Version 1.0.20
@@ -76,7 +75,7 @@ if touchScroll is false - update index
     settings = {
       //section should be an identifier that is the same for each section
       section: ".scrollect",
-      sectionName: "scrollect",
+      sectionName: "section-name"",
       interstitialSection: "",
       easing: "easeOutExpo",
       scrollSpeed: 1100,
@@ -852,5 +851,3 @@ if touchScroll is false - update index
   $.scrollify = scrollify;
   return scrollify;
 }));
-
-</script>
