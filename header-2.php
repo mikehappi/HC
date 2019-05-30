@@ -204,7 +204,30 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 </script>
-
+<!-- Scrollify -->
+<script>
+jQuery(document).ready(function($){
+         $.scrollify({
+           section: ".scrollect",
+           sectionName: "section-name",
+           interstitialSection: "",
+           easing: "easeOutExpo",
+           scrollSpeed: 1100,
+           offset: 0,
+           scrollbars: true,
+           target:"html,body",
+           standardScrollElements: false,
+           setHeights: true,
+           overflowScroll:true,
+           updateHash: true,
+           touchScroll:true,
+           before:function() {},
+           after:function() {},
+           afterResize:function() {},
+           afterRender:function() {}
+         });
+       });
+</script>
 
 </nav>
 
