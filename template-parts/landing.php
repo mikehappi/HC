@@ -185,27 +185,4 @@ padding:10% 0% 0% 15% !important;}
 </button>
 </div>
 
-<script>
-if(!(/Android|webOS|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i.test(navigator.userAgent) )) {
-         jQuery.scrollify({
-           section: ".scrollect",
-           sectionName: "section-name",
-           interstitialSection: "",
-           easing: "easeOutExpo",
-           scrollSpeed: 1100,
-           offset: 0,
-           scrollbars: true,
-           target:"html,body",
-           standardScrollElements: false,
-           setHeights: true,
-           overflowScroll:true,
-           updateHash: true,
-           touchScroll:true,
-           before:function() {},
-           after:function() {},
-           afterResize:function() {},
-           afterRender:function() {}
-         });
-}
-</script>
 <?php get_footer(); ?>
