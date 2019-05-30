@@ -205,8 +205,8 @@ function topFunction() {
 }
 </script>
 <script>
-jQuery(function() {
-         jQuery.scrollify({
+$(function() {
+         $.scrollify({
            section: ".scrollect",
            sectionName: "section-name",
            interstitialSection: "",
