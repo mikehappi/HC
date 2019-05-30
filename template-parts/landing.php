@@ -187,7 +187,7 @@ padding:10% 0% 0% 15% !important;}
 
 <script>
 if(!(/Android|webOS|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i.test(navigator.userAgent) )) {
-         $.scrollify({
+         jQuery.scrollify({
            section: ".scrollect",
            sectionName: "section-name",
            interstitialSection: "",
