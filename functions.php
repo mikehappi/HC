@@ -190,6 +190,11 @@ function load_landing_page($ids) {
 function scrollify() {
     wp_register_script( 'jquery-scrollify', get_template_directory_uri() . '/js/scrollify/jquery.scrollify.js', array('jquery'));
     wp_enqueue_script( 'jquery-scrollify' );
-}
+
+    wp_register_script( 'jquery-scrollifymin', get_template_directory_uri() . '/js/scrollify/jquery.scrollify.min.js', array('jquery'));
+    wp_enqueue_script( 'jquery-scrollifymin' );
+
+    wp_register_script( 'Gruntfile', get_template_directory_uri() . '/js/scrollify/Gruntfile.js', array('jquery'));
+    wp_enqueue_script( 'Grundtfile' ); }
 
 add_action( 'wp_enqueue_scripts', 'scrollify' );

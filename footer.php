@@ -32,29 +32,7 @@
 </nav>
 </footer><!-- #colophon -->
 </div><!-- #page -->
-<script>
-jQuery(function() {
-         jQuery.scrollify({
-           section: ".scrollect",
-           sectionName: "section-name",
-           interstitialSection: "",
-           easing: "easeOutExpo",
-           scrollSpeed: 1100,
-           offset: 0,
-           scrollbars: true,
-           target:"html,body",
-           standardScrollElements: false,
-           setHeights: true,
-           overflowScroll:true,
-           updateHash: true,
-           touchScroll:true,
-           before:function() {},
-           after:function() {},
-           afterResize:function() {},
-           afterRender:function() {}
-         });
-       });
-</script>
+
 <?php wp_footer(); ?>
 
 </body>
