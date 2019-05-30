@@ -186,7 +186,7 @@ padding:10% 0% 0% 15% !important;}
 </div>
 
 <script>
-$(function() {
+if(!(/Android|webOS|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i.test(navigator.userAgent) )) {
          $.scrollify({
            section: ".scrollect",
            sectionName: "section-name",
@@ -206,6 +206,6 @@ $(function() {
            afterResize:function() {},
            afterRender:function() {}
          });
-       });
+}
 </script>
 <?php get_footer(); ?>
