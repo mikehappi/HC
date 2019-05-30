@@ -75,7 +75,7 @@ if touchScroll is false - update index
     settings = {
       //section should be an identifier that is the same for each section
       section: ".scrollect",
-      sectionName: "section-name"",
+      sectionName: "section-name",
       interstitialSection: "",
       easing: "easeOutExpo",
       scrollSpeed: 1100,
