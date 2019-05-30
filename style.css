@@ -1076,7 +1076,45 @@ object {
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
 --------------------------------------------------------------*/
+/*
+  ##Device = Desktops 4K
+  ##Screen = 1921px to higher resolution desktops
+*/
 
+@media (min-width: 2561px) {
+
+  .bg {
+      height:1080px !important;}
+
+      }
+
+}
+/*
+  ##Device = 4k 2560
+  ##Screen = 1921px to higher resolution desktops
+*/
+
+@media (min-width: 1921px) {
+
+  .bg {
+      height:720px !important;}
+
+      }
+
+}
+/*
+  ##Device = Desktops 1080 Full HD
+  ##Screen = 1441px to higher resolution desktops
+*/
+
+@media (min-width: 1441px) {
+
+  .bg {
+      height:540px !important;}
+
+      }
+
+}
 
 /*
   ##Device = Desktops
@@ -1086,7 +1124,7 @@ object {
 @media (min-width: 1281px) {
 
   .bg {
-      height:360px !important;}
+      height:405px !important;}
 
       }
 
