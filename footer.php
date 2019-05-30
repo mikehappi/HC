@@ -33,7 +33,7 @@
 </footer><!-- #colophon -->
 </div><!-- #page -->
 <script>
-$(function() {
+jQuery(document).ready(function($){
          $.scrollify({
            section: ".scrollect",
            sectionName: "section-name",
