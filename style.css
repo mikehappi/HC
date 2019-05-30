@@ -1088,7 +1088,6 @@ object {
 
       }
 
-}
 /*
   ##Device = 4k 2560
   ##Screen = 1921px to higher resolution desktops
@@ -1100,8 +1099,6 @@ object {
       height:720px !important;}
 
       }
-
-}
 /*
   ##Device = Desktops 1080 Full HD
   ##Screen = 1441px to higher resolution desktops
@@ -1114,7 +1111,6 @@ object {
 
       }
 
-}
 
 /*
   ##Device = Desktops
@@ -1128,7 +1124,6 @@ object {
 
       }
 
-}
 
 /*
   ##Device = Laptops, Desktops
@@ -1142,14 +1137,13 @@ object {
       }
 
       }
-}
 
 /*
   ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
+  ##Screen = B/w 770px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 770px) and (max-width: 1024px) {
 
   .bg {
 		height:288px !important;
@@ -1193,90 +1187,22 @@ object {
   padding-left: 0px !important;
   }
 
-
-
-/*
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/}
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-  h1 {
-      font-size: 1em !important;
-      display: none;
-  }
-  .bg {  height: 213px !important;
-    }
-
-
-  .ipcontent{
-    padding: 2em !important;
-
-  }
-
-  iptext {
-    width:auto !important;
-    font-size: 9px !important;
-    padding: 0;
-    margin: 15px;
-
-
-}
-  .hd .navbar-default {
-  position: absolute!important;
-  }
-   .navbar-brand {
-     left: 0;
-    padding: 0;
-
 }
 
-.navbar-default {
-
-    font-size: 8px !important;
-    font-weight: 400;
-    letter-spacing: 2px;
-    line-height: 1em;
-}
-
-.navbar-default .myBtn a::before { display:none !important;}
-
-.modal-text {
-    margin-top: 5em;
-    margin-left: 0em;
-    margin-right: 0em
-}
-
-.modal-text p {
-font-size:19px !important;
-}
-
-.mc-left {
-    display: none !important;
-}
-.mc-center {
-    font-size: 12px !important;
-}
-
-#imenu{
-  padding-left: 0px !important;
-  }
-}
 
 /*
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
 */
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 769px) {
 
   h1 {
       font-size: 1em !important;
       display: none;
   }
   .bg {
-		height: 101.25px!important;
+		height:216px !important;
   }
 
 
@@ -1342,6 +1268,10 @@ font-size:19px !important;
 
 @media (min-width: 320px) and (max-width: 480px) {
 
+}
+.bg {
+	height: 101.25px!important;
+}
 
 
 }
