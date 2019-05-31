@@ -199,7 +199,7 @@ text-decoration: none;
 text-decoration: none;
 }
 /*--------------------------------------------------------------
-#POSTbackground-color:#f3efe4;
+#POST   background-color:#f3efe4;  #b91338;
 --------------------------------------------------------------*/
 
 
@@ -227,6 +227,7 @@ text-decoration: none;
   margin: 15px;
   vertical-align: top;
 }
+.bsection589
 
 .bsection596
 {
@@ -239,6 +240,10 @@ background:url("/wp-content/uploads/3.png");
   border-radius: 3px;
   margin: 15px;
 }
+.bsection596 .btitle {
+  width: 203px;
+}
+
 
 .bsection587
 {
@@ -253,6 +258,10 @@ background:url("/wp-content/uploads/3.png");
   vertical-align: top;
 }
 
+
+.bsection587 .btitle {
+  width: 203px;
+}
 .bsection589
 {
   display: inline-block;
@@ -264,7 +273,9 @@ background:url("/wp-content/uploads/3.png");
   border-radius: 3px;
   margin: 15px;
 }
-
+.bsection589 .btitle {
+  width: 203px;
+}
 .btitle{
   font-family:LFD!important;
   font-size: 16px !important;
