@@ -221,7 +221,7 @@ text-decoration: none;
   height: 781px;
   text-align: left;
   padding: 30px;
-    background:url("/wp-content/uploads/4.png");
+    background:url("/wp-content/uploads/3.png");
 
   border-radius: 3px;
   margin: 15px;
@@ -238,7 +238,7 @@ text-decoration: none;
   height: 281px;
   text-align: left;
   padding: 30px;
-background:url("/wp-content/uploads/3.png");
+background:url("/wp-content/uploads/4.png");
   border-radius: 3px;
   margin: 15px;
 }
@@ -295,25 +295,25 @@ background:url("/wp-content/uploads/3.png");
 
 /* unvisited link */
 .bcontainer a:link {
-color: #383838 !important;
+color: white !important;
 text-decoration: none;
 }
 
 /* visited link */
 .bcontainer a:visited {
-color: #383838 !important;
+color: white !important;
 text-decoration: none;
 }
 
 /* mouse over link */
 .bcontainer a:hover {
-color: #383838 !important;
+color: white !important;
 text-decoration: none;
 }
 
 /* selected link */
 .bcontainer a:active {
- color: #383838 !important;
+ color: white !important;
 text-decoration: none;
 }
 
