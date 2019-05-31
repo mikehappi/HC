@@ -243,7 +243,7 @@ background:url("/wp-content/uploads/3.png");
   margin: 15px;
 }
 .bsection596 .btitle {
-  width: 203px;
+  width: Auto;
 }
 
 
@@ -276,8 +276,10 @@ background:url("/wp-content/uploads/3.png");
   margin: 15px;
 }
 .bsection589 .btitle {
-  width: 203px;
+  width: auto;
 }
+
+
 .btitle{
   font-family:LFD!important;
   font-size: 14px !important;
