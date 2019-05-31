@@ -217,7 +217,7 @@ text-decoration: none;
 .bsection592
 {
   display: inline-block;
-  max-width: 365px;
+  width: 365px;
   height: 781px;
   text-align: left;
   padding: 30px;
@@ -231,7 +231,7 @@ text-decoration: none;
 .bsection596
 {
   display: inline-block;
-  max-width: 581px;
+  width: 581px;
   height: 281px;
   text-align: left;
   padding: 30px;
@@ -243,7 +243,7 @@ background:url("/wp-content/uploads/3.png");
 .bsection587
 {
   display: inline-block;
-  max-width: 270px;
+  width: 270px;
   height:473px ;
   text-align: left;
   padding: 30px;
@@ -256,7 +256,7 @@ background:url("/wp-content/uploads/3.png");
 .bsection589
 {
   display: inline-block;
-  max-width: 270px;
+  width: 270px;
   height:473px ;
   text-align: left;
   padding: 30px;
