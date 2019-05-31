@@ -235,7 +235,7 @@ text-decoration: none;
   height: 281px;
   text-align: left;
   padding: 30px;
-  background-color:#f3efe4;
+background:url("/wp-content/uploads/3.jpeg");
   border-radius: 3px;
   margin: 15px;
 }
@@ -247,7 +247,7 @@ text-decoration: none;
   height:473px ;
   text-align: left;
   padding: 30px;
-  background-color:#f3efe4;
+  background:url("/wp-content/uploads/2.jpeg");
   border-radius: 3px;
   margin: 15px;
   vertical-align: top;
@@ -260,7 +260,7 @@ text-decoration: none;
   height:473px ;
   text-align: left;
   padding: 30px;
-  background-color:#f3efe4;
+  background:url("/wp-content/uploads/1.jpeg");
   border-radius: 3px;
   margin: 15px;
 }
