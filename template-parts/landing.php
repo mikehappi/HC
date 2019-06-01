@@ -167,7 +167,7 @@ padding:10% 0% 0% 15% !important;}
       <?php if(!(empty($page))) :?>
         <?php  $class = 'scrollect section p' . $page->ID; $id = 'post-' . $page->ID; ?>
         <?php  $content = apply_filters('the_content', $page->post_content); ?>
-          <div id="<?php print $id; ?>" class="<?php print $class; ?>" data-section-name="SN<?php print $id; ?>">
+          <div id="<?php print $id; ?>" class="<?php print $class; ?>" data-section-name="sn<?php print $id; ?>">
 
               <div class="lcontainer">
               <?php echo $content;  ?>
