@@ -132,7 +132,7 @@ padding:10% 0% 0% 15% !important;}
 .section.p99 .lcontainer {
     background-color: #e3e3e3 !important;
 }*/
-.section.p101 .lcontainer {
+.section.p101 {
     background: #e3e3e3 !important;
 }
 
