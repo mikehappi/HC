@@ -204,7 +204,7 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 </script>
-<!-- Scrollify -->
+<!-- Scrollify
 <script>
 jQuery(document).ready(function($){
          $.scrollify({
@@ -227,7 +227,7 @@ jQuery(document).ready(function($){
            afterRender:function() {}
          });
        });
-</script>
+</script>-->
 
 </nav>
 
