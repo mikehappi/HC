@@ -118,6 +118,24 @@ padding:10% 0% 0% 15% !important;}
   width: 100%;
   text-align: left;
 }
+/* BAckground gray */
+.section.p83 .lcontainer {
+    background-color: #e3e3e3 !important;
+}
+
+.section.p113 .lcontainer {
+    background-color: #e3e3e3 !important;
+}
+.section.p97 .lcontainer {
+    background-color: #e3e3e3 !important;
+}
+.section.p99 .lcontainer {
+    background-color: #e3e3e3 !important;
+}
+.section.p101 .lcontainer {
+    background-color: #e3e3e3 !important;
+}
+
 #topBtn {
  display: none;
   position: fixed;
