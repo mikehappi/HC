@@ -74,8 +74,8 @@ if touchScroll is false - update index
     wheelEvent = 'onwheel' in document ? 'wheel' : document.onmousewheel !== undefined ? 'mousewheel' : 'DOMMouseScroll',
     settings = {
       //section should be an identifier that is the same for each section
-      section: ".scrollectX",
-      sectionName: "section-nameX",
+      section: ".scrollect",
+      sectionName: "section-name",
       interstitialSection: "",
       easing: "easeOutExpo",
       scrollSpeed: 1100,
