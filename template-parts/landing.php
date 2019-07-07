@@ -118,7 +118,7 @@ padding:10% 0% 0% 15% !important;}
   width: 100%;
   text-align: left;
 }
-/* BAckground gray */
+/* BAckground gray
 .section.p83 .lcontainer {
     background-color: #e3e3e3 !important;
 }
@@ -131,9 +131,9 @@ padding:10% 0% 0% 15% !important;}
 }
 .section.p99 .lcontainer {
     background-color: #e3e3e3 !important;
-}
+}*/
 .section.p101 .lcontainer {
-    background-color: #e3e3e3 !important;
+    background: #e3e3e3 !important;
 }
 
 #topBtn {
