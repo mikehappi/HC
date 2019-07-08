@@ -100,7 +100,7 @@ color: black !IMPORTANT;
 --------------------------------------------------------------*/
 
 
-.fitext {
+.optext {
 font-family:PNR !important;
 color: #383838!important;
 font-size:14px !important;
@@ -115,7 +115,7 @@ text-transform:uppercase !important;
 z-index: -1;
 }
 
-.fitext {
+.optext {
 width:70vw;
 text-align: center;
 display: inline-block;
