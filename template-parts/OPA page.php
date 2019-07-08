@@ -98,18 +98,7 @@ color: black !IMPORTANT;
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
-.fired {
-font-family:LFD !important;
-color: #b91338!important;
-font-size:20px !important;
-text-transform:uppercase !important;
-}
-.fired p {
 
-  margin-top: 0px!important;
-  /*margin-bottom: 0px !important;*/
-
-}
 
 .fitext {
 font-family:PNR !important;
@@ -125,22 +114,10 @@ text-transform:uppercase !important;
   position: relative;
 z-index: -1;
 }
-.fired{
-  width: 565px;
-  display: inline-block;
-  text-align: left;
-  padding: 30px;
-  margin: 15px;
-  vertical-align: top;
-}
-.fired img{
-  width:380px !important;
-  height:3px !important;
-  float: left;
-}
+
 .fitext {
-width:630px;
-text-align: justify;
+width:70vw;
+text-align: center;
 display: inline-block;
 padding: 30px;
 margin: 15px;
