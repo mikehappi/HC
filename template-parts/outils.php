@@ -38,8 +38,8 @@
 text-transform:uppercase !important;
 text-align: center;
 font-family:LFR !important;
-/*padding-top: 5em;*/
-color:black !important;
+/*padding-top: 5em;
+color:black !important;*/
 font-size:15px !important;
 position: relative;
     top: 10%
