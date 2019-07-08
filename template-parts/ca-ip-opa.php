@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name:Carriere Page
+ * Template Name:Carriere IP, and OPA Page
  */
 
 ?>
