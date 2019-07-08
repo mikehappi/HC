@@ -122,20 +122,6 @@ display: inline-block;
 padding: 30px;
 margin: 15px;
 }
-/*--------------------------------------------------------------
-# Content carriere
---------------------------------------------------------------*/
- /* carriere page apply font and other
-.opcontent{
-width:45%;
-text-transform:uppercase !important;
-font-size:18px !important;
-font-family:LFR !important;
-font-weight: 600;
-display:inline-block;
-color:#383838 !important;
-line-height: 2em;
-}*/
 
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation

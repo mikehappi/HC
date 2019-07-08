@@ -39,7 +39,7 @@ text-transform:uppercase !important;
 text-align: center;
 font-family:LFR !important;
 /*padding-top: 5em;*/
-color:#383838!important;
+color:white!important;
 font-size:15px !important;
 position: relative;
 top: 10%
@@ -98,18 +98,7 @@ color: black !IMPORTANT;
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
-.fired {
-font-family:LFD !important;
-color: #b91338!important;
-font-size:20px !important;
-text-transform:uppercase !important;
-}
-.fired p {
 
-  margin-top: 0px!important;
-  /*margin-bottom: 0px !important;*/
-
-}
 
 .fitext {
 font-family:PNR !important;
@@ -118,46 +107,20 @@ font-size:14px !important;
 text-transform:uppercase !important;
 }
 
-.ficontent {
+.ipcontent {
   width: 100%;
   text-align: center;
   padding: 3em 0 3em 0;
   position: relative;
 z-index: -1;
 }
-.fired{
-  width: 565px;
-  display: inline-block;
-  text-align: left;
-  padding: 30px;
-  margin: 15px;
-  vertical-align: top;
-}
-.fired img{
-  width:380px !important;
-  height:3px !important;
-  float: left;
-}
-.fitext {
+
+.iptext {
 width:630px;
 text-align: justify;
 display: inline-block;
 padding: 30px;
 margin: 15px;
-}
-/*--------------------------------------------------------------
-# Content carriere
---------------------------------------------------------------*/
- /* carriere page apply font and other*/
-.ficontent .carriere{
-width:45%;
-text-transform:uppercase !important;
-font-size:18px !important;
-font-family:LFR !important;
-font-weight: 600;
-display:inline-block;
-color:#383838 !important;
-line-height: 2em;
 }
 
 /*--------------------------------------------------------------
@@ -175,7 +138,7 @@ line-height: 2em;
 		<h1 class="page-title"><?php the_title(); ?></h1>
 </header>
 </div>
-<div class="ficontent">
+<div class="ipcontent">
 <?php
 if (have_posts()):
   while (have_posts()) : the_post();
