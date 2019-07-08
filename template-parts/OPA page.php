@@ -107,7 +107,7 @@ font-size:14px !important;
 text-transform:uppercase !important;
 }
 
-.ficontent {
+.opcontent {
   width: 100%;
   text-align: center;
   padding: 3em 0 3em 0;
@@ -125,8 +125,8 @@ margin: 15px;
 /*--------------------------------------------------------------
 # Content carriere
 --------------------------------------------------------------*/
- /* carriere page apply font and other*/
-.ficontent .carriere{
+ /* carriere page apply font and other
+.opcontent{
 width:45%;
 text-transform:uppercase !important;
 font-size:18px !important;
@@ -135,7 +135,7 @@ font-weight: 600;
 display:inline-block;
 color:#383838 !important;
 line-height: 2em;
-}
+}*/
 
 /*--------------------------------------------------------------
 # Media Qeries  Mobile CSSS adapation
@@ -152,7 +152,7 @@ line-height: 2em;
 		<h1 class="page-title"><?php the_title(); ?></h1>
 </header>
 </div>
-<div class="ficontent">
+<div class="opcontent">
 <?php
 if (have_posts()):
   while (have_posts()) : the_post();
