@@ -100,7 +100,7 @@ color: black !IMPORTANT;
 --------------------------------------------------------------*/
 
 
-.fitext {
+.iptext {
 font-family:PNR !important;
 color: #383838!important;
 font-size:14px !important;
@@ -116,11 +116,11 @@ z-index: -1;
 }
 
 .iptext {
-width:630px;
-text-align: justify;
-display: inline-block;
-padding: 30px;
-margin: 15px;
+  width:70vw;
+  text-align: center;
+  display: inline-block;
+  padding: 30px;
+  margin: 15px;
 }
 
 /*--------------------------------------------------------------
