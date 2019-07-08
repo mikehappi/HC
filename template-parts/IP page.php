@@ -39,7 +39,7 @@ text-transform:uppercase !important;
 text-align: center;
 font-family:LFR !important;
 /*padding-top: 5em;*/
-color:white!important;
+color:WHITE!important;
 font-size:15px !important;
 position: relative;
 top: 10%
@@ -116,11 +116,11 @@ z-index: -1;
 }
 
 .iptext {
-  width:70vw;
-  text-align: center;
-  display: inline-block;
-  padding: 30px;
-  margin: 15px;
+width:70vw;
+text-align: center;
+display: inline-block;
+padding: 30px;
+margin: 15px;
 }
 
 /*--------------------------------------------------------------
