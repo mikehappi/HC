@@ -134,6 +134,7 @@ padding:10% 0% 0% 15% !important;}
 margin-top: 5em;
 
 }*/
+/* Couverture i background and margin */
 .section.p101 {
     background: #e3e3e3 !important;
 }
@@ -143,6 +144,9 @@ margin-top: 5em;
 margin-top: 5em;
 
 }
+
+/* go tot he top button*/
+
 #topBtn {
  display: none;
   position: fixed;
