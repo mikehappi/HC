@@ -393,45 +393,24 @@ padding-bottom: 5em;
 #Gestion privee
 --------------------------------------------------------------*/
 .gptitle{
-font-family:LFD !important;
-color: #b91338 !important;
-font-size:41.48px !important;
-text-transform:uppercase !important;
+  font-family:LFR !important;
+  color: #b6183b !important;
+  font-size:19.49px !important;
+  font-weight: 600;
+  text-transform:uppercase !important;
+  text-align:center !important;
 }
 .gpcontent{
-font-family:PNR !important;
-color: #383838 !important;
-font-size:17px !important;
-text-transform:uppercase !important;
-text-align:justify!important;
+  font-family:PNR !important;
+  color: 383838 !important;
+  font-size:17px !important;
+  font-weight: 100;
+  text-transform:uppercase !important;
+  text-align:center !important;
+  line-height: 2em;
 }
 
-.gptitle{
-  width: 10%;
-  margin-bottom: 1em;
-}
 
-.gpbar{
-  float: left;
-}
-
-}
-.gpbar img{
-height: 0.2em; width: 4em;
-}
-
-.gpcontent {
-  float: right;
-  width: 90%;
-}
-
-.gpcontainer{
-display: inline-block;
-margin: 9% 0 10% 10%;
-width:100%;
-text-align: left;
-
-}
 /*--------------------------------------------------------------
 #Valeurs
 --------------------------------------------------------------*/
