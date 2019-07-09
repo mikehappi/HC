@@ -549,17 +549,17 @@ font-size:42px !important;
 --------------------------------------------------------------*/
 
 .aptitle{
-font-family:LFR !important;
-color: white !important;
-font-size:23px !important;
-font-weight: 600;
-text-transform:uppercase !important;
-text-align:center !important;
-}
+  font-family:LFR !important;
+  color: #b6183b !important;
+  font-size:19.49px !important;
+  font-weight: 600;
+  text-transform:uppercase !important;
+  text-align:center !important;
+  }
 .apcontent{
-font-family:LFR !important;
-color: white !important;
-font-size:19.49px !important;
+font-family:PNR !important;
+color: 383838 !important;
+font-size:17px !important;
 font-weight: 600;
 text-transform:uppercase !important;
 text-align:center !important;
